@@ -1,12 +1,3 @@
-Testing: 
-```
-├── Root  
-│  
-│  
-└── README.md  
-```
-
-
 ```
 ├── swords
 │   ├── SWORD_1

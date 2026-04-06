@@ -1,0 +1,15 @@
+{
+  "id": "CRUSADER_AUREATE_AURORA_IDOL",
+  "name": "Crusader Aureate Aurora Idol",
+  "type": "relic",
+  "faction": "crusader",
+  "stats": {
+    "power": 30,
+    "luck": 4,
+    "rarity": "Epic"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

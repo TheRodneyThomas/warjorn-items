@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_NIGHTFANG_TOMBGLASS_SABRE",
+  "name": "Undead Nightfang Tombglass Sabre",
+  "type": "sword",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 18,
+    "attackSpeed": 0.95,
+    "durability": 75,
+    "weightKg": 7,
+    "rarity": "Epic"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

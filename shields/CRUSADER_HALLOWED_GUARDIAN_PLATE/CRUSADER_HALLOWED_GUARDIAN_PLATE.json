@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_HALLOWED_GUARDIAN_PLATE",
+  "name": "Crusader Hallowed Guardian Plate",
+  "type": "shield",
+  "faction": "crusader",
+  "stats": {
+    "baseProtection": 11,
+    "interactSpeed": 1.04,
+    "durability": 55,
+    "weightKg": 5,
+    "rarity": "Common"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

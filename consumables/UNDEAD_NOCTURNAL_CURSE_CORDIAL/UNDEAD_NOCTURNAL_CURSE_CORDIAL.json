@@ -1,0 +1,16 @@
+{
+  "id": "UNDEAD_NOCTURNAL_CURSE_CORDIAL",
+  "name": "Undead Nocturnal Curse Cordial",
+  "type": "consumable",
+  "faction": "undead",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 30,
+    "durationSeconds": 180,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

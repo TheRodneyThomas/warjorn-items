@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_LIONHEART_DAWNHAMMER",
+  "name": "Crusader Lionheart Dawnhammer",
+  "type": "mace",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 12,
+    "attackSpeed": 1.13,
+    "durability": 51,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

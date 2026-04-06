@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_GLORYBORN_LUCENT_HUNTER_BOW",
+  "name": "Crusader Gloryborn Lucent Hunter Bow",
+  "type": "bow",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 17,
+    "attackSpeed": 0.98,
+    "durability": 71,
+    "weightKg": 6,
+    "rarity": "Rare"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_WRAITHBOUND_WRAITH_SIGIL",
+  "name": "Undead Wraithbound Wraith Sigil",
+  "type": "relic",
+  "faction": "undead",
+  "stats": {
+    "power": 16,
+    "luck": 2,
+    "rarity": "Common"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

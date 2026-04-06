@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_NOCTURNAL_CURSE_METAL_SCRAP",
+  "name": "Undead Nocturnal Curse Metal Scrap",
+  "type": "material",
+  "faction": "undead",
+  "stats": {
+    "stackLimit": 80,
+    "quality": 7,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_ROTCROWN_ROTVEIL_SPATHA",
+  "name": "Undead Rotcrown Rotveil Spatha",
+  "type": "sword",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 12,
+    "attackSpeed": 1.13,
+    "durability": 51,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead sword known for battlefield reliability and identity.",
+  "specialEffects": [
+    "Empowers strikes when fighting near allied banners and shrines."
+  ]
+}

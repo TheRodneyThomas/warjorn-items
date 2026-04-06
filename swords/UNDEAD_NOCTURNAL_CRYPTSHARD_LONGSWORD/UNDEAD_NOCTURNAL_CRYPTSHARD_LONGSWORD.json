@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_NOCTURNAL_CRYPTSHARD_LONGSWORD",
+  "name": "Undead Nocturnal Cryptshard Longsword",
+  "type": "sword",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 14,
+    "attackSpeed": 1.07,
+    "durability": 59,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead sword known for battlefield reliability and identity.",
+  "specialEffects": [
+    "Empowers strikes when fighting near allied banners and shrines."
+  ]
+}

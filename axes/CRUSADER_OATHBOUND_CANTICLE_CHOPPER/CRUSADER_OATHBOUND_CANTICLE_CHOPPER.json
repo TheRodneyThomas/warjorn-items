@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_OATHBOUND_CANTICLE_CHOPPER",
+  "name": "Crusader Oathbound Canticle Chopper",
+  "type": "axe",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 15,
+    "attackSpeed": 1.04,
+    "durability": 63,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

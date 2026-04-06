@@ -1,0 +1,18 @@
+{
+  "id": "CRUSADER_OATHBOUND_AUREATE_BATTLEPLATE",
+  "name": "Crusader Oathbound Aureate Battleplate",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "crusader",
+  "stats": {
+    "armor": 24,
+    "holyResist": 22,
+    "durability": 80,
+    "weightKg": 6,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

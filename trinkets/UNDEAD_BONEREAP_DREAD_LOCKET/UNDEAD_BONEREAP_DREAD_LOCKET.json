@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_BONEREAP_DREAD_LOCKET",
+  "name": "Undead Bonereap Dread Locket",
+  "type": "trinket",
+  "faction": "undead",
+  "stats": {
+    "utilityPower": 11,
+    "luck": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

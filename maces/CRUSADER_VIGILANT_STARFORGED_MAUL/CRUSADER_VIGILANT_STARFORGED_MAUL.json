@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_VIGILANT_STARFORGED_MAUL",
+  "name": "Crusader Vigilant Starforged Maul",
+  "type": "mace",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 14,
+    "attackSpeed": 1.07,
+    "durability": 59,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

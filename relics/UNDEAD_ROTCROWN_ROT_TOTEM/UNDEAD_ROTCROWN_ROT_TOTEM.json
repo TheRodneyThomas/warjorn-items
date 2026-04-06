@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_ROTCROWN_ROT_TOTEM",
+  "name": "Undead Rotcrown Rot Totem",
+  "type": "relic",
+  "faction": "undead",
+  "stats": {
+    "power": 18,
+    "luck": 2,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

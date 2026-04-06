@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_VIGILANT_EMBERBRAND_LONGSWORD",
+  "name": "Crusader Vigilant Emberbrand Longsword",
+  "type": "sword",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 14,
+    "attackSpeed": 1.07,
+    "durability": 59,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied crusader sword known for battlefield reliability and identity.",
+  "specialEffects": [
+    "Empowers strikes when fighting near allied banners and shrines."
+  ]
+}

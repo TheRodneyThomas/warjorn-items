@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_ROTCROWN_ROT_BROOCH",
+  "name": "Undead Rotcrown Rot Brooch",
+  "type": "trinket",
+  "faction": "undead",
+  "stats": {
+    "utilityPower": 10,
+    "luck": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

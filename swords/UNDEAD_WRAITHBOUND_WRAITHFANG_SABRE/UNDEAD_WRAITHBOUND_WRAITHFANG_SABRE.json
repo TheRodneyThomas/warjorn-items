@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_WRAITHBOUND_WRAITHFANG_SABRE",
+  "name": "Undead Wraithbound Wraithfang Sabre",
+  "type": "sword",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 11,
+    "attackSpeed": 1.16,
+    "durability": 47,
+    "weightKg": 3,
+    "rarity": "Common"
+  },
+  "description": "A storied undead sword known for battlefield reliability and identity.",
+  "specialEffects": [
+    "Empowers strikes when fighting near allied banners and shrines."
+  ]
+}

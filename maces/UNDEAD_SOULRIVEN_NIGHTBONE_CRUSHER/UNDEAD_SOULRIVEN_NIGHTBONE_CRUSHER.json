@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_SOULRIVEN_NIGHTBONE_CRUSHER",
+  "name": "Undead Soulriven Nightbone Crusher",
+  "type": "mace",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 17,
+    "attackSpeed": 0.98,
+    "durability": 71,
+    "weightKg": 6,
+    "rarity": "Rare"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

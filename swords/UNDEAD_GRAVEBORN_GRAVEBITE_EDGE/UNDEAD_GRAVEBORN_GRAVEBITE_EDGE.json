@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_GRAVEBORN_GRAVEBITE_EDGE",
+  "name": "Undead Graveborn Gravebite Edge",
+  "type": "sword",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 9,
+    "attackSpeed": 1.22,
+    "durability": 39,
+    "weightKg": 2,
+    "rarity": "Common"
+  },
+  "description": "A storied undead sword known for battlefield reliability and identity.",
+  "specialEffects": [
+    "Empowers strikes when fighting near allied banners and shrines."
+  ]
+}

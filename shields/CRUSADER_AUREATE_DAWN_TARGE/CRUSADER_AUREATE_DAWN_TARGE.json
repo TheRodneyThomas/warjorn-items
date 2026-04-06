@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_AUREATE_DAWN_TARGE",
+  "name": "Crusader Aureate Dawn Targe",
+  "type": "shield",
+  "faction": "crusader",
+  "stats": {
+    "baseProtection": 18,
+    "interactSpeed": 0.90,
+    "durability": 90,
+    "weightKg": 9,
+    "rarity": "Epic"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

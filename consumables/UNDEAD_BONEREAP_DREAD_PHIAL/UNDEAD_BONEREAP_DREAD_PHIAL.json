@@ -1,0 +1,16 @@
+{
+  "id": "UNDEAD_BONEREAP_DREAD_PHIAL",
+  "name": "Undead Bonereap Dread Phial",
+  "type": "consumable",
+  "faction": "undead",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 28,
+    "durationSeconds": 160,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

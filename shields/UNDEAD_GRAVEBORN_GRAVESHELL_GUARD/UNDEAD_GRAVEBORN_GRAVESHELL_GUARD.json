@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_GRAVEBORN_GRAVESHELL_GUARD",
+  "name": "Undead Graveborn Graveshell Guard",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 9,
+    "interactSpeed": 1.08,
+    "durability": 45,
+    "weightKg": 4,
+    "rarity": "Common"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

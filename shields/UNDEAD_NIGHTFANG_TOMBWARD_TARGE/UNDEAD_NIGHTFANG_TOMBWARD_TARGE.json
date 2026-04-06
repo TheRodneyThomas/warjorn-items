@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_NIGHTFANG_TOMBWARD_TARGE",
+  "name": "Undead Nightfang Tombward Targe",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 18,
+    "interactSpeed": 0.90,
+    "durability": 90,
+    "weightKg": 9,
+    "rarity": "Epic"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

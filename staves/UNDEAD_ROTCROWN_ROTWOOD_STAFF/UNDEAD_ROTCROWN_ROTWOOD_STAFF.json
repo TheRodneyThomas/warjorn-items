@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_ROTCROWN_ROTWOOD_STAFF",
+  "name": "Undead Rotcrown Rotwood Staff",
+  "type": "stave",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 12,
+    "attackSpeed": 1.13,
+    "durability": 51,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

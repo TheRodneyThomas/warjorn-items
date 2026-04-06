@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_VIGILANT_OATHKEEPER_BARRIER",
+  "name": "Crusader Vigilant Oathkeeper Barrier",
+  "type": "shield",
+  "faction": "crusader",
+  "stats": {
+    "baseProtection": 14,
+    "interactSpeed": 0.98,
+    "durability": 70,
+    "weightKg": 7,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

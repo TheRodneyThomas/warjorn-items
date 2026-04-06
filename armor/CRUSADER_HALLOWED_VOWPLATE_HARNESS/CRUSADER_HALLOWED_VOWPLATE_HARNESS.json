@@ -1,0 +1,18 @@
+{
+  "id": "CRUSADER_HALLOWED_VOWPLATE_HARNESS",
+  "name": "Crusader Hallowed Vowplate Harness",
+  "type": "armor",
+  "slot": "legs",
+  "faction": "crusader",
+  "stats": {
+    "armor": 16,
+    "holyResist": 14,
+    "durability": 60,
+    "weightKg": 4,
+    "rarity": "Common"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

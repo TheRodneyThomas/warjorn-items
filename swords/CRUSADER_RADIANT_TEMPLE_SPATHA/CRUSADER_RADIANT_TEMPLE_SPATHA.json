@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_RADIANT_TEMPLE_SPATHA",
+  "name": "Crusader Radiant Temple Spatha",
+  "type": "sword",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 13,
+    "attackSpeed": 1.10,
+    "durability": 55,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied crusader sword known for battlefield reliability and identity.",
+  "specialEffects": [
+    "Empowers strikes when fighting near allied banners and shrines."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "CRUSADER_VIGILANT_VIGIL_ORE",
+  "name": "Crusader Vigilant Vigil Ore",
+  "type": "material",
+  "faction": "crusader",
+  "stats": {
+    "stackLimit": 80,
+    "quality": 7,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

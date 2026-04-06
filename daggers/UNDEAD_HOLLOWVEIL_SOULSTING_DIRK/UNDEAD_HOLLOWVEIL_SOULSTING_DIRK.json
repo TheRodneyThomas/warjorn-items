@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_HOLLOWVEIL_SOULSTING_DIRK",
+  "name": "Undead Hollowveil Soulsting Dirk",
+  "type": "dagger",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 16,
+    "attackSpeed": 1.01,
+    "durability": 67,
+    "weightKg": 6,
+    "rarity": "Rare"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

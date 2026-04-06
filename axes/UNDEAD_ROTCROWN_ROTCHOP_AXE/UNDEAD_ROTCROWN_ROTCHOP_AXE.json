@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_ROTCROWN_ROTCHOP_AXE",
+  "name": "Undead Rotcrown Rotchop Axe",
+  "type": "axe",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 12,
+    "attackSpeed": 1.13,
+    "durability": 51,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

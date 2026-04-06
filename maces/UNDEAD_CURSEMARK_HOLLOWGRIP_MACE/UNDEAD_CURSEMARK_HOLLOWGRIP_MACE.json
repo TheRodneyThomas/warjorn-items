@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_CURSEMARK_HOLLOWGRIP_MACE",
+  "name": "Undead Cursemark Hollowgrip Mace",
+  "type": "mace",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 15,
+    "attackSpeed": 1.04,
+    "durability": 63,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

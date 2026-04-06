@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_HALLOWED_TEMPLE_CLEAVER",
+  "name": "Crusader Hallowed Temple Cleaver",
+  "type": "axe",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 11,
+    "attackSpeed": 1.16,
+    "durability": 47,
+    "weightKg": 3,
+    "rarity": "Common"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_WRAITHBOUND_WRAITHSILK_THREAD",
+  "name": "Undead Wraithbound Wraithsilk Thread",
+  "type": "material",
+  "faction": "undead",
+  "stats": {
+    "stackLimit": 65,
+    "quality": 4,
+    "rarity": "Common"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

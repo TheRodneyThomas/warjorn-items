@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_DREADMIRE_BONEWALL_AEGIS",
+  "name": "Undead Dreadmire Bonewall Aegis",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 10,
+    "interactSpeed": 1.06,
+    "durability": 50,
+    "weightKg": 5,
+    "rarity": "Common"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

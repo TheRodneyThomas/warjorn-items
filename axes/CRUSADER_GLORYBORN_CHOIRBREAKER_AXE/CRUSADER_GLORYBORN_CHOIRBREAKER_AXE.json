@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_GLORYBORN_CHOIRBREAKER_AXE",
+  "name": "Crusader Gloryborn Choirbreaker Axe",
+  "type": "axe",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 17,
+    "attackSpeed": 0.98,
+    "durability": 71,
+    "weightKg": 6,
+    "rarity": "Rare"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

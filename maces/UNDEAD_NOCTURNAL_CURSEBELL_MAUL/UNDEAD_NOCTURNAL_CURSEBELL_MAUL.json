@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_NOCTURNAL_CURSEBELL_MAUL",
+  "name": "Undead Nocturnal Cursebell Maul",
+  "type": "mace",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 14,
+    "attackSpeed": 1.07,
+    "durability": 59,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

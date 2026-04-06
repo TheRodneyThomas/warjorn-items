@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_SOULRIVEN_NIGHTCRYPT_GUARD",
+  "name": "Undead Soulriven Nightcrypt Guard",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 17,
+    "interactSpeed": 0.92,
+    "durability": 85,
+    "weightKg": 8,
+    "rarity": "Rare"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

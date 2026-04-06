@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_SOULRIVEN_NIGHT_GEM",
+  "name": "Undead Soulriven Night Gem",
+  "type": "relic",
+  "faction": "undead",
+  "stats": {
+    "power": 28,
+    "luck": 4,
+    "rarity": "Rare"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

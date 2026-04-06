@@ -1,0 +1,18 @@
+{
+  "id": "UNDEAD_BONEREAP_DREADHUSK_PANOPLY",
+  "name": "Undead Bonereap Dreadhusk Panoply",
+  "type": "armor",
+  "slot": "feet",
+  "faction": "undead",
+  "stats": {
+    "armor": 20,
+    "necroticResist": 18,
+    "durability": 70,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

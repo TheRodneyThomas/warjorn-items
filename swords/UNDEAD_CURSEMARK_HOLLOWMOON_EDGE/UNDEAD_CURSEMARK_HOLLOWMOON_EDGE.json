@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_CURSEMARK_HOLLOWMOON_EDGE",
+  "name": "Undead Cursemark Hollowmoon Edge",
+  "type": "sword",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 15,
+    "attackSpeed": 1.04,
+    "durability": 63,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead sword known for battlefield reliability and identity.",
+  "specialEffects": [
+    "Empowers strikes when fighting near allied banners and shrines."
+  ]
+}

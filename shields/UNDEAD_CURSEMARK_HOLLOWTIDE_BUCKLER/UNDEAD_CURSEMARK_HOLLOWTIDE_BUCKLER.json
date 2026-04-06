@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_CURSEMARK_HOLLOWTIDE_BUCKLER",
+  "name": "Undead Cursemark Hollowtide Buckler",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 15,
+    "interactSpeed": 0.96,
+    "durability": 75,
+    "weightKg": 7,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "UNDEAD_GRAVEBORN_GRAVE_DRAUGHT",
+  "name": "Undead Graveborn Grave Draught",
+  "type": "consumable",
+  "faction": "undead",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 20,
+    "durationSeconds": 80,
+    "rarity": "Common"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

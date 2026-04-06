@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_HALLOWED_OATH_DAGGER",
+  "name": "Crusader Hallowed Oath Dagger",
+  "type": "dagger",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 11,
+    "attackSpeed": 1.16,
+    "durability": 47,
+    "weightKg": 3,
+    "rarity": "Common"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

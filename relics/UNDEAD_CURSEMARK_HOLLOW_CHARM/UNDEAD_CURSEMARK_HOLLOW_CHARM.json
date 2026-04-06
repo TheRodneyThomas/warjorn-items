@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_CURSEMARK_HOLLOW_CHARM",
+  "name": "Undead Cursemark Hollow Charm",
+  "type": "relic",
+  "faction": "undead",
+  "stats": {
+    "power": 24,
+    "luck": 3,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

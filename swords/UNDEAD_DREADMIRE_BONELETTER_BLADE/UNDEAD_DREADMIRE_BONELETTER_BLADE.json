@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_DREADMIRE_BONELETTER_BLADE",
+  "name": "Undead Dreadmire Boneletter Blade",
+  "type": "sword",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 10,
+    "attackSpeed": 1.19,
+    "durability": 43,
+    "weightKg": 3,
+    "rarity": "Common"
+  },
+  "description": "A storied undead sword known for battlefield reliability and identity.",
+  "specialEffects": [
+    "Empowers strikes when fighting near allied banners and shrines."
+  ]
+}

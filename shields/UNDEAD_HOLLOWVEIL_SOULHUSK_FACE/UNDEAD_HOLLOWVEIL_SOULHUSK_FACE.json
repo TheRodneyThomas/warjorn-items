@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_HOLLOWVEIL_SOULHUSK_FACE",
+  "name": "Undead Hollowveil Soulhusk Face",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 16,
+    "interactSpeed": 0.94,
+    "durability": 80,
+    "weightKg": 8,
+    "rarity": "Rare"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

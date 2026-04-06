@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_GRAVEBORN_GRAVEPIN_DIRK",
+  "name": "Undead Graveborn Gravepin Dirk",
+  "type": "dagger",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 9,
+    "attackSpeed": 1.22,
+    "durability": 39,
+    "weightKg": 2,
+    "rarity": "Common"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

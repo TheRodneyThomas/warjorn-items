@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_SUNFORGED_VANGUARD_SABRE",
+  "name": "Crusader Sunforged Vanguard Sabre",
+  "type": "sword",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 9,
+    "attackSpeed": 1.22,
+    "durability": 39,
+    "weightKg": 2,
+    "rarity": "Common"
+  },
+  "description": "A storied crusader sword known for battlefield reliability and identity.",
+  "specialEffects": [
+    "Empowers strikes when fighting near allied banners and shrines."
+  ]
+}

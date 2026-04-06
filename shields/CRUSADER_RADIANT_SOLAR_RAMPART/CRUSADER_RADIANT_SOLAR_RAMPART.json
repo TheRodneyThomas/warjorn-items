@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_RADIANT_SOLAR_RAMPART",
+  "name": "Crusader Radiant Solar Rampart",
+  "type": "shield",
+  "faction": "crusader",
+  "stats": {
+    "baseProtection": 13,
+    "interactSpeed": 1.00,
+    "durability": 65,
+    "weightKg": 6,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

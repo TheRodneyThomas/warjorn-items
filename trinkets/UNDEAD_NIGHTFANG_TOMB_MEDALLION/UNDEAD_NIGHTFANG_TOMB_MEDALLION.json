@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_NIGHTFANG_TOMB_MEDALLION",
+  "name": "Undead Nightfang Tomb Medallion",
+  "type": "trinket",
+  "faction": "undead",
+  "stats": {
+    "utilityPower": 16,
+    "luck": 7,
+    "rarity": "Epic"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

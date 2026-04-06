@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_NIGHTFANG_TOMBARC_BOW",
+  "name": "Undead Nightfang Tombarc Bow",
+  "type": "bow",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 18,
+    "attackSpeed": 0.95,
+    "durability": 75,
+    "weightKg": 7,
+    "rarity": "Epic"
+  },
+  "description": "A undead bow forged for long campaigns.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

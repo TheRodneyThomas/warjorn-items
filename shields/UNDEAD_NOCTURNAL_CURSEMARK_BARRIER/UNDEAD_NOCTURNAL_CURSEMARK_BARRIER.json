@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_NOCTURNAL_CURSEMARK_BARRIER",
+  "name": "Undead Nocturnal Cursemark Barrier",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 14,
+    "interactSpeed": 0.98,
+    "durability": 70,
+    "weightKg": 7,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

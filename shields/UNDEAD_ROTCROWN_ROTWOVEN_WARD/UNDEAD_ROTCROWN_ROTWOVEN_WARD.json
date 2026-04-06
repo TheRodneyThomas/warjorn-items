@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_ROTCROWN_ROTWOVEN_WARD",
+  "name": "Undead Rotcrown Rotwoven Ward",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 12,
+    "interactSpeed": 1.02,
+    "durability": 60,
+    "weightKg": 6,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

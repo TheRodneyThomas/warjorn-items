@@ -1,0 +1,18 @@
+{
+  "id": "UNDEAD_SOULRIVEN_NIGHTBARK_MAIL",
+  "name": "Undead Soulriven Nightbark Mail",
+  "type": "armor",
+  "slot": "hands",
+  "faction": "undead",
+  "stats": {
+    "armor": 28,
+    "necroticResist": 26,
+    "durability": 90,
+    "weightKg": 7,
+    "rarity": "Rare"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

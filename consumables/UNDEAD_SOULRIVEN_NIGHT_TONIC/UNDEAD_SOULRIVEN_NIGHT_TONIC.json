@@ -1,0 +1,16 @@
+{
+  "id": "UNDEAD_SOULRIVEN_NIGHT_TONIC",
+  "name": "Undead Soulriven Night Tonic",
+  "type": "consumable",
+  "faction": "undead",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 36,
+    "durationSeconds": 240,
+    "rarity": "Rare"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

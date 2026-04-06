@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_SANCTIFIED_CITADEL_FACE",
+  "name": "Crusader Sanctified Citadel Face",
+  "type": "shield",
+  "faction": "crusader",
+  "stats": {
+    "baseProtection": 16,
+    "interactSpeed": 0.94,
+    "durability": 80,
+    "weightKg": 8,
+    "rarity": "Rare"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

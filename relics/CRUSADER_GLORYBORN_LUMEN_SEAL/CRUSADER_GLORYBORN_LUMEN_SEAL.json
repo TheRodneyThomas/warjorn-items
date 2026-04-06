@@ -1,0 +1,15 @@
+{
+  "id": "CRUSADER_GLORYBORN_LUMEN_SEAL",
+  "name": "Crusader Gloryborn Lumen Seal",
+  "type": "relic",
+  "faction": "crusader",
+  "stats": {
+    "power": 28,
+    "luck": 4,
+    "rarity": "Rare"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

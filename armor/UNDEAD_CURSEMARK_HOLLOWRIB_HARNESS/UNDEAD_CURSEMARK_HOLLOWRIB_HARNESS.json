@@ -1,0 +1,18 @@
+{
+  "id": "UNDEAD_CURSEMARK_HOLLOWRIB_HARNESS",
+  "name": "Undead Cursemark Hollowrib Harness",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "undead",
+  "stats": {
+    "armor": 24,
+    "necroticResist": 22,
+    "durability": 80,
+    "weightKg": 6,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "UNDEAD_ROTCROWN_ROTPLATE_MAIL",
+  "name": "Undead Rotcrown Rotplate Mail",
+  "type": "armor",
+  "slot": "hands",
+  "faction": "undead",
+  "stats": {
+    "armor": 18,
+    "necroticResist": 16,
+    "durability": 65,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

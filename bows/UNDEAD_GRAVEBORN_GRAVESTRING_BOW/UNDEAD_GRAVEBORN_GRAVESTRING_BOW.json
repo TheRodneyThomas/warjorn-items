@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_GRAVEBORN_GRAVESTRING_BOW",
+  "name": "Undead Graveborn Gravestring Bow",
+  "type": "bow",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 9,
+    "attackSpeed": 1.22,
+    "durability": 39,
+    "weightKg": 2,
+    "rarity": "Common"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

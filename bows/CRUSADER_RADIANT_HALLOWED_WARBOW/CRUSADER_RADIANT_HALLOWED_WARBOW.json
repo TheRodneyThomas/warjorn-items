@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_RADIANT_HALLOWED_WARBOW",
+  "name": "Crusader Radiant Hallowed Warbow",
+  "type": "bow",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 13,
+    "attackSpeed": 1.10,
+    "durability": 55,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

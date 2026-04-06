@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_SUNFORGED_BULWARK_AEGIS",
+  "name": "Crusader Sunforged Bulwark Aegis",
+  "type": "shield",
+  "faction": "crusader",
+  "stats": {
+    "baseProtection": 9,
+    "interactSpeed": 1.08,
+    "durability": 45,
+    "weightKg": 4,
+    "rarity": "Common"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

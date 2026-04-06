@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_BONEREAP_DREADPIT_HAMMER",
+  "name": "Undead Bonereap Dreadpit Hammer",
+  "type": "mace",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 13,
+    "attackSpeed": 1.10,
+    "durability": 55,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature undead trait that rewards aggressive positioning"
+  ]
+}

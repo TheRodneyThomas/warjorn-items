@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_WRAITHBOUND_WRAITH_RING",
+  "name": "Undead Wraithbound Wraith Ring",
+  "type": "trinket",
+  "faction": "undead",
+  "stats": {
+    "utilityPower": 9,
+    "luck": 3,
+    "rarity": "Common"
+  },
+  "description": "A storied undead item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_AUREATE_GOLDLIGHT_BOW",
+  "name": "Crusader Aureate Goldlight Bow",
+  "type": "bow",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 18,
+    "attackSpeed": 0.95,
+    "durability": 75,
+    "weightKg": 7,
+    "rarity": "Epic"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

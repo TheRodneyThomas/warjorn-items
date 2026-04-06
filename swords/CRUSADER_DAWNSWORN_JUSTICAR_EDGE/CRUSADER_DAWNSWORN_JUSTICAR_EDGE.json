@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_DAWNSWORN_JUSTICAR_EDGE",
+  "name": "Crusader Dawnsworn Justicar Edge",
+  "type": "sword",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 10,
+    "attackSpeed": 1.19,
+    "durability": 43,
+    "weightKg": 3,
+    "rarity": "Common"
+  },
+  "description": "A storied crusader sword known for battlefield reliability and identity.",
+  "specialEffects": [
+    "Empowers strikes when fighting near allied banners and shrines."
+  ]
+}

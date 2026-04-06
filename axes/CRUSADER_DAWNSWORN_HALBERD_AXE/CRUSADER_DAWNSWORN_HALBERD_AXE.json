@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_DAWNSWORN_HALBERD_AXE",
+  "name": "Crusader Dawnsworn Halberd Axe",
+  "type": "axe",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 10,
+    "attackSpeed": 1.19,
+    "durability": 43,
+    "weightKg": 3,
+    "rarity": "Common"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature crusader trait that rewards aggressive positioning"
+  ]
+}

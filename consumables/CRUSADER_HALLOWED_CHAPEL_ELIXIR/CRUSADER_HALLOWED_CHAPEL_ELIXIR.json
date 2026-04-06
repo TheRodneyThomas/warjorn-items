@@ -1,0 +1,16 @@
+{
+  "id": "CRUSADER_HALLOWED_CHAPEL_ELIXIR",
+  "name": "Crusader Hallowed Chapel Elixir",
+  "type": "consumable",
+  "faction": "crusader",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 24,
+    "durationSeconds": 120,
+    "rarity": "Common"
+  },
+  "description": "A storied crusader item with a distinct battlefield identity.",
+  "specialEffects": [
+    "Forged with a signature faction trait that rewards aggressive positioning."
+  ]
+}

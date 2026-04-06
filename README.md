@@ -7,11 +7,11 @@
 │   │  ├── STEEL_SWORD.md
 │   │  └── STEEL_SWORD.json
 ├── shields
-│   ├── SHIELD_1
-│   │  ├── SHIELD_1.md
-│   │  └── SHIELD_1.json
-│   ├── SHIELD_2
-│   │  ├── SHIELD_2.md
-│   │  └── SHIELD_2.json
+│   ├── WOOD_SHIELD
+│   │  ├── WOOD_SHIELD.md
+│   │  └── WOOD_SHIELD.json
+│   ├── STEEL_SHIELD
+│   │  ├── STEEL_SHIELD.md
+│   │  └── STEEL_SHIELD.json
 └── README.md
 ```

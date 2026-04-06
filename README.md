@@ -1,11 +1,11 @@
 ```
 ├── swords
-│   ├── SWORD_1
-│   │  ├── SWORD_1.md
-│   │  └── SWORD_1.json
-│   └── SWORD_2
-│   │  ├── SWORD_2.md
-│   │  └── SWORD_2.json
+│   ├── WOOD_SWORD
+│   │  ├── WOOD_SWORD.md
+│   │  └── WOOD_SWORD.json
+│   └── STEEL_SWORD
+│   │  ├── STEEL_SWORD.md
+│   │  └── STEEL_SWORD.json
 ├── shields
 │   ├── SHIELD_1
 │   │  ├── SHIELD_1.md

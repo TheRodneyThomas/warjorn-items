@@ -1,0 +1,18 @@
+{
+  "id": "UNDEAD_armor_001",
+  "name": "Undead Armor 001",
+  "type": "armor",
+  "slot": "head",
+  "faction": "undead",
+  "stats": {
+    "armor": 12,
+    "necroticResist": 10,
+    "durability": 50,
+    "weightKg": 3,
+    "rarity": "Common"
+  },
+  "description": "A undead armor piece tuned for head slot performance.",
+  "specialEffects": [
+    "Tier 001 effect: boosts survivability during prolonged fights."
+  ]
+}

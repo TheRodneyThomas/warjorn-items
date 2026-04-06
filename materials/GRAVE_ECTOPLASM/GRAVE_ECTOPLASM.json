@@ -1,0 +1,14 @@
+{
+  "id": "GRAVE_ECTOPLASM",
+  "name": "Grave Ectoplasm",
+  "type": "material",
+  "faction": "undead",
+  "stats": {
+    "stackLimit": 50,
+    "rarity": "Uncommon"
+  },
+  "description": "A volatile spirit residue harvested from haunted crypts.",
+  "specialEffects": [
+    "Used to craft spectral relics and undead enhancement runes."
+  ]
+}

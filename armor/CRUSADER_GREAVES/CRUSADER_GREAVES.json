@@ -1,0 +1,18 @@
+{
+  "id": "CRUSADER_GREAVES",
+  "name": "Crusader Greaves",
+  "type": "armor",
+  "slot": "legs",
+  "faction": "crusader",
+  "stats": {
+    "armor": 12,
+    "holyResist": 10,
+    "durability": 72,
+    "weightKg": 8,
+    "rarity": "Rare"
+  },
+  "description": "Tempered plate greaves built for long marches and siege pushes.",
+  "specialEffects": [
+    "Reduces knockback effects by 15%."
+  ]
+}

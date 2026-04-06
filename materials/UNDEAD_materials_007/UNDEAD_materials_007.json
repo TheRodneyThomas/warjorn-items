@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_materials_007",
+  "name": "Undead Material 007",
+  "type": "material",
+  "faction": "undead",
+  "stats": {
+    "stackLimit": 85,
+    "quality": 8,
+    "rarity": "Uncommon"
+  },
+  "description": "A undead crafting material used in advanced recipes.",
+  "specialEffects": [
+    "Tier 007 effect: enables higher-tier crafting combinations."
+  ]
+}

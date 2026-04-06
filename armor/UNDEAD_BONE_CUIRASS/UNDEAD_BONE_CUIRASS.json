@@ -1,0 +1,18 @@
+{
+  "id": "UNDEAD_BONE_CUIRASS",
+  "name": "Undead Bone Cuirass",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "undead",
+  "stats": {
+    "armor": 16,
+    "necroticResist": 20,
+    "durability": 82,
+    "weightKg": 11,
+    "rarity": "Epic"
+  },
+  "description": "A ribbed cuirass made from lacquered gravebone plates.",
+  "specialEffects": [
+    "On hit taken, has a small chance to spawn a bone shard retaliation."
+  ]
+}

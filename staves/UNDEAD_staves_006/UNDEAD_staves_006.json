@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_staves_006",
+  "name": "Undead Stave 006",
+  "type": "stave",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 14,
+    "attackSpeed": 1.07,
+    "durability": 59,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A undead stave forged for long campaigns.",
+  "specialEffects": [
+    "Tier 006 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

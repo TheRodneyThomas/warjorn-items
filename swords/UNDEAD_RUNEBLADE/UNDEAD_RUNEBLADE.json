@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_RUNEBLADE",
+  "name": "Undead Runeblade",
+  "type": "sword",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 14,
+    "attackSpeed": 0.9,
+    "durability": 52,
+    "weightKg": 7,
+    "rarity": "Epic"
+  },
+  "description": "An ancient blade etched with necrotic runes.",
+  "specialEffects": [
+    "Hits apply a curse that reduces enemy healing by 15% for 5 seconds."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_shields_008",
+  "name": "Crusader Shield 008",
+  "type": "shield",
+  "faction": "crusader",
+  "stats": {
+    "baseProtection": 16,
+    "interactSpeed": 0.94,
+    "durability": 80,
+    "weightKg": 8,
+    "rarity": "Rare"
+  },
+  "description": "A crusader shield built for formation defense.",
+  "specialEffects": [
+    "Tier 008 effect: improved resistance while blocking."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "GOLDEN_SHIELD",
+  "name": "Golden Shield",
+  "type": "shield",
+  "material": "gold",
+  "stats": {
+    "baseProtection": 8,
+    "interactSpeed": 1.2,
+    "durability": 30,
+    "weightKg": 4,
+    "rarity": "Rare"
+  },
+  "description": "A ceremonial shield that channels defensive magic efficiently.",
+  "specialEffects": [
+    "Increases healing received by 6%."
+  ]
+}

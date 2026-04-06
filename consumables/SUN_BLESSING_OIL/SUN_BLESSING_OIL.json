@@ -1,0 +1,15 @@
+{
+  "id": "SUN_BLESSING_OIL",
+  "name": "Sun Blessing Oil",
+  "type": "consumable",
+  "subtype": "weapon-buff",
+  "stats": {
+    "uses": 1,
+    "durationSeconds": 300,
+    "rarity": "Rare"
+  },
+  "description": "An alchemical oil used by crusaders to consecrate weapons.",
+  "specialEffects": [
+    "Adds holy damage to weapon attacks for 5 minutes."
+  ]
+}

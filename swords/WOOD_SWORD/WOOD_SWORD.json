@@ -1,0 +1,15 @@
+{
+	"id": "WOOD_SWORD",
+	"name": "Wooden Sword",
+	"type": "sword",
+	"material": "wood",
+	"stats": {
+		"baseDamage": 5,
+		"attackSpeed": 1.2,
+		"durability": 30,
+		"weightKg": 2,
+		"rarity": "Common"
+	},
+	"description": "A basic wooden sword suitable for beginners and training purposes.",
+	"specialEffects": []
+}

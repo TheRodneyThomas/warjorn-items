@@ -1,0 +1,18 @@
+{
+  "id": "UNDEAD_armor_002",
+  "name": "Undead Armor 002",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "undead",
+  "stats": {
+    "armor": 14,
+    "necroticResist": 12,
+    "durability": 55,
+    "weightKg": 4,
+    "rarity": "Common"
+  },
+  "description": "A undead armor piece tuned for chest slot performance.",
+  "specialEffects": [
+    "Tier 002 effect: boosts survivability during prolonged fights."
+  ]
+}

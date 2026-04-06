@@ -1,0 +1,18 @@
+{
+  "id": "CRUSADER_CUIRASS",
+  "name": "Crusader Cuirass",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "crusader",
+  "stats": {
+    "armor": 18,
+    "holyResist": 18,
+    "durability": 90,
+    "weightKg": 12,
+    "rarity": "Epic"
+  },
+  "description": "A chestplate forged for vanguard paladins.",
+  "specialEffects": [
+    "Taking fatal damage grants a brief 2-second invulnerability once per battle."
+  ]
+}

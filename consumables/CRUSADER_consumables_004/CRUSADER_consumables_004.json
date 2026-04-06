@@ -1,0 +1,16 @@
+{
+  "id": "CRUSADER_consumables_004",
+  "name": "Crusader Consumable 004",
+  "type": "consumable",
+  "faction": "crusader",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 26,
+    "durationSeconds": 140,
+    "rarity": "Uncommon"
+  },
+  "description": "A crusader consumable prepared for tactical encounters.",
+  "specialEffects": [
+    "Tier 004 effect: grants a temporary faction-aligned buff."
+  ]
+}

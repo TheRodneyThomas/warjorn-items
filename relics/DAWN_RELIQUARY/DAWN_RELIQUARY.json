@@ -1,0 +1,15 @@
+{
+  "id": "DAWN_RELIQUARY",
+  "name": "Dawn Reliquary",
+  "type": "relic",
+  "faction": "crusader",
+  "stats": {
+    "faithPower": 18,
+    "manaRegen": 3,
+    "rarity": "Legendary"
+  },
+  "description": "A radiant reliquary that hums at first light.",
+  "specialEffects": [
+    "At sunrise zones, regenerate health and mana 20% faster."
+  ]
+}

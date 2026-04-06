@@ -1,0 +1,17 @@
+{
+  "id": "GOLDEN_SWORD",
+  "name": "Golden Sword",
+  "type": "sword",
+  "material": "gold",
+  "stats": {
+    "baseDamage": 8,
+    "attackSpeed": 1.25,
+    "durability": 22,
+    "weightKg": 3,
+    "rarity": "Rare"
+  },
+  "description": "A noble dueling blade that sacrifices durability for precision and speed.",
+  "specialEffects": [
+    "Critical strike chance increased by 8%."
+  ]
+}

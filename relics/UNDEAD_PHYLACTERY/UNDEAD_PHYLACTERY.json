@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_PHYLACTERY",
+  "name": "Undead Phylactery",
+  "type": "relic",
+  "faction": "undead",
+  "stats": {
+    "necromancyPower": 20,
+    "manaRegen": 2,
+    "rarity": "Legendary"
+  },
+  "description": "A sealed vessel that anchors malignant souls.",
+  "specialEffects": [
+    "On death, has a small chance to revive the wearer with low health."
+  ]
+}

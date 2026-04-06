@@ -1,0 +1,17 @@
+{
+  "id": "SILVER_SHIELD",
+  "name": "Silver Shield",
+  "type": "shield",
+  "material": "silver",
+  "stats": {
+    "baseProtection": 9,
+    "interactSpeed": 1.1,
+    "durability": 42,
+    "weightKg": 5,
+    "rarity": "Rare"
+  },
+  "description": "An ornate shield sanctified for hunting cursed creatures.",
+  "specialEffects": [
+    "Provides 12% resistance to dark magic effects."
+  ]
+}

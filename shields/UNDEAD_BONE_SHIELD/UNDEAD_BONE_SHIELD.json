@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_BONE_SHIELD",
+  "name": "Undead Bone Shield",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 11,
+    "interactSpeed": 0.95,
+    "durability": 64,
+    "weightKg": 8,
+    "rarity": "Rare"
+  },
+  "description": "A grim shield crafted from fused gravebone.",
+  "specialEffects": [
+    "Blocks have a chance to fear undead minions for 2 seconds."
+  ]
+}

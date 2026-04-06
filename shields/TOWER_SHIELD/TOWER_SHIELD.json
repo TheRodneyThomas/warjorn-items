@@ -1,0 +1,17 @@
+{
+  "id": "TOWER_SHIELD",
+  "name": "Tower Shield",
+  "type": "shield",
+  "material": "reinforced-steel",
+  "stats": {
+    "baseProtection": 14,
+    "interactSpeed": 0.7,
+    "durability": 80,
+    "weightKg": 12,
+    "rarity": "Epic"
+  },
+  "description": "A massive wall-like shield built for siege lines and chokepoint control.",
+  "specialEffects": [
+    "When stationary, gain an additional 10% damage reduction."
+  ]
+}

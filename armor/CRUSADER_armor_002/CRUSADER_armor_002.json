@@ -1,0 +1,18 @@
+{
+  "id": "CRUSADER_armor_002",
+  "name": "Crusader Armor 002",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "crusader",
+  "stats": {
+    "armor": 14,
+    "holyResist": 12,
+    "durability": 55,
+    "weightKg": 4,
+    "rarity": "Common"
+  },
+  "description": "A crusader armor piece tuned for chest slot performance.",
+  "specialEffects": [
+    "Tier 002 effect: boosts survivability during prolonged fights."
+  ]
+}

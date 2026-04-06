@@ -1,0 +1,15 @@
+{
+  "id": "CRUSADER_trinkets_002",
+  "name": "Crusader Trinket 002",
+  "type": "trinket",
+  "faction": "crusader",
+  "stats": {
+    "utilityPower": 8,
+    "luck": 3,
+    "rarity": "Common"
+  },
+  "description": "A crusader trinket for utility and exploration bonuses.",
+  "specialEffects": [
+    "Tier 002 effect: increases drop quality in themed zones."
+  ]
+}

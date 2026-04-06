@@ -1,0 +1,17 @@
+{
+  "id": "KNIGHT_SWORD",
+  "name": "Knight Sword",
+  "type": "sword",
+  "material": "tempered-steel",
+  "stats": {
+    "baseDamage": 11,
+    "attackSpeed": 1.0,
+    "durability": 55,
+    "weightKg": 6,
+    "rarity": "Rare"
+  },
+  "description": "A balanced battlefield sword forged for disciplined royal guards.",
+  "specialEffects": [
+    "While a shield is equipped, gain 5% block efficiency."
+  ]
+}

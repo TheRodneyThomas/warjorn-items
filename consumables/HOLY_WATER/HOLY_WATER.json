@@ -1,0 +1,15 @@
+{
+  "id": "HOLY_WATER",
+  "name": "Holy Water",
+  "type": "consumable",
+  "subtype": "thrown",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 20,
+    "rarity": "Uncommon"
+  },
+  "description": "A blessed vial that scorches undead flesh.",
+  "specialEffects": [
+    "Deals holy splash damage and weakens undead defense for 6 seconds."
+  ]
+}

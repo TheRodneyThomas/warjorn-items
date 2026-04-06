@@ -1,0 +1,18 @@
+{
+  "id": "CRUSADER_armor_004",
+  "name": "Crusader Armor 004",
+  "type": "armor",
+  "slot": "hands",
+  "faction": "crusader",
+  "stats": {
+    "armor": 18,
+    "holyResist": 16,
+    "durability": 65,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A crusader armor piece tuned for hands slot performance.",
+  "specialEffects": [
+    "Tier 004 effect: boosts survivability during prolonged fights."
+  ]
+}

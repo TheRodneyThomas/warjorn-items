@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_axes_007",
+  "name": "Crusader Axe 007",
+  "type": "axe",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 15,
+    "attackSpeed": 1.04,
+    "durability": 63,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A crusader axe forged for long campaigns.",
+  "specialEffects": [
+    "Tier 007 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

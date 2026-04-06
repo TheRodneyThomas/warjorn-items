@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_bows_006",
+  "name": "Undead Bow 006",
+  "type": "bow",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 14,
+    "attackSpeed": 1.07,
+    "durability": 59,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A undead bow forged for long campaigns.",
+  "specialEffects": [
+    "Tier 006 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "BONE_DUST",
+  "name": "Bone Dust",
+  "type": "material",
+  "faction": "undead",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Common"
+  },
+  "description": "Fine remnants gathered from shattered skeletal remains.",
+  "specialEffects": [
+    "Used in necrotic powders, curses, and undead armor recipes."
+  ]
+}

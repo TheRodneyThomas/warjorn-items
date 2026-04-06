@@ -1,0 +1,14 @@
+{
+  "id": "BLESSED_SILVER_INGOT",
+  "name": "Blessed Silver Ingot",
+  "type": "material",
+  "faction": "crusader",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A purified ingot used for anti-undead forging recipes.",
+  "specialEffects": [
+    "Required for crafting holy-tier weapons and relic housings."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "CRUSADER_relics_003",
+  "name": "Crusader Relic 003",
+  "type": "relic",
+  "faction": "crusader",
+  "stats": {
+    "power": 16,
+    "luck": 2,
+    "rarity": "Common"
+  },
+  "description": "A crusader relic carried by elite practitioners.",
+  "specialEffects": [
+    "Tier 003 effect: improves scaling of faction-specific abilities."
+  ]
+}

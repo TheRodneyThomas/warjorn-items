@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_shields_007",
+  "name": "Undead Shield 007",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 15,
+    "interactSpeed": 0.96,
+    "durability": 75,
+    "weightKg": 7,
+    "rarity": "Uncommon"
+  },
+  "description": "A undead shield built for formation defense.",
+  "specialEffects": [
+    "Tier 007 effect: improved resistance while blocking."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "UNDEAD_armor_007",
+  "name": "Undead Armor 007",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "undead",
+  "stats": {
+    "armor": 24,
+    "necroticResist": 22,
+    "durability": 80,
+    "weightKg": 6,
+    "rarity": "Uncommon"
+  },
+  "description": "A undead armor piece tuned for chest slot performance.",
+  "specialEffects": [
+    "Tier 007 effect: boosts survivability during prolonged fights."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"id": "WOOD_SHIELD",
+	"name": "Wooden Shield",
+	"type": "shield",
+	"material": "wood",
+	"stats": {
+		"baseProtection": 5,
+		"interactSpeed": 1.2,
+		"durability": 30,
+		"weightKg": 3,
+		"rarity": "Common"
+	},
+	"description": "A basic wooden shield suitable for beginners and training purposes.",
+	"specialEffects": []
+}

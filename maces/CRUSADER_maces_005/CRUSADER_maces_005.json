@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_maces_005",
+  "name": "Crusader Mace 005",
+  "type": "mace",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 13,
+    "attackSpeed": 1.10,
+    "durability": 55,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A crusader mace forged for long campaigns.",
+  "specialEffects": [
+    "Tier 005 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

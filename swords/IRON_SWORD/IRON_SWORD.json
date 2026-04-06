@@ -1,0 +1,17 @@
+{
+  "id": "IRON_SWORD",
+  "name": "Iron Sword",
+  "type": "sword",
+  "material": "iron",
+  "stats": {
+    "baseDamage": 9,
+    "attackSpeed": 0.95,
+    "durability": 45,
+    "weightKg": 6,
+    "rarity": "Uncommon"
+  },
+  "description": "A heavier sword favored by frontline fighters for its high endurance.",
+  "specialEffects": [
+    "Deals 5% bonus damage against armored enemies."
+  ]
+}

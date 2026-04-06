@@ -1,0 +1,16 @@
+{
+  "id": "UNDEAD_consumables_002",
+  "name": "Undead Consumable 002",
+  "type": "consumable",
+  "faction": "undead",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 22,
+    "durationSeconds": 100,
+    "rarity": "Common"
+  },
+  "description": "A undead consumable prepared for tactical encounters.",
+  "specialEffects": [
+    "Tier 002 effect: grants a temporary faction-aligned buff."
+  ]
+}

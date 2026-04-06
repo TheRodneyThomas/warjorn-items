@@ -1,0 +1,15 @@
+{
+  "id": "CRUSADER_SIGIL",
+  "name": "Crusader Sigil",
+  "type": "relic",
+  "faction": "crusader",
+  "stats": {
+    "faithPower": 14,
+    "luck": 4,
+    "rarity": "Epic"
+  },
+  "description": "A sigil blessed at dawn rites before major crusades.",
+  "specialEffects": [
+    "Increases holy ability effectiveness by 10%."
+  ]
+}

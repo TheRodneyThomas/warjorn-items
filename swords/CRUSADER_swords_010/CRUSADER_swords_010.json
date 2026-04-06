@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_swords_010",
+  "name": "Crusader Sword 010",
+  "type": "sword",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 18,
+    "attackSpeed": 0.95,
+    "durability": 75,
+    "weightKg": 7,
+    "rarity": "Epic"
+  },
+  "description": "A crusader sword forged for long campaigns.",
+  "specialEffects": [
+    "Tier 010 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

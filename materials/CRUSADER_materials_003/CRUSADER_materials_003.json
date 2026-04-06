@@ -1,0 +1,15 @@
+{
+  "id": "CRUSADER_materials_003",
+  "name": "Crusader Material 003",
+  "type": "material",
+  "faction": "crusader",
+  "stats": {
+    "stackLimit": 65,
+    "quality": 4,
+    "rarity": "Common"
+  },
+  "description": "A crusader crafting material used in advanced recipes.",
+  "specialEffects": [
+    "Tier 003 effect: enables higher-tier crafting combinations."
+  ]
+}

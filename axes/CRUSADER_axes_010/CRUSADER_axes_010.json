@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_axes_010",
+  "name": "Crusader Axe 010",
+  "type": "axe",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 18,
+    "attackSpeed": 0.95,
+    "durability": 75,
+    "weightKg": 7,
+    "rarity": "Epic"
+  },
+  "description": "A crusader axe forged for long campaigns.",
+  "specialEffects": [
+    "Tier 010 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_axes_006",
+  "name": "Undead Axe 006",
+  "type": "axe",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 14,
+    "attackSpeed": 1.07,
+    "durability": 59,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A undead axe forged for long campaigns.",
+  "specialEffects": [
+    "Tier 006 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

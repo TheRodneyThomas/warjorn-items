@@ -1,0 +1,18 @@
+{
+  "id": "CRUSADER_HELM",
+  "name": "Crusader Helm",
+  "type": "armor",
+  "slot": "head",
+  "faction": "crusader",
+  "stats": {
+    "armor": 9,
+    "holyResist": 12,
+    "durability": 60,
+    "weightKg": 4,
+    "rarity": "Rare"
+  },
+  "description": "A visored helm with a radiant sigil crest.",
+  "specialEffects": [
+    "Improves detection of hidden undead by 20%."
+  ]
+}

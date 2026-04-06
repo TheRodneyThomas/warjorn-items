@@ -1,0 +1,15 @@
+{
+  "id": "BRONZE_SHIELD",
+  "name": "Bronze Shield",
+  "type": "shield",
+  "material": "bronze",
+  "stats": {
+    "baseProtection": 7,
+    "interactSpeed": 1.0,
+    "durability": 40,
+    "weightKg": 5,
+    "rarity": "Common"
+  },
+  "description": "A durable bronze shield often issued to city watch units.",
+  "specialEffects": []
+}

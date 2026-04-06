@@ -1,0 +1,17 @@
+{
+  "id": "OBSIDIAN_SWORD",
+  "name": "Obsidian Sword",
+  "type": "sword",
+  "material": "obsidian",
+  "stats": {
+    "baseDamage": 13,
+    "attackSpeed": 0.9,
+    "durability": 40,
+    "weightKg": 7,
+    "rarity": "Epic"
+  },
+  "description": "A jagged volcanic blade that inflicts severe bleeding wounds.",
+  "specialEffects": [
+    "Each hit applies a bleed that deals damage over 3 seconds."
+  ]
+}

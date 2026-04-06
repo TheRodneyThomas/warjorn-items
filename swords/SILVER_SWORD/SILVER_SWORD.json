@@ -1,0 +1,17 @@
+{
+  "id": "SILVER_SWORD",
+  "name": "Silver Sword",
+  "type": "sword",
+  "material": "silver",
+  "stats": {
+    "baseDamage": 10,
+    "attackSpeed": 1.1,
+    "durability": 32,
+    "weightKg": 4,
+    "rarity": "Rare"
+  },
+  "description": "A refined blade designed to cut through cursed and spectral foes.",
+  "specialEffects": [
+    "Deals 15% bonus damage to undead enemies."
+  ]
+}

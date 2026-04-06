@@ -1,0 +1,17 @@
+{
+  "id": "IRON_SHIELD",
+  "name": "Iron Shield",
+  "type": "shield",
+  "material": "iron",
+  "stats": {
+    "baseProtection": 10,
+    "interactSpeed": 0.9,
+    "durability": 55,
+    "weightKg": 7,
+    "rarity": "Uncommon"
+  },
+  "description": "A heavy iron shield made for prolonged front-line defense.",
+  "specialEffects": [
+    "Reduces incoming projectile damage by 10%."
+  ]
+}

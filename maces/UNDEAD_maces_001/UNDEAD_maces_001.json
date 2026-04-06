@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_maces_001",
+  "name": "Undead Mace 001",
+  "type": "mace",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 9,
+    "attackSpeed": 1.22,
+    "durability": 39,
+    "weightKg": 2,
+    "rarity": "Common"
+  },
+  "description": "A undead mace forged for long campaigns.",
+  "specialEffects": [
+    "Tier 001 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

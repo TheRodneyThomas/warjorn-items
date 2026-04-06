@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_BASTION",
+  "name": "Crusader Bastion",
+  "type": "shield",
+  "faction": "crusader",
+  "stats": {
+    "baseProtection": 13,
+    "interactSpeed": 0.85,
+    "durability": 78,
+    "weightKg": 11,
+    "rarity": "Epic"
+  },
+  "description": "A fortress-grade tower shield engraved with sun glyphs.",
+  "specialEffects": [
+    "While blocking, grants nearby allies 5% damage reduction."
+  ]
+}

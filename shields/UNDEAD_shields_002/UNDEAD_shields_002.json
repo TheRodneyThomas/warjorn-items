@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_shields_002",
+  "name": "Undead Shield 002",
+  "type": "shield",
+  "faction": "undead",
+  "stats": {
+    "baseProtection": 10,
+    "interactSpeed": 1.06,
+    "durability": 50,
+    "weightKg": 5,
+    "rarity": "Common"
+  },
+  "description": "A undead shield built for formation defense.",
+  "specialEffects": [
+    "Tier 002 effect: improved resistance while blocking."
+  ]
+}

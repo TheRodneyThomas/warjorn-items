@@ -1,0 +1,18 @@
+{
+  "id": "CRUSADER_armor_007",
+  "name": "Crusader Armor 007",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "crusader",
+  "stats": {
+    "armor": 24,
+    "holyResist": 22,
+    "durability": 80,
+    "weightKg": 6,
+    "rarity": "Uncommon"
+  },
+  "description": "A crusader armor piece tuned for chest slot performance.",
+  "specialEffects": [
+    "Tier 007 effect: boosts survivability during prolonged fights."
+  ]
+}

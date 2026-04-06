@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_daggers_010",
+  "name": "Crusader Dagger 010",
+  "type": "dagger",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 18,
+    "attackSpeed": 0.95,
+    "durability": 75,
+    "weightKg": 7,
+    "rarity": "Epic"
+  },
+  "description": "A crusader dagger forged for long campaigns.",
+  "specialEffects": [
+    "Tier 010 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

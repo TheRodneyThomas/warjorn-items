@@ -1,0 +1,18 @@
+{
+  "id": "UNDEAD_SHROUD",
+  "name": "Undead Shroud",
+  "type": "armor",
+  "slot": "cloak",
+  "faction": "undead",
+  "stats": {
+    "armor": 8,
+    "necroticResist": 25,
+    "durability": 46,
+    "weightKg": 2,
+    "rarity": "Rare"
+  },
+  "description": "A funerary shroud that muffles movement and life-signature.",
+  "specialEffects": [
+    "Out of combat, slowly restores stamina in dark areas."
+  ]
+}

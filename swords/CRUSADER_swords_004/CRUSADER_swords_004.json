@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_swords_004",
+  "name": "Crusader Sword 004",
+  "type": "sword",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 12,
+    "attackSpeed": 1.13,
+    "durability": 51,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A crusader sword forged for long campaigns.",
+  "specialEffects": [
+    "Tier 004 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

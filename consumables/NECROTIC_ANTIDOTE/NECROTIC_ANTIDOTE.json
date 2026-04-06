@@ -1,0 +1,15 @@
+{
+  "id": "NECROTIC_ANTIDOTE",
+  "name": "Necrotic Antidote",
+  "type": "consumable",
+  "subtype": "potion",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 35,
+    "rarity": "Uncommon"
+  },
+  "description": "A bitter antidote brewed to neutralize grave toxins.",
+  "specialEffects": [
+    "Cures poison and necrotic damage-over-time effects instantly."
+  ]
+}

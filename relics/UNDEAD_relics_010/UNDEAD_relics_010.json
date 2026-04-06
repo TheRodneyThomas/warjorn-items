@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_relics_010",
+  "name": "Undead Relic 010",
+  "type": "relic",
+  "faction": "undead",
+  "stats": {
+    "power": 30,
+    "luck": 4,
+    "rarity": "Epic"
+  },
+  "description": "A undead relic carried by elite practitioners.",
+  "specialEffects": [
+    "Tier 010 effect: improves scaling of faction-specific abilities."
+  ]
+}

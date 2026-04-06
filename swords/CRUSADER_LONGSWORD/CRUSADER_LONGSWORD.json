@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_LONGSWORD",
+  "name": "Crusader Longsword",
+  "type": "sword",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 12,
+    "attackSpeed": 1.0,
+    "durability": 58,
+    "weightKg": 6,
+    "rarity": "Rare"
+  },
+  "description": "A sanctified longsword carried by crusader captains.",
+  "specialEffects": [
+    "Deals 12% bonus damage to undead enemies."
+  ]
+}

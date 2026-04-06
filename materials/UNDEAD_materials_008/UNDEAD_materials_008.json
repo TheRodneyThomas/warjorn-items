@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_materials_008",
+  "name": "Undead Material 008",
+  "type": "material",
+  "faction": "undead",
+  "stats": {
+    "stackLimit": 90,
+    "quality": 9,
+    "rarity": "Rare"
+  },
+  "description": "A undead crafting material used in advanced recipes.",
+  "specialEffects": [
+    "Tier 008 effect: enables higher-tier crafting combinations."
+  ]
+}

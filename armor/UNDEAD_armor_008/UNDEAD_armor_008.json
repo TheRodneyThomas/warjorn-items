@@ -1,0 +1,18 @@
+{
+  "id": "UNDEAD_armor_008",
+  "name": "Undead Armor 008",
+  "type": "armor",
+  "slot": "legs",
+  "faction": "undead",
+  "stats": {
+    "armor": 26,
+    "necroticResist": 24,
+    "durability": 85,
+    "weightKg": 7,
+    "rarity": "Rare"
+  },
+  "description": "A undead armor piece tuned for legs slot performance.",
+  "specialEffects": [
+    "Tier 008 effect: boosts survivability during prolonged fights."
+  ]
+}

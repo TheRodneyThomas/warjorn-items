@@ -1,0 +1,15 @@
+{
+  "id": "UNDEAD_trinkets_002",
+  "name": "Undead Trinket 002",
+  "type": "trinket",
+  "faction": "undead",
+  "stats": {
+    "utilityPower": 8,
+    "luck": 3,
+    "rarity": "Common"
+  },
+  "description": "A undead trinket for utility and exploration bonuses.",
+  "specialEffects": [
+    "Tier 002 effect: increases drop quality in themed zones."
+  ]
+}

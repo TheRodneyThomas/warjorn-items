@@ -1,0 +1,17 @@
+{
+	"id": "STEEL_SHIELD",
+	"name": "Steel Shield",
+	"type": "shield",
+	"material": "steel",
+	"stats": {
+		"baseProtection": 8,
+		"interactSpeed": 1.0,
+		"durability": 30,
+		"weightKg": 5,
+		"rarity": "Uncommon"
+	},
+	"description": "A basic steel shield, craftable by finding the workbench.",
+	"specialEffects": [
+		"If steel sword is equipped with steel shield, apply attack speed bonus."
+	]
+}

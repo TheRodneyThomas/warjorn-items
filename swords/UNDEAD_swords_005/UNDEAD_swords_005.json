@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_swords_005",
+  "name": "Undead Sword 005",
+  "type": "sword",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 13,
+    "attackSpeed": 1.10,
+    "durability": 55,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A undead sword forged for long campaigns.",
+  "specialEffects": [
+    "Tier 005 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

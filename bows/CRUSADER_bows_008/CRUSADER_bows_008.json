@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_bows_008",
+  "name": "Crusader Bow 008",
+  "type": "bow",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 16,
+    "attackSpeed": 1.01,
+    "durability": 67,
+    "weightKg": 6,
+    "rarity": "Rare"
+  },
+  "description": "A crusader bow forged for long campaigns.",
+  "specialEffects": [
+    "Tier 008 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

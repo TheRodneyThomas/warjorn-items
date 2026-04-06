@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_WAR_MACE",
+  "name": "Crusader War Mace",
+  "type": "mace",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 15,
+    "attackSpeed": 0.8,
+    "durability": 70,
+    "weightKg": 9,
+    "rarity": "Epic"
+  },
+  "description": "A heavy consecrated mace designed to crush bone and plate alike.",
+  "specialEffects": [
+    "Stuns undead targets for 1 second on critical hit."
+  ]
+}

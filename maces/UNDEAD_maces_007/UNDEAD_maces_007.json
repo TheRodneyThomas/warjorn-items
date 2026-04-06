@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_maces_007",
+  "name": "Undead Mace 007",
+  "type": "mace",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 15,
+    "attackSpeed": 1.04,
+    "durability": 63,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A undead mace forged for long campaigns.",
+  "specialEffects": [
+    "Tier 007 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "UNDEAD_consumables_007",
+  "name": "Undead Consumable 007",
+  "type": "consumable",
+  "faction": "undead",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 32,
+    "durationSeconds": 200,
+    "rarity": "Uncommon"
+  },
+  "description": "A undead consumable prepared for tactical encounters.",
+  "specialEffects": [
+    "Tier 007 effect: grants a temporary faction-aligned buff."
+  ]
+}

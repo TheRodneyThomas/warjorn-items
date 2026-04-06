@@ -1,0 +1,17 @@
+{
+  "id": "OBSIDIAN_SHIELD",
+  "name": "Obsidian Shield",
+  "type": "shield",
+  "material": "obsidian",
+  "stats": {
+    "baseProtection": 12,
+    "interactSpeed": 0.85,
+    "durability": 60,
+    "weightKg": 9,
+    "rarity": "Epic"
+  },
+  "description": "A volcanic shield that hardens under pressure and reflects heat.",
+  "specialEffects": [
+    "Blocks have a chance to reflect a small amount of fire damage."
+  ]
+}

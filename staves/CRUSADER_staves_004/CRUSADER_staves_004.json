@@ -1,0 +1,17 @@
+{
+  "id": "CRUSADER_staves_004",
+  "name": "Crusader Stave 004",
+  "type": "stave",
+  "faction": "crusader",
+  "stats": {
+    "baseDamage": 12,
+    "attackSpeed": 1.13,
+    "durability": 51,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A crusader stave forged for long campaigns.",
+  "specialEffects": [
+    "Tier 004 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

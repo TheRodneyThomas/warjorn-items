@@ -1,0 +1,17 @@
+{
+  "id": "UNDEAD_daggers_005",
+  "name": "Undead Dagger 005",
+  "type": "dagger",
+  "faction": "undead",
+  "stats": {
+    "baseDamage": 13,
+    "attackSpeed": 1.10,
+    "durability": 55,
+    "weightKg": 4,
+    "rarity": "Uncommon"
+  },
+  "description": "A undead dagger forged for long campaigns.",
+  "specialEffects": [
+    "Tier 005 effect: gains bonus damage in faction-themed encounters."
+  ]
+}

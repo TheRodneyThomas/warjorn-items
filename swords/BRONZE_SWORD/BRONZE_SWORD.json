@@ -1,0 +1,15 @@
+{
+  "id": "BRONZE_SWORD",
+  "name": "Bronze Sword",
+  "type": "sword",
+  "material": "bronze",
+  "stats": {
+    "baseDamage": 7,
+    "attackSpeed": 1.05,
+    "durability": 35,
+    "weightKg": 4,
+    "rarity": "Common"
+  },
+  "description": "A reliable bronze blade used by militia units and apprentices.",
+  "specialEffects": []
+}

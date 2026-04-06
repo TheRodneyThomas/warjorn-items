@@ -1,0 +1,18 @@
+{
+  "id": "CRUSADER_armor_010",
+  "name": "Crusader Armor 010",
+  "type": "armor",
+  "slot": "feet",
+  "faction": "crusader",
+  "stats": {
+    "armor": 30,
+    "holyResist": 28,
+    "durability": 95,
+    "weightKg": 8,
+    "rarity": "Epic"
+  },
+  "description": "A crusader armor piece tuned for feet slot performance.",
+  "specialEffects": [
+    "Tier 010 effect: boosts survivability during prolonged fights."
+  ]
+}

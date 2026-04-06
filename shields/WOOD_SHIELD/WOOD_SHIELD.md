@@ -1,4 +1,4 @@
-# Wooden Sword
+# Wooden Shield
 
 ## Stats
 

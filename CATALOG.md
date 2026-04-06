@@ -1,0 +1,872 @@
+# Item Catalog
+
+Auto-generated index of item folders in this repository.
+
+## Armor (25 items)
+
+- armor/CRUSADER_CUIRASS/
+  - CRUSADER_CUIRASS.json
+  - CRUSADER_CUIRASS.md
+- armor/CRUSADER_GREAVES/
+  - CRUSADER_GREAVES.json
+  - CRUSADER_GREAVES.md
+- armor/CRUSADER_HELM/
+  - CRUSADER_HELM.json
+  - CRUSADER_HELM.md
+- armor/CRUSADER_armor_001/
+  - CRUSADER_armor_001.json
+  - CRUSADER_armor_001.md
+- armor/CRUSADER_armor_002/
+  - CRUSADER_armor_002.json
+  - CRUSADER_armor_002.md
+- armor/CRUSADER_armor_003/
+  - CRUSADER_armor_003.json
+  - CRUSADER_armor_003.md
+- armor/CRUSADER_armor_004/
+  - CRUSADER_armor_004.json
+  - CRUSADER_armor_004.md
+- armor/CRUSADER_armor_005/
+  - CRUSADER_armor_005.json
+  - CRUSADER_armor_005.md
+- armor/CRUSADER_armor_006/
+  - CRUSADER_armor_006.json
+  - CRUSADER_armor_006.md
+- armor/CRUSADER_armor_007/
+  - CRUSADER_armor_007.json
+  - CRUSADER_armor_007.md
+- armor/CRUSADER_armor_008/
+  - CRUSADER_armor_008.json
+  - CRUSADER_armor_008.md
+- armor/CRUSADER_armor_009/
+  - CRUSADER_armor_009.json
+  - CRUSADER_armor_009.md
+- armor/CRUSADER_armor_010/
+  - CRUSADER_armor_010.json
+  - CRUSADER_armor_010.md
+- armor/UNDEAD_BONE_CUIRASS/
+  - UNDEAD_BONE_CUIRASS.json
+  - UNDEAD_BONE_CUIRASS.md
+- armor/UNDEAD_SHROUD/
+  - UNDEAD_SHROUD.json
+  - UNDEAD_SHROUD.md
+- armor/UNDEAD_armor_001/
+  - UNDEAD_armor_001.json
+  - UNDEAD_armor_001.md
+- armor/UNDEAD_armor_002/
+  - UNDEAD_armor_002.json
+  - UNDEAD_armor_002.md
+- armor/UNDEAD_armor_003/
+  - UNDEAD_armor_003.json
+  - UNDEAD_armor_003.md
+- armor/UNDEAD_armor_004/
+  - UNDEAD_armor_004.json
+  - UNDEAD_armor_004.md
+- armor/UNDEAD_armor_005/
+  - UNDEAD_armor_005.json
+  - UNDEAD_armor_005.md
+- armor/UNDEAD_armor_006/
+  - UNDEAD_armor_006.json
+  - UNDEAD_armor_006.md
+- armor/UNDEAD_armor_007/
+  - UNDEAD_armor_007.json
+  - UNDEAD_armor_007.md
+- armor/UNDEAD_armor_008/
+  - UNDEAD_armor_008.json
+  - UNDEAD_armor_008.md
+- armor/UNDEAD_armor_009/
+  - UNDEAD_armor_009.json
+  - UNDEAD_armor_009.md
+- armor/UNDEAD_armor_010/
+  - UNDEAD_armor_010.json
+  - UNDEAD_armor_010.md
+
+## Axes (20 items)
+
+- axes/CRUSADER_axes_001/
+  - CRUSADER_axes_001.json
+  - CRUSADER_axes_001.md
+- axes/CRUSADER_axes_002/
+  - CRUSADER_axes_002.json
+  - CRUSADER_axes_002.md
+- axes/CRUSADER_axes_003/
+  - CRUSADER_axes_003.json
+  - CRUSADER_axes_003.md
+- axes/CRUSADER_axes_004/
+  - CRUSADER_axes_004.json
+  - CRUSADER_axes_004.md
+- axes/CRUSADER_axes_005/
+  - CRUSADER_axes_005.json
+  - CRUSADER_axes_005.md
+- axes/CRUSADER_axes_006/
+  - CRUSADER_axes_006.json
+  - CRUSADER_axes_006.md
+- axes/CRUSADER_axes_007/
+  - CRUSADER_axes_007.json
+  - CRUSADER_axes_007.md
+- axes/CRUSADER_axes_008/
+  - CRUSADER_axes_008.json
+  - CRUSADER_axes_008.md
+- axes/CRUSADER_axes_009/
+  - CRUSADER_axes_009.json
+  - CRUSADER_axes_009.md
+- axes/CRUSADER_axes_010/
+  - CRUSADER_axes_010.json
+  - CRUSADER_axes_010.md
+- axes/UNDEAD_axes_001/
+  - UNDEAD_axes_001.json
+  - UNDEAD_axes_001.md
+- axes/UNDEAD_axes_002/
+  - UNDEAD_axes_002.json
+  - UNDEAD_axes_002.md
+- axes/UNDEAD_axes_003/
+  - UNDEAD_axes_003.json
+  - UNDEAD_axes_003.md
+- axes/UNDEAD_axes_004/
+  - UNDEAD_axes_004.json
+  - UNDEAD_axes_004.md
+- axes/UNDEAD_axes_005/
+  - UNDEAD_axes_005.json
+  - UNDEAD_axes_005.md
+- axes/UNDEAD_axes_006/
+  - UNDEAD_axes_006.json
+  - UNDEAD_axes_006.md
+- axes/UNDEAD_axes_007/
+  - UNDEAD_axes_007.json
+  - UNDEAD_axes_007.md
+- axes/UNDEAD_axes_008/
+  - UNDEAD_axes_008.json
+  - UNDEAD_axes_008.md
+- axes/UNDEAD_axes_009/
+  - UNDEAD_axes_009.json
+  - UNDEAD_axes_009.md
+- axes/UNDEAD_axes_010/
+  - UNDEAD_axes_010.json
+  - UNDEAD_axes_010.md
+
+## Bows (20 items)
+
+- bows/CRUSADER_bows_001/
+  - CRUSADER_bows_001.json
+  - CRUSADER_bows_001.md
+- bows/CRUSADER_bows_002/
+  - CRUSADER_bows_002.json
+  - CRUSADER_bows_002.md
+- bows/CRUSADER_bows_003/
+  - CRUSADER_bows_003.json
+  - CRUSADER_bows_003.md
+- bows/CRUSADER_bows_004/
+  - CRUSADER_bows_004.json
+  - CRUSADER_bows_004.md
+- bows/CRUSADER_bows_005/
+  - CRUSADER_bows_005.json
+  - CRUSADER_bows_005.md
+- bows/CRUSADER_bows_006/
+  - CRUSADER_bows_006.json
+  - CRUSADER_bows_006.md
+- bows/CRUSADER_bows_007/
+  - CRUSADER_bows_007.json
+  - CRUSADER_bows_007.md
+- bows/CRUSADER_bows_008/
+  - CRUSADER_bows_008.json
+  - CRUSADER_bows_008.md
+- bows/CRUSADER_bows_009/
+  - CRUSADER_bows_009.json
+  - CRUSADER_bows_009.md
+- bows/CRUSADER_bows_010/
+  - CRUSADER_bows_010.json
+  - CRUSADER_bows_010.md
+- bows/UNDEAD_bows_001/
+  - UNDEAD_bows_001.json
+  - UNDEAD_bows_001.md
+- bows/UNDEAD_bows_002/
+  - UNDEAD_bows_002.json
+  - UNDEAD_bows_002.md
+- bows/UNDEAD_bows_003/
+  - UNDEAD_bows_003.json
+  - UNDEAD_bows_003.md
+- bows/UNDEAD_bows_004/
+  - UNDEAD_bows_004.json
+  - UNDEAD_bows_004.md
+- bows/UNDEAD_bows_005/
+  - UNDEAD_bows_005.json
+  - UNDEAD_bows_005.md
+- bows/UNDEAD_bows_006/
+  - UNDEAD_bows_006.json
+  - UNDEAD_bows_006.md
+- bows/UNDEAD_bows_007/
+  - UNDEAD_bows_007.json
+  - UNDEAD_bows_007.md
+- bows/UNDEAD_bows_008/
+  - UNDEAD_bows_008.json
+  - UNDEAD_bows_008.md
+- bows/UNDEAD_bows_009/
+  - UNDEAD_bows_009.json
+  - UNDEAD_bows_009.md
+- bows/UNDEAD_bows_010/
+  - UNDEAD_bows_010.json
+  - UNDEAD_bows_010.md
+
+## Consumables (23 items)
+
+- consumables/CRUSADER_consumables_001/
+  - CRUSADER_consumables_001.json
+  - CRUSADER_consumables_001.md
+- consumables/CRUSADER_consumables_002/
+  - CRUSADER_consumables_002.json
+  - CRUSADER_consumables_002.md
+- consumables/CRUSADER_consumables_003/
+  - CRUSADER_consumables_003.json
+  - CRUSADER_consumables_003.md
+- consumables/CRUSADER_consumables_004/
+  - CRUSADER_consumables_004.json
+  - CRUSADER_consumables_004.md
+- consumables/CRUSADER_consumables_005/
+  - CRUSADER_consumables_005.json
+  - CRUSADER_consumables_005.md
+- consumables/CRUSADER_consumables_006/
+  - CRUSADER_consumables_006.json
+  - CRUSADER_consumables_006.md
+- consumables/CRUSADER_consumables_007/
+  - CRUSADER_consumables_007.json
+  - CRUSADER_consumables_007.md
+- consumables/CRUSADER_consumables_008/
+  - CRUSADER_consumables_008.json
+  - CRUSADER_consumables_008.md
+- consumables/CRUSADER_consumables_009/
+  - CRUSADER_consumables_009.json
+  - CRUSADER_consumables_009.md
+- consumables/CRUSADER_consumables_010/
+  - CRUSADER_consumables_010.json
+  - CRUSADER_consumables_010.md
+- consumables/HOLY_WATER/
+  - HOLY_WATER.json
+  - HOLY_WATER.md
+- consumables/NECROTIC_ANTIDOTE/
+  - NECROTIC_ANTIDOTE.json
+  - NECROTIC_ANTIDOTE.md
+- consumables/SUN_BLESSING_OIL/
+  - SUN_BLESSING_OIL.json
+  - SUN_BLESSING_OIL.md
+- consumables/UNDEAD_consumables_001/
+  - UNDEAD_consumables_001.json
+  - UNDEAD_consumables_001.md
+- consumables/UNDEAD_consumables_002/
+  - UNDEAD_consumables_002.json
+  - UNDEAD_consumables_002.md
+- consumables/UNDEAD_consumables_003/
+  - UNDEAD_consumables_003.json
+  - UNDEAD_consumables_003.md
+- consumables/UNDEAD_consumables_004/
+  - UNDEAD_consumables_004.json
+  - UNDEAD_consumables_004.md
+- consumables/UNDEAD_consumables_005/
+  - UNDEAD_consumables_005.json
+  - UNDEAD_consumables_005.md
+- consumables/UNDEAD_consumables_006/
+  - UNDEAD_consumables_006.json
+  - UNDEAD_consumables_006.md
+- consumables/UNDEAD_consumables_007/
+  - UNDEAD_consumables_007.json
+  - UNDEAD_consumables_007.md
+- consumables/UNDEAD_consumables_008/
+  - UNDEAD_consumables_008.json
+  - UNDEAD_consumables_008.md
+- consumables/UNDEAD_consumables_009/
+  - UNDEAD_consumables_009.json
+  - UNDEAD_consumables_009.md
+- consumables/UNDEAD_consumables_010/
+  - UNDEAD_consumables_010.json
+  - UNDEAD_consumables_010.md
+
+## Daggers (20 items)
+
+- daggers/CRUSADER_daggers_001/
+  - CRUSADER_daggers_001.json
+  - CRUSADER_daggers_001.md
+- daggers/CRUSADER_daggers_002/
+  - CRUSADER_daggers_002.json
+  - CRUSADER_daggers_002.md
+- daggers/CRUSADER_daggers_003/
+  - CRUSADER_daggers_003.json
+  - CRUSADER_daggers_003.md
+- daggers/CRUSADER_daggers_004/
+  - CRUSADER_daggers_004.json
+  - CRUSADER_daggers_004.md
+- daggers/CRUSADER_daggers_005/
+  - CRUSADER_daggers_005.json
+  - CRUSADER_daggers_005.md
+- daggers/CRUSADER_daggers_006/
+  - CRUSADER_daggers_006.json
+  - CRUSADER_daggers_006.md
+- daggers/CRUSADER_daggers_007/
+  - CRUSADER_daggers_007.json
+  - CRUSADER_daggers_007.md
+- daggers/CRUSADER_daggers_008/
+  - CRUSADER_daggers_008.json
+  - CRUSADER_daggers_008.md
+- daggers/CRUSADER_daggers_009/
+  - CRUSADER_daggers_009.json
+  - CRUSADER_daggers_009.md
+- daggers/CRUSADER_daggers_010/
+  - CRUSADER_daggers_010.json
+  - CRUSADER_daggers_010.md
+- daggers/UNDEAD_daggers_001/
+  - UNDEAD_daggers_001.json
+  - UNDEAD_daggers_001.md
+- daggers/UNDEAD_daggers_002/
+  - UNDEAD_daggers_002.json
+  - UNDEAD_daggers_002.md
+- daggers/UNDEAD_daggers_003/
+  - UNDEAD_daggers_003.json
+  - UNDEAD_daggers_003.md
+- daggers/UNDEAD_daggers_004/
+  - UNDEAD_daggers_004.json
+  - UNDEAD_daggers_004.md
+- daggers/UNDEAD_daggers_005/
+  - UNDEAD_daggers_005.json
+  - UNDEAD_daggers_005.md
+- daggers/UNDEAD_daggers_006/
+  - UNDEAD_daggers_006.json
+  - UNDEAD_daggers_006.md
+- daggers/UNDEAD_daggers_007/
+  - UNDEAD_daggers_007.json
+  - UNDEAD_daggers_007.md
+- daggers/UNDEAD_daggers_008/
+  - UNDEAD_daggers_008.json
+  - UNDEAD_daggers_008.md
+- daggers/UNDEAD_daggers_009/
+  - UNDEAD_daggers_009.json
+  - UNDEAD_daggers_009.md
+- daggers/UNDEAD_daggers_010/
+  - UNDEAD_daggers_010.json
+  - UNDEAD_daggers_010.md
+
+## Maces (22 items)
+
+- maces/CRUSADER_WAR_MACE/
+  - CRUSADER_WAR_MACE.json
+  - CRUSADER_WAR_MACE.md
+- maces/CRUSADER_maces_001/
+  - CRUSADER_maces_001.json
+  - CRUSADER_maces_001.md
+- maces/CRUSADER_maces_002/
+  - CRUSADER_maces_002.json
+  - CRUSADER_maces_002.md
+- maces/CRUSADER_maces_003/
+  - CRUSADER_maces_003.json
+  - CRUSADER_maces_003.md
+- maces/CRUSADER_maces_004/
+  - CRUSADER_maces_004.json
+  - CRUSADER_maces_004.md
+- maces/CRUSADER_maces_005/
+  - CRUSADER_maces_005.json
+  - CRUSADER_maces_005.md
+- maces/CRUSADER_maces_006/
+  - CRUSADER_maces_006.json
+  - CRUSADER_maces_006.md
+- maces/CRUSADER_maces_007/
+  - CRUSADER_maces_007.json
+  - CRUSADER_maces_007.md
+- maces/CRUSADER_maces_008/
+  - CRUSADER_maces_008.json
+  - CRUSADER_maces_008.md
+- maces/CRUSADER_maces_009/
+  - CRUSADER_maces_009.json
+  - CRUSADER_maces_009.md
+- maces/CRUSADER_maces_010/
+  - CRUSADER_maces_010.json
+  - CRUSADER_maces_010.md
+- maces/UNDEAD_GRAVE_MACE/
+  - UNDEAD_GRAVE_MACE.json
+  - UNDEAD_GRAVE_MACE.md
+- maces/UNDEAD_maces_001/
+  - UNDEAD_maces_001.json
+  - UNDEAD_maces_001.md
+- maces/UNDEAD_maces_002/
+  - UNDEAD_maces_002.json
+  - UNDEAD_maces_002.md
+- maces/UNDEAD_maces_003/
+  - UNDEAD_maces_003.json
+  - UNDEAD_maces_003.md
+- maces/UNDEAD_maces_004/
+  - UNDEAD_maces_004.json
+  - UNDEAD_maces_004.md
+- maces/UNDEAD_maces_005/
+  - UNDEAD_maces_005.json
+  - UNDEAD_maces_005.md
+- maces/UNDEAD_maces_006/
+  - UNDEAD_maces_006.json
+  - UNDEAD_maces_006.md
+- maces/UNDEAD_maces_007/
+  - UNDEAD_maces_007.json
+  - UNDEAD_maces_007.md
+- maces/UNDEAD_maces_008/
+  - UNDEAD_maces_008.json
+  - UNDEAD_maces_008.md
+- maces/UNDEAD_maces_009/
+  - UNDEAD_maces_009.json
+  - UNDEAD_maces_009.md
+- maces/UNDEAD_maces_010/
+  - UNDEAD_maces_010.json
+  - UNDEAD_maces_010.md
+
+## Materials (23 items)
+
+- materials/BLESSED_SILVER_INGOT/
+  - BLESSED_SILVER_INGOT.json
+  - BLESSED_SILVER_INGOT.md
+- materials/BONE_DUST/
+  - BONE_DUST.json
+  - BONE_DUST.md
+- materials/CRUSADER_materials_001/
+  - CRUSADER_materials_001.json
+  - CRUSADER_materials_001.md
+- materials/CRUSADER_materials_002/
+  - CRUSADER_materials_002.json
+  - CRUSADER_materials_002.md
+- materials/CRUSADER_materials_003/
+  - CRUSADER_materials_003.json
+  - CRUSADER_materials_003.md
+- materials/CRUSADER_materials_004/
+  - CRUSADER_materials_004.json
+  - CRUSADER_materials_004.md
+- materials/CRUSADER_materials_005/
+  - CRUSADER_materials_005.json
+  - CRUSADER_materials_005.md
+- materials/CRUSADER_materials_006/
+  - CRUSADER_materials_006.json
+  - CRUSADER_materials_006.md
+- materials/CRUSADER_materials_007/
+  - CRUSADER_materials_007.json
+  - CRUSADER_materials_007.md
+- materials/CRUSADER_materials_008/
+  - CRUSADER_materials_008.json
+  - CRUSADER_materials_008.md
+- materials/CRUSADER_materials_009/
+  - CRUSADER_materials_009.json
+  - CRUSADER_materials_009.md
+- materials/CRUSADER_materials_010/
+  - CRUSADER_materials_010.json
+  - CRUSADER_materials_010.md
+- materials/GRAVE_ECTOPLASM/
+  - GRAVE_ECTOPLASM.json
+  - GRAVE_ECTOPLASM.md
+- materials/UNDEAD_materials_001/
+  - UNDEAD_materials_001.json
+  - UNDEAD_materials_001.md
+- materials/UNDEAD_materials_002/
+  - UNDEAD_materials_002.json
+  - UNDEAD_materials_002.md
+- materials/UNDEAD_materials_003/
+  - UNDEAD_materials_003.json
+  - UNDEAD_materials_003.md
+- materials/UNDEAD_materials_004/
+  - UNDEAD_materials_004.json
+  - UNDEAD_materials_004.md
+- materials/UNDEAD_materials_005/
+  - UNDEAD_materials_005.json
+  - UNDEAD_materials_005.md
+- materials/UNDEAD_materials_006/
+  - UNDEAD_materials_006.json
+  - UNDEAD_materials_006.md
+- materials/UNDEAD_materials_007/
+  - UNDEAD_materials_007.json
+  - UNDEAD_materials_007.md
+- materials/UNDEAD_materials_008/
+  - UNDEAD_materials_008.json
+  - UNDEAD_materials_008.md
+- materials/UNDEAD_materials_009/
+  - UNDEAD_materials_009.json
+  - UNDEAD_materials_009.md
+- materials/UNDEAD_materials_010/
+  - UNDEAD_materials_010.json
+  - UNDEAD_materials_010.md
+
+## Relics (23 items)
+
+- relics/CRUSADER_SIGIL/
+  - CRUSADER_SIGIL.json
+  - CRUSADER_SIGIL.md
+- relics/CRUSADER_relics_001/
+  - CRUSADER_relics_001.json
+  - CRUSADER_relics_001.md
+- relics/CRUSADER_relics_002/
+  - CRUSADER_relics_002.json
+  - CRUSADER_relics_002.md
+- relics/CRUSADER_relics_003/
+  - CRUSADER_relics_003.json
+  - CRUSADER_relics_003.md
+- relics/CRUSADER_relics_004/
+  - CRUSADER_relics_004.json
+  - CRUSADER_relics_004.md
+- relics/CRUSADER_relics_005/
+  - CRUSADER_relics_005.json
+  - CRUSADER_relics_005.md
+- relics/CRUSADER_relics_006/
+  - CRUSADER_relics_006.json
+  - CRUSADER_relics_006.md
+- relics/CRUSADER_relics_007/
+  - CRUSADER_relics_007.json
+  - CRUSADER_relics_007.md
+- relics/CRUSADER_relics_008/
+  - CRUSADER_relics_008.json
+  - CRUSADER_relics_008.md
+- relics/CRUSADER_relics_009/
+  - CRUSADER_relics_009.json
+  - CRUSADER_relics_009.md
+- relics/CRUSADER_relics_010/
+  - CRUSADER_relics_010.json
+  - CRUSADER_relics_010.md
+- relics/DAWN_RELIQUARY/
+  - DAWN_RELIQUARY.json
+  - DAWN_RELIQUARY.md
+- relics/UNDEAD_PHYLACTERY/
+  - UNDEAD_PHYLACTERY.json
+  - UNDEAD_PHYLACTERY.md
+- relics/UNDEAD_relics_001/
+  - UNDEAD_relics_001.json
+  - UNDEAD_relics_001.md
+- relics/UNDEAD_relics_002/
+  - UNDEAD_relics_002.json
+  - UNDEAD_relics_002.md
+- relics/UNDEAD_relics_003/
+  - UNDEAD_relics_003.json
+  - UNDEAD_relics_003.md
+- relics/UNDEAD_relics_004/
+  - UNDEAD_relics_004.json
+  - UNDEAD_relics_004.md
+- relics/UNDEAD_relics_005/
+  - UNDEAD_relics_005.json
+  - UNDEAD_relics_005.md
+- relics/UNDEAD_relics_006/
+  - UNDEAD_relics_006.json
+  - UNDEAD_relics_006.md
+- relics/UNDEAD_relics_007/
+  - UNDEAD_relics_007.json
+  - UNDEAD_relics_007.md
+- relics/UNDEAD_relics_008/
+  - UNDEAD_relics_008.json
+  - UNDEAD_relics_008.md
+- relics/UNDEAD_relics_009/
+  - UNDEAD_relics_009.json
+  - UNDEAD_relics_009.md
+- relics/UNDEAD_relics_010/
+  - UNDEAD_relics_010.json
+  - UNDEAD_relics_010.md
+
+## Shields (30 items)
+
+- shields/BRONZE_SHIELD/
+  - BRONZE_SHIELD.json
+  - BRONZE_SHIELD.md
+- shields/CRUSADER_BASTION/
+  - CRUSADER_BASTION.json
+  - CRUSADER_BASTION.md
+- shields/CRUSADER_shields_001/
+  - CRUSADER_shields_001.json
+  - CRUSADER_shields_001.md
+- shields/CRUSADER_shields_002/
+  - CRUSADER_shields_002.json
+  - CRUSADER_shields_002.md
+- shields/CRUSADER_shields_003/
+  - CRUSADER_shields_003.json
+  - CRUSADER_shields_003.md
+- shields/CRUSADER_shields_004/
+  - CRUSADER_shields_004.json
+  - CRUSADER_shields_004.md
+- shields/CRUSADER_shields_005/
+  - CRUSADER_shields_005.json
+  - CRUSADER_shields_005.md
+- shields/CRUSADER_shields_006/
+  - CRUSADER_shields_006.json
+  - CRUSADER_shields_006.md
+- shields/CRUSADER_shields_007/
+  - CRUSADER_shields_007.json
+  - CRUSADER_shields_007.md
+- shields/CRUSADER_shields_008/
+  - CRUSADER_shields_008.json
+  - CRUSADER_shields_008.md
+- shields/CRUSADER_shields_009/
+  - CRUSADER_shields_009.json
+  - CRUSADER_shields_009.md
+- shields/CRUSADER_shields_010/
+  - CRUSADER_shields_010.json
+  - CRUSADER_shields_010.md
+- shields/GOLDEN_SHIELD/
+  - GOLDEN_SHIELD.json
+  - GOLDEN_SHIELD.md
+- shields/IRON_SHIELD/
+  - IRON_SHIELD.json
+  - IRON_SHIELD.md
+- shields/OBSIDIAN_SHIELD/
+  - OBSIDIAN_SHIELD.json
+  - OBSIDIAN_SHIELD.md
+- shields/SILVER_SHIELD/
+  - SILVER_SHIELD.json
+  - SILVER_SHIELD.md
+- shields/STEEL_SHELD/
+  - STEEL_SHELD.json
+  - STEEL_SHELD.md
+- shields/TOWER_SHIELD/
+  - TOWER_SHIELD.json
+  - TOWER_SHIELD.md
+- shields/UNDEAD_BONE_SHIELD/
+  - UNDEAD_BONE_SHIELD.json
+  - UNDEAD_BONE_SHIELD.md
+- shields/UNDEAD_shields_001/
+  - UNDEAD_shields_001.json
+  - UNDEAD_shields_001.md
+- shields/UNDEAD_shields_002/
+  - UNDEAD_shields_002.json
+  - UNDEAD_shields_002.md
+- shields/UNDEAD_shields_003/
+  - UNDEAD_shields_003.json
+  - UNDEAD_shields_003.md
+- shields/UNDEAD_shields_004/
+  - UNDEAD_shields_004.json
+  - UNDEAD_shields_004.md
+- shields/UNDEAD_shields_005/
+  - UNDEAD_shields_005.json
+  - UNDEAD_shields_005.md
+- shields/UNDEAD_shields_006/
+  - UNDEAD_shields_006.json
+  - UNDEAD_shields_006.md
+- shields/UNDEAD_shields_007/
+  - UNDEAD_shields_007.json
+  - UNDEAD_shields_007.md
+- shields/UNDEAD_shields_008/
+  - UNDEAD_shields_008.json
+  - UNDEAD_shields_008.md
+- shields/UNDEAD_shields_009/
+  - UNDEAD_shields_009.json
+  - UNDEAD_shields_009.md
+- shields/UNDEAD_shields_010/
+  - UNDEAD_shields_010.json
+  - UNDEAD_shields_010.md
+- shields/WOOD_SHIELD/
+  - WOOD_SHIELD.json
+  - WOOD_SHIELD.md
+
+## Staves (20 items)
+
+- staves/CRUSADER_staves_001/
+  - CRUSADER_staves_001.json
+  - CRUSADER_staves_001.md
+- staves/CRUSADER_staves_002/
+  - CRUSADER_staves_002.json
+  - CRUSADER_staves_002.md
+- staves/CRUSADER_staves_003/
+  - CRUSADER_staves_003.json
+  - CRUSADER_staves_003.md
+- staves/CRUSADER_staves_004/
+  - CRUSADER_staves_004.json
+  - CRUSADER_staves_004.md
+- staves/CRUSADER_staves_005/
+  - CRUSADER_staves_005.json
+  - CRUSADER_staves_005.md
+- staves/CRUSADER_staves_006/
+  - CRUSADER_staves_006.json
+  - CRUSADER_staves_006.md
+- staves/CRUSADER_staves_007/
+  - CRUSADER_staves_007.json
+  - CRUSADER_staves_007.md
+- staves/CRUSADER_staves_008/
+  - CRUSADER_staves_008.json
+  - CRUSADER_staves_008.md
+- staves/CRUSADER_staves_009/
+  - CRUSADER_staves_009.json
+  - CRUSADER_staves_009.md
+- staves/CRUSADER_staves_010/
+  - CRUSADER_staves_010.json
+  - CRUSADER_staves_010.md
+- staves/UNDEAD_staves_001/
+  - UNDEAD_staves_001.json
+  - UNDEAD_staves_001.md
+- staves/UNDEAD_staves_002/
+  - UNDEAD_staves_002.json
+  - UNDEAD_staves_002.md
+- staves/UNDEAD_staves_003/
+  - UNDEAD_staves_003.json
+  - UNDEAD_staves_003.md
+- staves/UNDEAD_staves_004/
+  - UNDEAD_staves_004.json
+  - UNDEAD_staves_004.md
+- staves/UNDEAD_staves_005/
+  - UNDEAD_staves_005.json
+  - UNDEAD_staves_005.md
+- staves/UNDEAD_staves_006/
+  - UNDEAD_staves_006.json
+  - UNDEAD_staves_006.md
+- staves/UNDEAD_staves_007/
+  - UNDEAD_staves_007.json
+  - UNDEAD_staves_007.md
+- staves/UNDEAD_staves_008/
+  - UNDEAD_staves_008.json
+  - UNDEAD_staves_008.md
+- staves/UNDEAD_staves_009/
+  - UNDEAD_staves_009.json
+  - UNDEAD_staves_009.md
+- staves/UNDEAD_staves_010/
+  - UNDEAD_staves_010.json
+  - UNDEAD_staves_010.md
+
+## Swords (30 items)
+
+- swords/BRONZE_SWORD/
+  - BRONZE_SWORD.json
+  - BRONZE_SWORD.md
+- swords/CRUSADER_LONGSWORD/
+  - CRUSADER_LONGSWORD.json
+  - CRUSADER_LONGSWORD.md
+- swords/CRUSADER_swords_001/
+  - CRUSADER_swords_001.json
+  - CRUSADER_swords_001.md
+- swords/CRUSADER_swords_002/
+  - CRUSADER_swords_002.json
+  - CRUSADER_swords_002.md
+- swords/CRUSADER_swords_003/
+  - CRUSADER_swords_003.json
+  - CRUSADER_swords_003.md
+- swords/CRUSADER_swords_004/
+  - CRUSADER_swords_004.json
+  - CRUSADER_swords_004.md
+- swords/CRUSADER_swords_005/
+  - CRUSADER_swords_005.json
+  - CRUSADER_swords_005.md
+- swords/CRUSADER_swords_006/
+  - CRUSADER_swords_006.json
+  - CRUSADER_swords_006.md
+- swords/CRUSADER_swords_007/
+  - CRUSADER_swords_007.json
+  - CRUSADER_swords_007.md
+- swords/CRUSADER_swords_008/
+  - CRUSADER_swords_008.json
+  - CRUSADER_swords_008.md
+- swords/CRUSADER_swords_009/
+  - CRUSADER_swords_009.json
+  - CRUSADER_swords_009.md
+- swords/CRUSADER_swords_010/
+  - CRUSADER_swords_010.json
+  - CRUSADER_swords_010.md
+- swords/GOLDEN_SWORD/
+  - GOLDEN_SWORD.json
+  - GOLDEN_SWORD.md
+- swords/IRON_SWORD/
+  - IRON_SWORD.json
+  - IRON_SWORD.md
+- swords/KNIGHT_SWORD/
+  - KNIGHT_SWORD.json
+  - KNIGHT_SWORD.md
+- swords/OBSIDIAN_SWORD/
+  - OBSIDIAN_SWORD.json
+  - OBSIDIAN_SWORD.md
+- swords/SILVER_SWORD/
+  - SILVER_SWORD.json
+  - SILVER_SWORD.md
+- swords/STEEL_SWORD/
+  - STEEL_SWORD.json
+  - STEEL_SWORD.md
+- swords/UNDEAD_RUNEBLADE/
+  - UNDEAD_RUNEBLADE.json
+  - UNDEAD_RUNEBLADE.md
+- swords/UNDEAD_swords_001/
+  - UNDEAD_swords_001.json
+  - UNDEAD_swords_001.md
+- swords/UNDEAD_swords_002/
+  - UNDEAD_swords_002.json
+  - UNDEAD_swords_002.md
+- swords/UNDEAD_swords_003/
+  - UNDEAD_swords_003.json
+  - UNDEAD_swords_003.md
+- swords/UNDEAD_swords_004/
+  - UNDEAD_swords_004.json
+  - UNDEAD_swords_004.md
+- swords/UNDEAD_swords_005/
+  - UNDEAD_swords_005.json
+  - UNDEAD_swords_005.md
+- swords/UNDEAD_swords_006/
+  - UNDEAD_swords_006.json
+  - UNDEAD_swords_006.md
+- swords/UNDEAD_swords_007/
+  - UNDEAD_swords_007.json
+  - UNDEAD_swords_007.md
+- swords/UNDEAD_swords_008/
+  - UNDEAD_swords_008.json
+  - UNDEAD_swords_008.md
+- swords/UNDEAD_swords_009/
+  - UNDEAD_swords_009.json
+  - UNDEAD_swords_009.md
+- swords/UNDEAD_swords_010/
+  - UNDEAD_swords_010.json
+  - UNDEAD_swords_010.md
+- swords/WOOD_SWORD/
+  - WOOD_SWORD.json
+  - WOOD_SWORD.md
+
+## Trinkets (20 items)
+
+- trinkets/CRUSADER_trinkets_001/
+  - CRUSADER_trinkets_001.json
+  - CRUSADER_trinkets_001.md
+- trinkets/CRUSADER_trinkets_002/
+  - CRUSADER_trinkets_002.json
+  - CRUSADER_trinkets_002.md
+- trinkets/CRUSADER_trinkets_003/
+  - CRUSADER_trinkets_003.json
+  - CRUSADER_trinkets_003.md
+- trinkets/CRUSADER_trinkets_004/
+  - CRUSADER_trinkets_004.json
+  - CRUSADER_trinkets_004.md
+- trinkets/CRUSADER_trinkets_005/
+  - CRUSADER_trinkets_005.json
+  - CRUSADER_trinkets_005.md
+- trinkets/CRUSADER_trinkets_006/
+  - CRUSADER_trinkets_006.json
+  - CRUSADER_trinkets_006.md
+- trinkets/CRUSADER_trinkets_007/
+  - CRUSADER_trinkets_007.json
+  - CRUSADER_trinkets_007.md
+- trinkets/CRUSADER_trinkets_008/
+  - CRUSADER_trinkets_008.json
+  - CRUSADER_trinkets_008.md
+- trinkets/CRUSADER_trinkets_009/
+  - CRUSADER_trinkets_009.json
+  - CRUSADER_trinkets_009.md
+- trinkets/CRUSADER_trinkets_010/
+  - CRUSADER_trinkets_010.json
+  - CRUSADER_trinkets_010.md
+- trinkets/UNDEAD_trinkets_001/
+  - UNDEAD_trinkets_001.json
+  - UNDEAD_trinkets_001.md
+- trinkets/UNDEAD_trinkets_002/
+  - UNDEAD_trinkets_002.json
+  - UNDEAD_trinkets_002.md
+- trinkets/UNDEAD_trinkets_003/
+  - UNDEAD_trinkets_003.json
+  - UNDEAD_trinkets_003.md
+- trinkets/UNDEAD_trinkets_004/
+  - UNDEAD_trinkets_004.json
+  - UNDEAD_trinkets_004.md
+- trinkets/UNDEAD_trinkets_005/
+  - UNDEAD_trinkets_005.json
+  - UNDEAD_trinkets_005.md
+- trinkets/UNDEAD_trinkets_006/
+  - UNDEAD_trinkets_006.json
+  - UNDEAD_trinkets_006.md
+- trinkets/UNDEAD_trinkets_007/
+  - UNDEAD_trinkets_007.json
+  - UNDEAD_trinkets_007.md
+- trinkets/UNDEAD_trinkets_008/
+  - UNDEAD_trinkets_008.json
+  - UNDEAD_trinkets_008.md
+- trinkets/UNDEAD_trinkets_009/
+  - UNDEAD_trinkets_009.json
+  - UNDEAD_trinkets_009.md
+- trinkets/UNDEAD_trinkets_010/
+  - UNDEAD_trinkets_010.json
+  - UNDEAD_trinkets_010.md
+
+## Total
+
+- Total item folders: 276
+- Total item docs/data files: 552

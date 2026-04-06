@@ -16,4 +16,4 @@ A basic steel sword, craftable by finding the workbench.
 
 ## Special Effects
 
-None
+- If steel sword is equipped with steel shield, apply attack speed bonus.

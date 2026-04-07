@@ -1,17 +1,51 @@
 {
-	"id": "STEEL_SWORD",
-	"name": "Steel Sword",
-	"type": "sword",
-	"material": "steel",
-	"stats": {
-		"baseDamage": 8,
-		"attackSpeed": 1.0,
-		"durability": 30,
-		"weightKg": 5,
-		"rarity": "Uncommon"
-	},
-	"description": "A basic steel sword, craftable by finding the workbench.",
-	"specialEffects": [
-		"If steel sword is equipped with steel shield, apply attack speed bonus."
-	]
+  "id": "STEEL_SWORD",
+  "name": "Steel Sword",
+  "type": "sword",
+  "material": "steel",
+  "stats": {
+    "baseDamage": 8,
+    "attackSpeed": 1,
+    "durability": 30,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A basic steel sword, craftable by finding the workbench.",
+  "specialEffects": [
+    "If steel sword is equipped with steel shield, apply attack speed bonus."
+  ],
+  "recipe": {
+    "station": "Blade Forge",
+    "durationMinutes": 26,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "STEEL_SWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Steel Sword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Blade Forge and quench for a uncommon-grade result."
+    ]
+  }
 }

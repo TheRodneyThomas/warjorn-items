@@ -10,5 +10,33 @@
   "description": "A scorched scale plate prized by ashland smiths.",
   "specialEffects": [
     "Used in ember-forged axes, heatproof grips, and ashsteel fittings."
-  ]
+  ],
+  "recipe": {
+    "station": "Emberclan Refinery",
+    "durationMinutes": 14,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "EMBERCLAN_CINDER_SCALE",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Emberclan Cinder Scale under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Emberclan Refinery protocol before storage."
+    ]
+  }
 }

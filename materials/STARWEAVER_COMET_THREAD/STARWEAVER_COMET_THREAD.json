@@ -10,5 +10,33 @@
   "description": "A radiant thread pulled from a cooling comet wake.",
   "specialEffects": [
     "Used in astral blades, stellar bindings, and comet-tempered craftwork."
-  ]
+  ],
+  "recipe": {
+    "station": "Starweaver Refinery",
+    "durationMinutes": 19,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "STARWEAVER_COMET_THREAD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Starweaver Comet Thread under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Starweaver Refinery protocol before storage."
+    ]
+  }
 }

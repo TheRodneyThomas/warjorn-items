@@ -11,5 +11,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Crusader Refinery",
+    "durationMinutes": 15,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "CRUSADER_VIGILANT_VIGIL_ORE",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      },
+      {
+        "id": "BLESSED_SILVER_INGOT",
+        "name": "Blessed Silver Ingot",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Crusader Vigilant Vigil Ore under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Crusader Refinery protocol before storage."
+    ]
+  }
 }

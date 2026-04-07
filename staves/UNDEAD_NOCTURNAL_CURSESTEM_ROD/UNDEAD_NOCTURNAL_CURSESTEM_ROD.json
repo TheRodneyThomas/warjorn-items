@@ -13,5 +13,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Crypt Reliquary",
+    "durationMinutes": 26,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "UNDEAD_NOCTURNAL_CURSESTEM_ROD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_CURSEMARK_HOLLOW_BONE_FIBER",
+        "name": "Undead Cursemark Hollow Bone Fiber",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "ASTRAL_QUARTZ_FILAMENT",
+        "name": "Astral Quartz Filament",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Undead Nocturnal Cursestem Rod tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Crypt Reliquary and quench for a uncommon-grade result."
+    ]
+  }
 }

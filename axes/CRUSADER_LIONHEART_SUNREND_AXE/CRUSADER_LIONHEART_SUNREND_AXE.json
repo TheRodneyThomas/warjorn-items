@@ -13,5 +13,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature crusader trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 26,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "CRUSADER_LIONHEART_SUNREND_AXE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_LIONHEART_SUNSTONE_DUST",
+        "name": "Crusader Lionheart Sunstone Dust",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Crusader Lionheart Sunrend Axe tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a uncommon-grade result."
+    ]
+  }
 }

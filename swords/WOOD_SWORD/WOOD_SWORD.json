@@ -1,15 +1,49 @@
 {
-	"id": "WOOD_SWORD",
-	"name": "Wooden Sword",
-	"type": "sword",
-	"material": "wood",
-	"stats": {
-		"baseDamage": 5,
-		"attackSpeed": 1.2,
-		"durability": 30,
-		"weightKg": 2,
-		"rarity": "Common"
-	},
-	"description": "A basic wooden sword suitable for beginners and training purposes.",
-	"specialEffects": []
+  "id": "WOOD_SWORD",
+  "name": "Wooden Sword",
+  "type": "sword",
+  "material": "wood",
+  "stats": {
+    "baseDamage": 5,
+    "attackSpeed": 1.2,
+    "durability": 30,
+    "weightKg": 2,
+    "rarity": "Common"
+  },
+  "description": "A basic wooden sword suitable for beginners and training purposes.",
+  "specialEffects": [],
+  "recipe": {
+    "station": "Blade Forge",
+    "durationMinutes": 23,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "WOOD_SWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "GOLD",
+        "name": "Gold",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Wooden Sword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Blade Forge and quench for a common-grade result."
+    ]
+  }
 }

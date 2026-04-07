@@ -11,5 +11,45 @@
   "description": "A brass token with nested rings that align seconds before danger.",
   "specialEffects": [
     "Once per encounter, automatically flags an incoming critical strike with a warning chime."
-  ]
+  ],
+  "recipe": {
+    "station": "Artificer Bench",
+    "durationMinutes": 25,
+    "difficulty": "Master",
+    "output": {
+      "itemId": "CLOCKWORK_ORACLE_TOKEN",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CLOCKWORK_ORACLE_SPRING",
+        "name": "Clockwork Oracle Spring",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "GOLD",
+        "name": "Gold",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Bronze to match Clockwork Oracle Token tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Artificer Bench and quench for a epic-grade result."
+    ]
+  }
 }

@@ -10,5 +10,33 @@
   "description": "A dense ore shot through with tidal compression seams.",
   "specialEffects": [
     "Used in breaker-head castings, heavy maces, and impact-focused smithing."
-  ]
+  ],
+  "recipe": {
+    "station": "Stonetide Refinery",
+    "durationMinutes": 15,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "STONETIDE_ANVILKNOT_ORE",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Stonetide Anvilknot Ore under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Stonetide Refinery protocol before storage."
+    ]
+  }
 }

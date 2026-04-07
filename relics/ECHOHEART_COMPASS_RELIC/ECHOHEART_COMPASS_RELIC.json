@@ -11,5 +11,45 @@
   "description": "An antique compass that points toward unfinished vows and hidden shrines.",
   "specialEffects": [
     "Using an ultimate ability emits a pulse that reveals stealthed enemies nearby."
-  ]
+  ],
+  "recipe": {
+    "station": "Aether Reliquary",
+    "durationMinutes": 33,
+    "difficulty": "Master",
+    "output": {
+      "itemId": "ECHOHEART_COMPASS_RELIC",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "ECHOHEART_RESONANCE_SHARD",
+        "name": "Echoheart Resonance Shard",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "ASTRAL_QUARTZ_FILAMENT",
+        "name": "Astral Quartz Filament",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "GOLD",
+        "name": "Gold",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Echoheart Compass Relic tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Aether Reliquary and quench for a legendary-grade result."
+    ]
+  }
 }

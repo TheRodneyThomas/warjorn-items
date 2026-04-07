@@ -5,7 +5,7 @@
   "faction": "crusader",
   "stats": {
     "baseProtection": 13,
-    "interactSpeed": 1.00,
+    "interactSpeed": 1,
     "durability": 65,
     "weightKg": 6,
     "rarity": "Uncommon"
@@ -13,5 +13,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature crusader trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 28,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "CRUSADER_RADIANT_SOLAR_RAMPART",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_AUREATE_AUREATE_ALLOY",
+        "name": "Crusader Aureate Aureate Alloy",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Reinforced Steel to match Crusader Radiant Solar Rampart tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a uncommon-grade result."
+    ]
+  }
 }

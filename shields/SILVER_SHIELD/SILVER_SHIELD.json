@@ -13,5 +13,45 @@
   "description": "An ornate shield sanctified for hunting cursed creatures.",
   "specialEffects": [
     "Provides 12% resistance to dark magic effects."
-  ]
+  ],
+  "recipe": {
+    "station": "Bulwark Forge",
+    "durationMinutes": 29,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "SILVER_SHIELD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Silver Shield tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Bulwark Forge and quench for a rare-grade result."
+    ]
+  }
 }

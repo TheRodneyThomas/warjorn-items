@@ -1,15 +1,49 @@
 {
-	"id": "WOOD_SHIELD",
-	"name": "Wooden Shield",
-	"type": "shield",
-	"material": "wood",
-	"stats": {
-		"baseProtection": 5,
-		"interactSpeed": 1.2,
-		"durability": 30,
-		"weightKg": 3,
-		"rarity": "Common"
-	},
-	"description": "A basic wooden shield suitable for beginners and training purposes.",
-	"specialEffects": []
+  "id": "WOOD_SHIELD",
+  "name": "Wooden Shield",
+  "type": "shield",
+  "material": "wood",
+  "stats": {
+    "baseProtection": 5,
+    "interactSpeed": 1.2,
+    "durability": 30,
+    "weightKg": 3,
+    "rarity": "Common"
+  },
+  "description": "A basic wooden shield suitable for beginners and training purposes.",
+  "specialEffects": [],
+  "recipe": {
+    "station": "Bulwark Forge",
+    "durationMinutes": 23,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "WOOD_SHIELD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Wooden Shield tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Bulwark Forge and quench for a common-grade result."
+    ]
+  }
 }

@@ -13,5 +13,45 @@
   "description": "A storied crusader sword known for battlefield reliability and identity.",
   "specialEffects": [
     "Empowers strikes when fighting near allied banners and shrines."
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 30,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "CRUSADER_SANCTIFIED_SUNLANCE_EDGE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_SUNFORGED_BLESSWOOD_INGOT",
+        "name": "Crusader Sunforged Blesswood Ingot",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Tempered Steel to match Crusader Sanctified Sunlance Edge tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a rare-grade result."
+    ]
+  }
 }

@@ -11,5 +11,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Reliquary Hall",
+    "durationMinutes": 17,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "CRUSADER_HALLOWED_DAWN_CHARM",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 3,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_HALLOWED_DAWNTHREAD_COIL",
+        "name": "Crusader Hallowed Dawnthread Coil",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Bronze to match Crusader Hallowed Dawn Charm tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Reliquary Hall and quench for a common-grade result."
+    ]
+  }
 }

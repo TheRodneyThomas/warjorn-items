@@ -13,5 +13,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature undead trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 24,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "UNDEAD_WRAITHBOUND_WRAITHREND_HATCHET",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_DREADMIRE_BONEASH_DUST",
+        "name": "Undead Dreadmire Boneash Dust",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Wraithbound Wraithrend Hatchet tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a common-grade result."
+    ]
+  }
 }

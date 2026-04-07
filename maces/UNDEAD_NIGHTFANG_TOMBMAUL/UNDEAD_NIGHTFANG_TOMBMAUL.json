@@ -13,5 +13,51 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature undead trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 32,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "UNDEAD_NIGHTFANG_TOMBMAUL",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_NIGHTFANG_TOMBDUST_CLUSTER",
+        "name": "Undead Nightfang Tombdust Cluster",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "UNDEAD_SOULRIVEN_NIGHTMIRE_ORE",
+        "name": "Undead Soulriven Nightmire Ore",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Nightfang Tombmaul tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a epic-grade result."
+    ]
+  }
 }

@@ -11,5 +11,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Crusader Refinery",
+    "durationMinutes": 12,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "CRUSADER_DAWNSWORN_CHAPEL_STEEL_SHARD",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      },
+      {
+        "id": "CRUSADER_AUREATE_AUREATE_ALLOY",
+        "name": "Crusader Aureate Aureate Alloy",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Crusader Dawnsworn Chapel Steel Shard under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Crusader Refinery protocol before storage."
+    ]
+  }
 }

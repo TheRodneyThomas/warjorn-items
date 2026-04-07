@@ -13,5 +13,45 @@
   "description": "A hooked basalt axe that glows brighter as battle heat rises.",
   "specialEffects": [
     "Consecutive hits ignite targets, adding burn damage over 4 seconds."
-  ]
+  ],
+  "recipe": {
+    "station": "Warbeam Anvil",
+    "durationMinutes": 31,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "EMBERCLAN_CINDERFANG_AXE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "EMBERCLAN_CINDER_SCALE",
+        "name": "Emberclan Cinder Scale",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Emberclan Cinderfang Axe tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Warbeam Anvil and quench for a epic-grade result."
+    ]
+  }
 }

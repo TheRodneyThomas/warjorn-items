@@ -14,5 +14,45 @@
   "description": "An arctic cuirass stitched with star-ice thread.",
   "specialEffects": [
     "Taking damage has a chance to grant a brief frost barrier."
-  ]
+  ],
+  "recipe": {
+    "station": "Forge Hall",
+    "durationMinutes": 35,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "AURORAKIN_POLARIS_CUIRASS",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "AURORAKIN_POLARIS_SHARD",
+        "name": "Aurorakin Polaris Shard",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Aurorakin Polaris Cuirass tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Forge Hall and quench for a epic-grade result."
+    ]
+  }
 }

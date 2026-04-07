@@ -11,5 +11,45 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Crypt Reliquary",
+    "durationMinutes": 26,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "UNDEAD_HOLLOWVEIL_SOUL_MEDALLION",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_DREADMIRE_BONEASH_DUST",
+        "name": "Undead Dreadmire Boneash Dust",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "ECHOHEART_RESONANCE_SHARD",
+        "name": "Echoheart Resonance Shard",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Undead Hollowveil Soul Medallion tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Crypt Reliquary and quench for a rare-grade result."
+    ]
+  }
 }

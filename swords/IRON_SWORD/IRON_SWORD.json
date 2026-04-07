@@ -13,5 +13,39 @@
   "description": "A heavier sword favored by frontline fighters for its high endurance.",
   "specialEffects": [
     "Deals 5% bonus damage against armored enemies."
-  ]
+  ],
+  "recipe": {
+    "station": "Blade Forge",
+    "durationMinutes": 25,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "IRON_SWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Iron to match Iron Sword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Blade Forge and quench for a uncommon-grade result."
+    ]
+  }
 }

@@ -14,5 +14,45 @@
   "description": "A funerary shroud that muffles movement and life-signature.",
   "specialEffects": [
     "Out of combat, slowly restores stamina in dark areas."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 31,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "UNDEAD_SHROUD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_CURSEMARK_HOLLOW_BONE_FIBER",
+        "name": "Undead Cursemark Hollow Bone Fiber",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Shroud tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a rare-grade result."
+    ]
+  }
 }

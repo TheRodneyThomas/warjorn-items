@@ -11,5 +11,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Crusader Refinery",
+    "durationMinutes": 20,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "CRUSADER_AUREATE_AUREATE_ALLOY",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      },
+      {
+        "id": "CRUSADER_HALLOWED_DAWNTHREAD_COIL",
+        "name": "Crusader Hallowed Dawnthread Coil",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Crusader Aureate Aureate Alloy under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Crusader Refinery protocol before storage."
+    ]
+  }
 }

@@ -13,5 +13,45 @@
   "description": "A matte-black stiletto that drinks torchlight at the edges.",
   "specialEffects": [
     "Back attacks briefly mute enemy skill-cast audio cues."
-  ]
+  ],
+  "recipe": {
+    "station": "Edge Bench",
+    "durationMinutes": 28,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "VOIDLARK_SHADOWPIN_DAGGER",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "VOIDLARK_SHADOWFEATHER",
+        "name": "Voidlark Shadowfeather",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Voidlark Shadowpin Dagger tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Edge Bench and quench for a epic-grade result."
+    ]
+  }
 }

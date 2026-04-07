@@ -10,5 +10,27 @@
   "description": "A volatile spirit residue harvested from haunted crypts.",
   "specialEffects": [
     "Used to craft spectral relics and undead enhancement runes."
-  ]
+  ],
+  "recipe": {
+    "station": "Field Harvest",
+    "durationMinutes": 8,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "GRAVE_ECTOPLASM",
+      "quantity": 3
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Harvesting kit stock"
+      }
+    ],
+    "steps": [
+      "Scout biome nodes where Grave Ectoplasm is naturally abundant.",
+      "Extract and sort usable pieces by purity and structural stability.",
+      "Bundle and seal for transport to crafting stations."
+    ]
+  }
 }

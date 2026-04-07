@@ -11,5 +11,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Crusader Refinery",
+    "durationMinutes": 14,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "CRUSADER_RADIANT_OATHBOND_RIVET",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      },
+      {
+        "id": "CRUSADER_SANCTIFIED_RELIQUARY_PLATE",
+        "name": "Crusader Sanctified Reliquary Plate",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Crusader Radiant Oathbond Rivet under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Crusader Refinery protocol before storage."
+    ]
+  }
 }

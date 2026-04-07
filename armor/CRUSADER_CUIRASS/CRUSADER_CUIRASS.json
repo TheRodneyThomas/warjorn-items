@@ -14,5 +14,51 @@
   "description": "A chestplate forged for vanguard paladins.",
   "specialEffects": [
     "Taking fatal damage grants a brief 2-second invulnerability once per battle."
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 35,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "CRUSADER_CUIRASS",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_HALLOWED_DAWNTHREAD_COIL",
+        "name": "Crusader Hallowed Dawnthread Coil",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "CRUSADER_GLORYBORN_LUMEN_RESIN",
+        "name": "Crusader Gloryborn Lumen Resin",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Crusader Cuirass tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a epic-grade result."
+    ]
+  }
 }

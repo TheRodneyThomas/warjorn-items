@@ -13,5 +13,45 @@
   "description": "A sea-forged cutlass with coral serrations along the spine.",
   "specialEffects": [
     "Hits against bleeding targets deal bonus physical damage."
-  ]
+  ],
+  "recipe": {
+    "station": "Blade Forge",
+    "durationMinutes": 29,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "BLACKTIDE_CORALFANG_SWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "BLACKTIDE_CORAL_CORE",
+        "name": "Blacktide Coral Core",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Tempered Steel to match Blacktide Coralfang Sword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Blade Forge and quench for a rare-grade result."
+    ]
+  }
 }

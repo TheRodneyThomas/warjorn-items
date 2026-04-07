@@ -461,7 +461,7 @@ Auto-generated index of item folders in this repository.
   - UNDEAD_WRAITHBOUND_WRAITHKNUCKLE_MORGEN.json
   - UNDEAD_WRAITHBOUND_WRAITHKNUCKLE_MORGEN.md
 
-## Materials (65 items)
+## Materials (66 items)
 
 - materials/AETHERMINT_PHASE_BLOOM/
   - AETHERMINT_PHASE_BLOOM.json
@@ -574,6 +574,9 @@ Auto-generated index of item folders in this repository.
 - materials/PHASESTEEL_LATTICE/
   - PHASESTEEL_LATTICE.json
   - PHASESTEEL_LATTICE.md
+- materials/PICKAXE/
+  - PICKAXE.json
+  - PICKAXE.md
 - materials/REINFORCED_STEEL/
   - REINFORCED_STEEL.json
   - REINFORCED_STEEL.md

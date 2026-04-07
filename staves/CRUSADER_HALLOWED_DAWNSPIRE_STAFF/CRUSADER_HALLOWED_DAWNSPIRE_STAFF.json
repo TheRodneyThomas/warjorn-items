@@ -13,5 +13,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Reliquary Hall",
+    "durationMinutes": 20,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "CRUSADER_HALLOWED_DAWNSPIRE_STAFF",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_DAWNSWORN_CHAPEL_STEEL_SHARD",
+        "name": "Crusader Dawnsworn Chapel Steel Shard",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Crusader Hallowed Dawnspire Staff tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Reliquary Hall and quench for a common-grade result."
+    ]
+  }
 }

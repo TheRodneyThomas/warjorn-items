@@ -13,5 +13,45 @@
   "description": "A dueling blade forged in royal furnaces and quenched in emberwine.",
   "specialEffects": [
     "Parries ignite the attacker, causing minor burn damage."
-  ]
+  ],
+  "recipe": {
+    "station": "Blade Forge",
+    "durationMinutes": 31,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "EMBERCOURT_HEARTRAZOR_BLADE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "EMBERCOURT_HEARTGLASS_SHARD",
+        "name": "Embercourt Heartglass Shard",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Tempered Steel to match Embercourt Heartrazor Blade tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Blade Forge and quench for a epic-grade result."
+    ]
+  }
 }

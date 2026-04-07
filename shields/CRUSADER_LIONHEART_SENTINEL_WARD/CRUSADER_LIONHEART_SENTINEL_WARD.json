@@ -13,5 +13,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature crusader trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 29,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "CRUSADER_LIONHEART_SENTINEL_WARD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "BLESSED_SILVER_INGOT",
+        "name": "Blessed Silver Ingot",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Reinforced Steel to match Crusader Lionheart Sentinel Ward tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a uncommon-grade result."
+    ]
+  }
 }

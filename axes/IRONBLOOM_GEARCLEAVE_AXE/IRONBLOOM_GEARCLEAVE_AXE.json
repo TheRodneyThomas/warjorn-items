@@ -13,5 +13,45 @@
   "description": "A workshop-forged bearded axe with clockwork recoil dampeners.",
   "specialEffects": [
     "Killing blows refund a small portion of stamina."
-  ]
+  ],
+  "recipe": {
+    "station": "Warbeam Anvil",
+    "durationMinutes": 30,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "IRONBLOOM_GEARCLEAVE_AXE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "IRONBLOOM_GEARSTEEL_TOOTH",
+        "name": "Ironbloom Gearsteel Tooth",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Ironbloom Gearcleave Axe tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Warbeam Anvil and quench for a rare-grade result."
+    ]
+  }
 }

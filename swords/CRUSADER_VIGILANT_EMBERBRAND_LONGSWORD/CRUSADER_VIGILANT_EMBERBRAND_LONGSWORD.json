@@ -13,5 +13,39 @@
   "description": "A storied crusader sword known for battlefield reliability and identity.",
   "specialEffects": [
     "Empowers strikes when fighting near allied banners and shrines."
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 24,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "CRUSADER_VIGILANT_EMBERBRAND_LONGSWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "BLESSED_SILVER_INGOT",
+        "name": "Blessed Silver Ingot",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Tempered Steel to match Crusader Vigilant Emberbrand Longsword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a uncommon-grade result."
+    ]
+  }
 }

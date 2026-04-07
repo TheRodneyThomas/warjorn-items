@@ -262,6 +262,71 @@
       background: rgba(255, 253, 249, 0.8);
     }
 
+    .guide-panel {
+      margin: 0.9rem;
+      margin-top: 0;
+      padding: 0.85rem;
+      border: 1px solid rgba(120, 80, 45, 0.14);
+      border-radius: 14px;
+      background: rgba(255, 248, 236, 0.76);
+    }
+
+    .guide-panel h3 {
+      margin: 0;
+      font-size: 1rem;
+      font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+    }
+
+    .guide-panel p {
+      margin: 0.35rem 0 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .guide-grid {
+      margin-top: 0.75rem;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.7rem;
+    }
+
+    .guide-card {
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid rgba(120, 80, 45, 0.12);
+      border-radius: 12px;
+      padding: 0.65rem;
+    }
+
+    .guide-card h4 {
+      margin: 0;
+      font-size: 0.84rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .guide-list {
+      list-style: none;
+      margin: 0.45rem 0 0;
+      padding: 0;
+      display: grid;
+      gap: 0.32rem;
+      font-size: 0.86rem;
+    }
+
+    .guide-list li {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.55rem;
+      border-bottom: 1px dashed rgba(120, 80, 45, 0.15);
+      padding-bottom: 0.2rem;
+    }
+
+    .guide-list li:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
     .chip-row {
       display: flex;
       flex-wrap: wrap;
@@ -583,6 +648,10 @@
       .kv-grid {
         grid-template-columns: 1fr 1fr;
       }
+
+      .guide-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     @media (max-width: 720px) {
@@ -606,10 +675,9 @@
       <div class="eyebrow">Single File Crafting Documentation</div>
       <h1>Warjorn Crafting Compendium</h1>
       <p class="hero-copy">
-        This page documents <strong>how to craft every item in the repository</strong> using a curated crafting guide
-        backed by the catalog's material library. The item JSON files still do not contain recipe fields, so this page
-        acts as the <strong>crafting canon</strong> by combining item metadata with authored recipe rules and real material entries.
-        Material items are documented as <strong>gathering, refining, or salvage sources</strong> for downstream crafting.
+        This page documents <strong>how to craft every item in the repository</strong> by reading each item's JSON recipe
+        and presenting it with a searchable crafting index. Material items are documented as <strong>gathering, refining,
+        or salvage sources</strong> for downstream crafting.
       </p>
 
       <div class="summary-grid">
@@ -641,7 +709,7 @@
         <div class="panel-head">
           <div>
             <h2>Recipe Browser</h2>
-            <p>Search by item, category, faction, material, type, or rarity. The page groups results by category and generates recipe details for every entry.</p>
+            <p>Search by item, category, faction, material, type, or rarity. The page groups results by category and reads recipe details directly from item JSON.</p>
           </div>
 
           <div class="control-grid">
@@ -680,11 +748,45 @@
           <span id="activeFilters">No filters</span>
         </div>
 
+        <section class="guide-panel" aria-label="Recipe legend">
+          <h3>Recipe Reading Guide</h3>
+          <p>Use this legend for unlock requirements, station labels, and recipe modes.</p>
+          <div class="guide-grid">
+            <article class="guide-card">
+              <h4>Unlocks</h4>
+              <ul class="guide-list">
+                <li><span>Field Kit</span><span>Common</span></li>
+                <li><span>Journeyman Tools</span><span>Uncommon</span></li>
+                <li><span>Guild Charter</span><span>Rare</span></li>
+                <li><span>Master Seal</span><span>Epic</span></li>
+                <li><span>Ascendant Sigil</span><span>Legendary</span></li>
+              </ul>
+            </article>
+            <article class="guide-card">
+              <h4>Modes</h4>
+              <ul class="guide-list">
+                <li><span>Crafted Output</span><span>Final equipment or consumable</span></li>
+                <li><span>Material Source</span><span>Gathering, refining, or salvage</span></li>
+                <li><span>Mode Filter</span><span>Show crafted, source, or both</span></li>
+              </ul>
+            </article>
+            <article class="guide-card">
+              <h4>Stations</h4>
+              <ul class="guide-list">
+                <li><span>Forge and Kiln</span><span>Weapons, armor, shields</span></li>
+                <li><span>Apothecary and Distillery</span><span>Consumables and brews</span></li>
+                <li><span>Reliquary and Lathe</span><span>Relics, trinkets, staves</span></li>
+                <li><span>Refinery and Woodshop</span><span>Material processing</span></li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
         <div id="itemGroups" class="item-groups">
           <div class="loading-state">
             <div>
               <h3>Loading recipes</h3>
-              <p>The page is parsing the repo catalog and building documented recipes from the material library.</p>
+              <p>The page is parsing the repo catalog and loading JSON recipe fields for each entry.</p>
             </div>
           </div>
         </div>
@@ -715,7 +817,7 @@
     </div>
 
     <div class="footer-note">
-      Item JSON files do not store recipe fields. This page serves as the repository's crafting guide by combining item metadata with a curated, material-backed documentation rule set.
+      Recipe data is loaded from each item JSON record, with material-backed validation for ingredient and station display.
     </div>
   </div>
 
@@ -1112,6 +1214,74 @@
       };
     }
 
+    function normalizeRecipe(item, recipe, indexes) {
+      const rarity = item.stats?.rarity || "Common";
+      const rule = typeRules[item.type] || typeRules.material;
+      const fallbackStation = item.type === "material" ? stationForMaterial(item) : stationForItem(item);
+      const rawIngredients = Array.isArray(recipe.ingredients) ? recipe.ingredients : [];
+
+      const normalizedIngredients = dedupeIngredients(rawIngredients.map((ingredient) => {
+        if (!ingredient || typeof ingredient !== "object") return null;
+        const entry = ingredient.id ? resolveMaterialEntry(ingredient.id, indexes.materialLookup) : null;
+        const amount = Math.max(1, Number(ingredient.amount) || 1);
+
+        return {
+          id: ingredient.id || entry?.id || "UNKNOWN",
+          name: ingredient.name || entry?.name || ingredient.id || "Unknown Material",
+          amount,
+          source: ingredient.source || (entry ? "catalog" : "guide"),
+          note: ingredient.note || ""
+        };
+      }).filter(Boolean));
+
+      const mode = recipe.mode || (item.type === "material" ? "source" : "crafted");
+      const unlock = recipe.unlock || unlockTier(rarity);
+      const effort = Number(recipe.effort) || Math.max(1, normalizedIngredients.reduce((sum, ingredient) => sum + (ingredient.amount || 0), 0));
+      const basis = Array.isArray(recipe.basis) && recipe.basis.length
+        ? recipe.basis
+        : [
+            "source: item JSON recipe",
+            `type: ${item.type}`,
+            `rarity: ${rarity}`,
+            item.material ? `material: ${item.material}` : null,
+            item.faction ? `faction: ${item.faction}` : null,
+            `profile: ${rule.focus}`
+          ].filter(Boolean);
+
+      const steps = Array.isArray(recipe.steps) && recipe.steps.length
+        ? recipe.steps
+        : [
+            `Bring the listed ingredients to the ${recipe.station || fallbackStation}.`,
+            `Follow the ${mode === "source" ? "acquisition" : "crafting"} flow defined in the item's JSON data.`,
+            "Finalize and verify quality before storage or deployment."
+          ];
+
+      const notes = Array.isArray(recipe.notes) && recipe.notes.length
+        ? recipe.notes
+        : [
+            "Loaded directly from the item's JSON recipe field.",
+            "Ingredient entries are validated against catalog materials when IDs are present."
+          ];
+
+      return {
+        mode,
+        station: recipe.station || fallbackStation,
+        unlock,
+        effort,
+        ingredients: normalizedIngredients,
+        basis,
+        steps,
+        notes
+      };
+    }
+
+    function recipeForItem(item, indexes) {
+      if (item.recipe && typeof item.recipe === "object") {
+        return normalizeRecipe(item, item.recipe, indexes);
+      }
+      return inferRecipe(item, indexes);
+    }
+
     function buildIndexes(items) {
       const materialLookup = new Map();
       const factionMaterials = new Map();
@@ -1335,7 +1505,7 @@
             <h3>Recipe Basis</h3>
             <div class="card-body">
               <div class="basis-list">${basisHtml}</div>
-              <div class="muted">These fields are the direct evidence used to infer the crafting documentation for this item.</div>
+              <div class="muted">These fields summarize the recipe data loaded from the item JSON record.</div>
             </div>
           </section>
         </div>
@@ -1435,7 +1605,7 @@
       const indexes = buildIndexes(records);
       return records.map((item) => ({
         ...item,
-        recipe: inferRecipe(item, indexes)
+        recipe: recipeForItem(item, indexes)
       })).sort((left, right) => left.name.localeCompare(right.name));
     }
 

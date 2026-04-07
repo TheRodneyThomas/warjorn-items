@@ -13,5 +13,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature crusader trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 21,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "CRUSADER_DAWNSWORN_SUNSTRAND_BOW",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_GLORYBORN_LUMEN_RESIN",
+        "name": "Crusader Gloryborn Lumen Resin",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Crusader Dawnsworn Sunstrand Bow tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a common-grade result."
+    ]
+  }
 }

@@ -11,5 +11,39 @@
   "description": "A blessed vial that scorches undead flesh.",
   "specialEffects": [
     "Deals holy splash damage and weakens undead defense for 6 seconds."
-  ]
+  ],
+  "recipe": {
+    "station": "Alchemy Table",
+    "durationMinutes": 17,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "HOLY_WATER",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "AETHERMINT_PHASE_BLOOM",
+        "name": "Aethermint Phase Bloom",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Aethermint Phase Bloom to match Holy Water tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Alchemy Table and quench for a uncommon-grade result."
+    ]
+  }
 }

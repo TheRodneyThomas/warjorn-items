@@ -10,5 +10,33 @@
   "description": "A slow-curing sap with restorative woodland charge.",
   "specialEffects": [
     "Used in crooks, staves, and living wood implements."
-  ]
+  ],
+  "recipe": {
+    "station": "Fernchant Refinery",
+    "durationMinutes": 14,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "FERNCHANT_VERDANT_SAP",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Fernchant Verdant Sap under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Fernchant Refinery protocol before storage."
+    ]
+  }
 }

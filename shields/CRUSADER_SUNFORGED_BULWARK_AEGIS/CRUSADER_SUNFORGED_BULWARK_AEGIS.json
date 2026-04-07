@@ -13,5 +13,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature crusader trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 24,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "CRUSADER_SUNFORGED_BULWARK_AEGIS",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 3,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_SANCTIFIED_RELIQUARY_PLATE",
+        "name": "Crusader Sanctified Reliquary Plate",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Reinforced Steel to match Crusader Sunforged Bulwark Aegis tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a common-grade result."
+    ]
+  }
 }

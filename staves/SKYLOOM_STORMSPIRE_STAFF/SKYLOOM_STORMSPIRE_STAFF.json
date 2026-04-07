@@ -5,7 +5,7 @@
   "faction": "skyloom",
   "stats": {
     "baseDamage": 15,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1,
     "durability": 68,
     "weightKg": 6,
     "rarity": "Rare"
@@ -13,5 +13,45 @@
   "description": "A palewood staff capped with a floating ring that tracks storm fronts.",
   "specialEffects": [
     "Spell casts have a chance to call a delayed lightning strike on the target area."
-  ]
+  ],
+  "recipe": {
+    "station": "Arcane Lathe",
+    "durationMinutes": 27,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "SKYLOOM_STORMSPIRE_STAFF",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "SKYLOOM_STORMSILK_FILAMENT",
+        "name": "Skyloom Stormsilk Filament",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "ASTRAL_QUARTZ_FILAMENT",
+        "name": "Astral Quartz Filament",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Skyloom Stormspire Staff tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Arcane Lathe and quench for a rare-grade result."
+    ]
+  }
 }

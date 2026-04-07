@@ -13,5 +13,45 @@
   "description": "A ceremonial shield that channels defensive magic efficiently.",
   "specialEffects": [
     "Increases healing received by 6%."
-  ]
+  ],
+  "recipe": {
+    "station": "Bulwark Forge",
+    "durationMinutes": 29,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "GOLDEN_SHIELD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "GOLD",
+        "name": "Gold",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Gold to match Golden Shield tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Bulwark Forge and quench for a rare-grade result."
+    ]
+  }
 }

@@ -10,5 +10,33 @@
   "description": "A sturdy metal stock used in straightforward weapon, armor, and shield crafting.",
   "specialEffects": [
     "Required for forging standard iron equipment and reinforcement parts."
-  ]
+  ],
+  "recipe": {
+    "station": "Refinement Station",
+    "durationMinutes": 13,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "IRON",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Iron under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Refinement Station protocol before storage."
+    ]
+  }
 }

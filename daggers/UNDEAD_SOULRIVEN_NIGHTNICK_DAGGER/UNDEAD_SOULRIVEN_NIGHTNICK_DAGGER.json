@@ -13,5 +13,45 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 24,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "UNDEAD_SOULRIVEN_NIGHTNICK_DAGGER",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_GRAVEBORN_GRAVEBONE_SHARD",
+        "name": "Undead Graveborn Gravebone Shard",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Soulriven Nightnick Dagger tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a rare-grade result."
+    ]
+  }
 }

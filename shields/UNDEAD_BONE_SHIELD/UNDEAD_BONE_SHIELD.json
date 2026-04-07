@@ -13,5 +13,45 @@
   "description": "A grim shield crafted from fused gravebone.",
   "specialEffects": [
     "Blocks have a chance to fear undead minions for 2 seconds."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 30,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "UNDEAD_BONE_SHIELD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "GRAVE_ECTOPLASM",
+        "name": "Grave Ectoplasm",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Reinforced Steel to match Undead Bone Shield tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a rare-grade result."
+    ]
+  }
 }

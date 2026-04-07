@@ -10,5 +10,33 @@
   "description": "A polished shell segment veined with ceremonial gold.",
   "specialEffects": [
     "Used in desert bows, royal inlay, and heat-bright ceremonial gear."
-  ]
+  ],
+  "recipe": {
+    "station": "Sunscarab Refinery",
+    "durationMinutes": 18,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "SUNSCARAB_GILDED_CARAPACE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Sunscarab Gilded Carapace under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Sunscarab Refinery protocol before storage."
+    ]
+  }
 }

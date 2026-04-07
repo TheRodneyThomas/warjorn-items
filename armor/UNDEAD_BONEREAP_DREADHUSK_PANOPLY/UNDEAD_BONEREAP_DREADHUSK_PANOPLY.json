@@ -14,5 +14,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 29,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "UNDEAD_BONEREAP_DREADHUSK_PANOPLY",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_SOULRIVEN_NIGHTMIRE_ORE",
+        "name": "Undead Soulriven Nightmire Ore",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Bonereap Dreadhusk Panoply tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a uncommon-grade result."
+    ]
+  }
 }

@@ -11,5 +11,51 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Reliquary Hall",
+    "durationMinutes": 27,
+    "difficulty": "Master",
+    "output": {
+      "itemId": "CRUSADER_AUREATE_AURORA_IDOL",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "BLESSED_SILVER_INGOT",
+        "name": "Blessed Silver Ingot",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "CRUSADER_DAWNSWORN_CHAPEL_STEEL_SHARD",
+        "name": "Crusader Dawnsworn Chapel Steel Shard",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "ECHOHEART_RESONANCE_SHARD",
+        "name": "Echoheart Resonance Shard",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Crusader Aureate Aurora Idol tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Reliquary Hall and quench for a epic-grade result."
+    ]
+  }
 }

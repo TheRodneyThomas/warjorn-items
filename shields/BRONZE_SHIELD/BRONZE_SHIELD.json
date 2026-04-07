@@ -5,11 +5,45 @@
   "material": "bronze",
   "stats": {
     "baseProtection": 7,
-    "interactSpeed": 1.0,
+    "interactSpeed": 1,
     "durability": 40,
     "weightKg": 5,
     "rarity": "Common"
   },
   "description": "A durable bronze shield often issued to city watch units.",
-  "specialEffects": []
+  "specialEffects": [],
+  "recipe": {
+    "station": "Bulwark Forge",
+    "durationMinutes": 26,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "BRONZE_SHIELD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Bronze to match Bronze Shield tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Bulwark Forge and quench for a common-grade result."
+    ]
+  }
 }

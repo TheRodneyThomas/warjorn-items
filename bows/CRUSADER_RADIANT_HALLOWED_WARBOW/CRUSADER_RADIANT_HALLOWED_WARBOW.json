@@ -5,7 +5,7 @@
   "faction": "crusader",
   "stats": {
     "baseDamage": 13,
-    "attackSpeed": 1.10,
+    "attackSpeed": 1.1,
     "durability": 55,
     "weightKg": 4,
     "rarity": "Uncommon"
@@ -13,5 +13,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature crusader trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 24,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "CRUSADER_RADIANT_HALLOWED_WARBOW",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_GLORYBORN_LUMEN_RESIN",
+        "name": "Crusader Gloryborn Lumen Resin",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Crusader Radiant Hallowed Warbow tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a uncommon-grade result."
+    ]
+  }
 }

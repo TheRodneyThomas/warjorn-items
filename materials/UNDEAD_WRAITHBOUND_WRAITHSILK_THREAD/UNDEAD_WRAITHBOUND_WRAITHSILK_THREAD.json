@@ -11,5 +11,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Undead Refinery",
+    "durationMinutes": 14,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "UNDEAD_WRAITHBOUND_WRAITHSILK_THREAD",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      },
+      {
+        "id": "BONE_DUST",
+        "name": "Bone Dust",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Undead Wraithbound Wraithsilk Thread under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Undead Refinery protocol before storage."
+    ]
+  }
 }

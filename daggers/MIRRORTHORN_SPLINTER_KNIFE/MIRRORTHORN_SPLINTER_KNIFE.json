@@ -13,5 +13,45 @@
   "description": "A mirrored thornblade that flashes like a second strike.",
   "specialEffects": [
     "Rapid hits have a chance to apply a short disorient effect."
-  ]
+  ],
+  "recipe": {
+    "station": "Edge Bench",
+    "durationMinutes": 26,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "MIRRORTHORN_SPLINTER_KNIFE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "MIRRORTHORN_SPLINTER",
+        "name": "Mirrorthorn Splinter",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Mirrorthorn Splinter Knife tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Edge Bench and quench for a rare-grade result."
+    ]
+  }
 }

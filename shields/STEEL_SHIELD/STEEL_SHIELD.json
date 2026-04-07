@@ -1,17 +1,51 @@
 {
-	"id": "STEEL_SHIELD",
-	"name": "Steel Shield",
-	"type": "shield",
-	"material": "steel",
-	"stats": {
-		"baseProtection": 8,
-		"interactSpeed": 1.0,
-		"durability": 30,
-		"weightKg": 5,
-		"rarity": "Uncommon"
-	},
-	"description": "A basic steel shield, craftable by finding the workbench.",
-	"specialEffects": [
-		"If steel sword is equipped with steel shield, apply attack speed bonus."
-	]
+  "id": "STEEL_SHIELD",
+  "name": "Steel Shield",
+  "type": "shield",
+  "material": "steel",
+  "stats": {
+    "baseProtection": 8,
+    "interactSpeed": 1,
+    "durability": 30,
+    "weightKg": 5,
+    "rarity": "Uncommon"
+  },
+  "description": "A basic steel shield, craftable by finding the workbench.",
+  "specialEffects": [
+    "If steel sword is equipped with steel shield, apply attack speed bonus."
+  ],
+  "recipe": {
+    "station": "Bulwark Forge",
+    "durationMinutes": 26,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "STEEL_SHIELD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Steel Shield tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Bulwark Forge and quench for a uncommon-grade result."
+    ]
+  }
 }

@@ -13,5 +13,51 @@
   "description": "An ancient blade etched with necrotic runes.",
   "specialEffects": [
     "Hits apply a curse that reduces enemy healing by 15% for 5 seconds."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 31,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "UNDEAD_RUNEBLADE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_ROTCROWN_ROTORE_CHUNK",
+        "name": "Undead Rotcrown Rotore Chunk",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "UNDEAD_SOULRIVEN_NIGHTMIRE_ORE",
+        "name": "Undead Soulriven Nightmire Ore",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Tempered Steel to match Undead Runeblade tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a epic-grade result."
+    ]
+  }
 }

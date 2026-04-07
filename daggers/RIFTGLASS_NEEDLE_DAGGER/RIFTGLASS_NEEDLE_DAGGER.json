@@ -13,5 +13,45 @@
   "description": "A translucent dagger that fractures light and misleads depth perception.",
   "specialEffects": [
     "Backstabs briefly blur the wielder, reducing enemy lock-on precision."
-  ]
+  ],
+  "recipe": {
+    "station": "Edge Bench",
+    "durationMinutes": 26,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "RIFTGLASS_NEEDLE_DAGGER",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "RIFTGLASS_RAZOR_SHARD",
+        "name": "Riftglass Razor Shard",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Riftglass Needle Dagger tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Edge Bench and quench for a rare-grade result."
+    ]
+  }
 }

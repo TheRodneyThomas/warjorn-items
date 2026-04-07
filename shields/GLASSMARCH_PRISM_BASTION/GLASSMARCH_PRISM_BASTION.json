@@ -13,5 +13,45 @@
   "description": "A faceted shield that refracts incoming spellfire into harmless sparks.",
   "specialEffects": [
     "Blocking magic attacks grants a short burst of movement speed."
-  ]
+  ],
+  "recipe": {
+    "station": "Bulwark Forge",
+    "durationMinutes": 32,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "GLASSMARCH_PRISM_BASTION",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "GLASSMARCH_PRISM_PLATE",
+        "name": "Glassmarch Prism Plate",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Reinforced Steel to match Glassmarch Prism Bastion tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Bulwark Forge and quench for a rare-grade result."
+    ]
+  }
 }

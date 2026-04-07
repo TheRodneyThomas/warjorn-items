@@ -11,5 +11,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Crypt Reliquary",
+    "durationMinutes": 20,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "UNDEAD_NOCTURNAL_CURSE_BAND",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_WRAITHBOUND_WRAITHSILK_THREAD",
+        "name": "Undead Wraithbound Wraithsilk Thread",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Bronze to match Undead Nocturnal Curse Band tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Crypt Reliquary and quench for a uncommon-grade result."
+    ]
+  }
 }

@@ -11,5 +11,51 @@
   "description": "A sigil blessed at dawn rites before major crusades.",
   "specialEffects": [
     "Increases holy ability effectiveness by 10%."
-  ]
+  ],
+  "recipe": {
+    "station": "Reliquary Hall",
+    "durationMinutes": 28,
+    "difficulty": "Master",
+    "output": {
+      "itemId": "CRUSADER_SIGIL",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_SUNFORGED_BLESSWOOD_INGOT",
+        "name": "Crusader Sunforged Blesswood Ingot",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "CRUSADER_DAWNSWORN_CHAPEL_STEEL_SHARD",
+        "name": "Crusader Dawnsworn Chapel Steel Shard",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "ASTRAL_QUARTZ_FILAMENT",
+        "name": "Astral Quartz Filament",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Crusader Sigil tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Reliquary Hall and quench for a epic-grade result."
+    ]
+  }
 }

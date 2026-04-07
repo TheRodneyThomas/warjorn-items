@@ -13,5 +13,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 19,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "UNDEAD_WRAITHBOUND_WRAITHNEEDLE_DAGGER",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "BONE_DUST",
+        "name": "Bone Dust",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Wraithbound Wraithneedle Dagger tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a common-grade result."
+    ]
+  }
 }

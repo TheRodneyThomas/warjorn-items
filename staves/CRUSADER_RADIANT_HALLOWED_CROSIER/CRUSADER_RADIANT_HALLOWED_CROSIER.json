@@ -13,5 +13,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Reliquary Hall",
+    "durationMinutes": 24,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "CRUSADER_RADIANT_HALLOWED_CROSIER",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_OATHBOUND_HALLOWED_FIBER",
+        "name": "Crusader Oathbound Hallowed Fiber",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "GOLD",
+        "name": "Gold",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Crusader Radiant Hallowed Crosier tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Reliquary Hall and quench for a uncommon-grade result."
+    ]
+  }
 }

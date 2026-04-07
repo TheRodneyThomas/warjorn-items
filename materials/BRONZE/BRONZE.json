@@ -10,5 +10,33 @@
   "description": "A dependable alloy used for militia-grade weapons, shields, and fittings.",
   "specialEffects": [
     "Required for crafting early bronze arms, armor trims, and shield parts."
-  ]
+  ],
+  "recipe": {
+    "station": "Refinement Station",
+    "durationMinutes": 13,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "BRONZE",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Bronze under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Refinement Station protocol before storage."
+    ]
+  }
 }

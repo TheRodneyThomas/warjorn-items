@@ -10,5 +10,33 @@
   "description": "A storm-charged alloy quenched in upper-atmosphere winds.",
   "specialEffects": [
     "Used in aegises, lightning wards, and tempest-hardened plating."
-  ]
+  ],
+  "recipe": {
+    "station": "Skyforged Refinery",
+    "durationMinutes": 18,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "SKYFORGED_TEMPEST_ALLOY",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Skyforged Tempest Alloy under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Skyforged Refinery protocol before storage."
+    ]
+  }
 }

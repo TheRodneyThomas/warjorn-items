@@ -14,5 +14,45 @@
   "description": "Living bark plates knit together with runic vine thread.",
   "specialEffects": [
     "Standing still for 2 seconds grants gradual health regeneration for 6 seconds."
-  ]
+  ],
+  "recipe": {
+    "station": "Forge Hall",
+    "durationMinutes": 34,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "WILDRUNE_BRAMBLEHEART_HARNESS",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "WILDRUNE_BRAMBLE_CORE",
+        "name": "Wildrune Bramble Core",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Wildrune Brambleheart Harness tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Forge Hall and quench for a epic-grade result."
+    ]
+  }
 }

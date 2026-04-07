@@ -13,5 +13,51 @@
   "description": "A heavy consecrated mace designed to crush bone and plate alike.",
   "specialEffects": [
     "Stuns undead targets for 1 second on critical hit."
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 33,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "CRUSADER_WAR_MACE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_OATHBOUND_HALLOWED_FIBER",
+        "name": "Crusader Oathbound Hallowed Fiber",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "CRUSADER_DAWNSWORN_CHAPEL_STEEL_SHARD",
+        "name": "Crusader Dawnsworn Chapel Steel Shard",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Crusader War Mace tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a epic-grade result."
+    ]
+  }
 }

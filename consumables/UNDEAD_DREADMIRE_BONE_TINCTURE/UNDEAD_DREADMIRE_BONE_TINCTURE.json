@@ -12,5 +12,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Grave Distillery",
+    "durationMinutes": 13,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "UNDEAD_DREADMIRE_BONE_TINCTURE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "AETHERMINT_PHASE_BLOOM",
+        "name": "Aethermint Phase Bloom",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_HOLLOWVEIL_SOULGLASS_FRAGMENT",
+        "name": "Undead Hollowveil Soulglass Fragment",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Aethermint Phase Bloom to match Undead Dreadmire Bone Tincture tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Grave Distillery and quench for a common-grade result."
+    ]
+  }
 }

@@ -10,5 +10,33 @@
   "description": "A resonant brass alloy tuned to gale-hammer frequencies.",
   "specialEffects": [
     "Used in weighted mauls, acoustic housings, and windbound metalwork."
-  ]
+  ],
+  "recipe": {
+    "station": "Brasswind Refinery",
+    "durationMinutes": 14,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "BRASSWIND_SIREN_BRASS",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Brasswind Siren Brass under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Brasswind Refinery protocol before storage."
+    ]
+  }
 }

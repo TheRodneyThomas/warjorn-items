@@ -10,5 +10,33 @@
   "description": "A layered prism plate engineered to split incoming force.",
   "specialEffects": [
     "Used in bastions, refractive shields, and light-splitting defenses."
-  ]
+  ],
+  "recipe": {
+    "station": "Glassmarch Refinery",
+    "durationMinutes": 17,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "GLASSMARCH_PRISM_PLATE",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Glassmarch Prism Plate under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Glassmarch Refinery protocol before storage."
+    ]
+  }
 }

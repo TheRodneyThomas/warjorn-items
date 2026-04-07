@@ -5,7 +5,7 @@
   "faction": "sunscarab",
   "stats": {
     "baseDamage": 17,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1,
     "durability": 74,
     "weightKg": 5,
     "rarity": "Epic"
@@ -13,5 +13,45 @@
   "description": "A desert recurve etched with scarab sigils and gold inlay.",
   "specialEffects": [
     "Headshots mark targets, increasing damage from the next arrow."
-  ]
+  ],
+  "recipe": {
+    "station": "Fletcher Loom",
+    "durationMinutes": 30,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "SUNSCARAB_GILDED_RECURVE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "SUNSCARAB_GILDED_CARAPACE",
+        "name": "Sunscarab Gilded Carapace",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WHISPERLEAF_CANOPY_BARK",
+        "name": "Whisperleaf Canopy Bark",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Sunscarab Gilded Recurve tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Fletcher Loom and quench for a epic-grade result."
+    ]
+  }
 }

@@ -10,5 +10,39 @@
   "description": "A purified ingot used for anti-undead forging recipes.",
   "specialEffects": [
     "Required for crafting holy-tier weapons and relic housings."
-  ]
+  ],
+  "recipe": {
+    "station": "Crusader Refinery",
+    "durationMinutes": 17,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "BLESSED_SILVER_INGOT",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      },
+      {
+        "id": "CRUSADER_SUNFORGED_BLESSWOOD_INGOT",
+        "name": "Crusader Sunforged Blesswood Ingot",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Blessed Silver Ingot under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Crusader Refinery protocol before storage."
+    ]
+  }
 }

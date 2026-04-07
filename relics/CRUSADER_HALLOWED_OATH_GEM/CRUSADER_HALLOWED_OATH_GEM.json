@@ -11,5 +11,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Reliquary Hall",
+    "durationMinutes": 18,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "CRUSADER_HALLOWED_OATH_GEM",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_SANCTIFIED_RELIQUARY_PLATE",
+        "name": "Crusader Sanctified Reliquary Plate",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Crusader Hallowed Oath Gem tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Reliquary Hall and quench for a common-grade result."
+    ]
+  }
 }

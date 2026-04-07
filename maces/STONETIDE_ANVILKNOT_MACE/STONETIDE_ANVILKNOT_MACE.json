@@ -13,5 +13,45 @@
   "description": "A tide-tempered mace with a knot of compressed reefstone at its head.",
   "specialEffects": [
     "Heavy swings can stagger shielded targets."
-  ]
+  ],
+  "recipe": {
+    "station": "Stone Kiln",
+    "durationMinutes": 28,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "STONETIDE_ANVILKNOT_MACE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "STONETIDE_ANVILKNOT_ORE",
+        "name": "Stonetide Anvilknot Ore",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Stonetide Anvilknot Mace tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Stone Kiln and quench for a rare-grade result."
+    ]
+  }
 }

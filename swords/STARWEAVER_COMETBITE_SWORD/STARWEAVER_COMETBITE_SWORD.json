@@ -13,5 +13,45 @@
   "description": "A silver-black blade etched with impact trails from fallen stars.",
   "specialEffects": [
     "Dash attacks create a brief comet trail that deals bonus arcane damage."
-  ]
+  ],
+  "recipe": {
+    "station": "Blade Forge",
+    "durationMinutes": 32,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "STARWEAVER_COMETBITE_SWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "STARWEAVER_COMET_THREAD",
+        "name": "Starweaver Comet Thread",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Tempered Steel to match Starweaver Cometbite Sword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Blade Forge and quench for a epic-grade result."
+    ]
+  }
 }

@@ -11,5 +11,45 @@
   "description": "A pressure-core relic that beats in rhythm with the moon tide.",
   "specialEffects": [
     "Using a mobility skill grants temporary damage reduction."
-  ]
+  ],
+  "recipe": {
+    "station": "Aether Reliquary",
+    "durationMinutes": 33,
+    "difficulty": "Master",
+    "output": {
+      "itemId": "DEEPCLOCK_TIDAL_HEART_RELIC",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "DEEPCLOCK_TIDAL_CORE",
+        "name": "Deepclock Tidal Core",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Deepclock Tidal Heart Relic tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Aether Reliquary and quench for a legendary-grade result."
+    ]
+  }
 }

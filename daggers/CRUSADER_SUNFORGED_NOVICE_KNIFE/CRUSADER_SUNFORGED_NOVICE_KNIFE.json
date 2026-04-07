@@ -13,5 +13,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 20,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "CRUSADER_SUNFORGED_NOVICE_KNIFE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_SUNFORGED_BLESSWOOD_INGOT",
+        "name": "Crusader Sunforged Blesswood Ingot",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Crusader Sunforged Novice Knife tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a common-grade result."
+    ]
+  }
 }

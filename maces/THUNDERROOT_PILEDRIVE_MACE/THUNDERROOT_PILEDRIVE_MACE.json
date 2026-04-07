@@ -13,5 +13,45 @@
   "description": "A knotwood-headed mace reinforced with conductive iron roots.",
   "specialEffects": [
     "Heavy attacks can ground airborne targets and interrupt leap abilities."
-  ]
+  ],
+  "recipe": {
+    "station": "Impact Foundry",
+    "durationMinutes": 32,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "THUNDERROOT_PILEDRIVE_MACE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "THUNDERROOT_CONDUCTIVE_HEARTWOOD",
+        "name": "Thunderroot Conductive Heartwood",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Thunderroot Piledrive Mace tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Impact Foundry and quench for a epic-grade result."
+    ]
+  }
 }

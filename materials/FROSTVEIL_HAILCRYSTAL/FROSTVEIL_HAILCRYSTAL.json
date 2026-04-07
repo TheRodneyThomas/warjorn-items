@@ -10,5 +10,33 @@
   "description": "A storm-frozen crystal that keeps a razor chill.",
   "specialEffects": [
     "Used in winter axes, freeze-tempered fittings, and cold-forged edgework."
-  ]
+  ],
+  "recipe": {
+    "station": "Frostveil Refinery",
+    "durationMinutes": 14,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "FROSTVEIL_HAILCRYSTAL",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Frostveil Hailcrystal under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Frostveil Refinery protocol before storage."
+    ]
+  }
 }

@@ -14,5 +14,45 @@
   "description": "Layered scalecloth and volcanic mail woven to vent heat.",
   "specialEffects": [
     "Entering low health emits a heat pulse that pushes nearby enemies back."
-  ]
+  ],
+  "recipe": {
+    "station": "Forge Hall",
+    "durationMinutes": 35,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "CINDERVALE_MAGMAWEAVE_HARNESS",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CINDERVALE_MAGMAWEAVE_THREAD",
+        "name": "Cindervale Magmaweave Thread",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Cindervale Magmaweave Harness tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Forge Hall and quench for a epic-grade result."
+    ]
+  }
 }

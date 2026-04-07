@@ -10,5 +10,33 @@
   "description": "A star-frost shard recovered from polar cuirass plating.",
   "specialEffects": [
     "Used in aurora armor reinforcement and cold-lit battle gear."
-  ]
+  ],
+  "recipe": {
+    "station": "Aurorakin Refinery",
+    "durationMinutes": 16,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "AURORAKIN_POLARIS_SHARD",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Aurorakin Polaris Shard under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Aurorakin Refinery protocol before storage."
+    ]
+  }
 }

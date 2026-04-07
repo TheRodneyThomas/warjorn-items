@@ -13,5 +13,39 @@
   "description": "A storied undead sword known for battlefield reliability and identity.",
   "specialEffects": [
     "Empowers strikes when fighting near allied banners and shrines."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 25,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "UNDEAD_CURSEMARK_HOLLOWMOON_EDGE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "BONE_DUST",
+        "name": "Bone Dust",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Tempered Steel to match Undead Cursemark Hollowmoon Edge tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a uncommon-grade result."
+    ]
+  }
 }

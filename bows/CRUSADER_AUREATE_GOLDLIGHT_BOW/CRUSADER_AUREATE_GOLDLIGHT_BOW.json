@@ -13,5 +13,51 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature crusader trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 30,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "CRUSADER_AUREATE_GOLDLIGHT_BOW",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_AUREATE_AUREATE_ALLOY",
+        "name": "Crusader Aureate Aureate Alloy",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "CRUSADER_DAWNSWORN_CHAPEL_STEEL_SHARD",
+        "name": "Crusader Dawnsworn Chapel Steel Shard",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WHISPERLEAF_CANOPY_BARK",
+        "name": "Whisperleaf Canopy Bark",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Crusader Aureate Goldlight Bow tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a epic-grade result."
+    ]
+  }
 }

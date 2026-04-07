@@ -12,5 +12,51 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Grave Distillery",
+    "durationMinutes": 20,
+    "difficulty": "Master",
+    "output": {
+      "itemId": "UNDEAD_NIGHTFANG_TOMB_DRAUGHT",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "AETHERMINT_PHASE_BLOOM",
+        "name": "Aethermint Phase Bloom",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_DREADMIRE_BONEASH_DUST",
+        "name": "Undead Dreadmire Boneash Dust",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "UNDEAD_BONEREAP_DREAD_RESIN",
+        "name": "Undead Bonereap Dread Resin",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Aethermint Phase Bloom to match Undead Nightfang Tomb Draught tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Grave Distillery and quench for a epic-grade result."
+    ]
+  }
 }

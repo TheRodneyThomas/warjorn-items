@@ -13,5 +13,51 @@
   "description": "A volcanic shield that hardens under pressure and reflects heat.",
   "specialEffects": [
     "Blocks have a chance to reflect a small amount of fire damage."
-  ]
+  ],
+  "recipe": {
+    "station": "Bulwark Forge",
+    "durationMinutes": 32,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "OBSIDIAN_SHIELD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "BASICS",
+        "name": "Basics",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Obsidian to match Obsidian Shield tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Bulwark Forge and quench for a epic-grade result."
+    ]
+  }
 }

@@ -13,5 +13,45 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature crusader trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 28,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "CRUSADER_GLORYBORN_LUCENT_HUNTER_BOW",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_RADIANT_OATHBOND_RIVET",
+        "name": "Crusader Radiant Oathbond Rivet",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Crusader Gloryborn Lucent Hunter Bow tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a rare-grade result."
+    ]
+  }
 }

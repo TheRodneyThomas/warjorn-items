@@ -10,5 +10,33 @@
   "description": "A mirrored thorn shard honed for deceptive cuts.",
   "specialEffects": [
     "Used in knives, reflective edgework, and feint-driven fittings."
-  ]
+  ],
+  "recipe": {
+    "station": "Mirrorthorn Refinery",
+    "durationMinutes": 15,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "MIRRORTHORN_SPLINTER",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Mirrorthorn Splinter under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Mirrorthorn Refinery protocol before storage."
+    ]
+  }
 }

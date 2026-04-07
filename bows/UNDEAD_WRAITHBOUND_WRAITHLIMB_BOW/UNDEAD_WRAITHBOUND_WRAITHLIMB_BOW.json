@@ -13,5 +13,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature undead trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 22,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "UNDEAD_WRAITHBOUND_WRAITHLIMB_BOW",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "GRAVE_ECTOPLASM",
+        "name": "Grave Ectoplasm",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Undead Wraithbound Wraithlimb Bow tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a common-grade result."
+    ]
+  }
 }

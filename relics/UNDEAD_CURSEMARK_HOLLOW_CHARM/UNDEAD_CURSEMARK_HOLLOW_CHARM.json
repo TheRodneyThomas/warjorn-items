@@ -11,5 +11,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Crypt Reliquary",
+    "durationMinutes": 23,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "UNDEAD_CURSEMARK_HOLLOW_CHARM",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_ROTCROWN_ROTORE_CHUNK",
+        "name": "Undead Rotcrown Rotore Chunk",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "ASTRAL_QUARTZ_FILAMENT",
+        "name": "Astral Quartz Filament",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Undead Cursemark Hollow Charm tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Crypt Reliquary and quench for a uncommon-grade result."
+    ]
+  }
 }

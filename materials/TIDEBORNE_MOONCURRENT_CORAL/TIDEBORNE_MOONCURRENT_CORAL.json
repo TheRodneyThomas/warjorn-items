@@ -10,5 +10,33 @@
   "description": "A silver-blue coral that drinks moonlit surf.",
   "specialEffects": [
     "Used in sea bows, moonwashed gear, and tidal stringwork."
-  ]
+  ],
+  "recipe": {
+    "station": "Tideborne Refinery",
+    "durationMinutes": 18,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "TIDEBORNE_MOONCURRENT_CORAL",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Tideborne Mooncurrent Coral under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Tideborne Refinery protocol before storage."
+    ]
+  }
 }

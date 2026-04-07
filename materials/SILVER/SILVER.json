@@ -10,5 +10,33 @@
   "description": "A bright precious metal favored for consecrated edges and refined ornament.",
   "specialEffects": [
     "Used in silver blades, sanctified fittings, and anti-corruption craftwork."
-  ]
+  ],
+  "recipe": {
+    "station": "Refinement Station",
+    "durationMinutes": 16,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "SILVER",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Silver under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Refinement Station protocol before storage."
+    ]
+  }
 }

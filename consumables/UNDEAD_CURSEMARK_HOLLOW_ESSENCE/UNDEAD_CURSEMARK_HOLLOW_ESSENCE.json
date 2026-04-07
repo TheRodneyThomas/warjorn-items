@@ -12,5 +12,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Grave Distillery",
+    "durationMinutes": 17,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "UNDEAD_CURSEMARK_HOLLOW_ESSENCE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "AETHERMINT_PHASE_BLOOM",
+        "name": "Aethermint Phase Bloom",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_DREADMIRE_BONEASH_DUST",
+        "name": "Undead Dreadmire Boneash Dust",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "BONE_DUST",
+        "name": "Bone Dust",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Aethermint Phase Bloom to match Undead Cursemark Hollow Essence tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Grave Distillery and quench for a uncommon-grade result."
+    ]
+  }
 }

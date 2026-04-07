@@ -11,5 +11,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Reliquary Hall",
+    "durationMinutes": 22,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "CRUSADER_LIONHEART_VIGIL_ICON",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_SANCTIFIED_RELIQUARY_PLATE",
+        "name": "Crusader Sanctified Reliquary Plate",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "GOLD",
+        "name": "Gold",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Crusader Lionheart Vigil Icon tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Reliquary Hall and quench for a uncommon-grade result."
+    ]
+  }
 }

@@ -13,5 +13,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature undead trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 26,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "UNDEAD_NOCTURNAL_CURSEBELL_MAUL",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_WRAITHBOUND_WRAITHSILK_THREAD",
+        "name": "Undead Wraithbound Wraithsilk Thread",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Nocturnal Cursebell Maul tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a uncommon-grade result."
+    ]
+  }
 }

@@ -14,5 +14,45 @@
   "description": "A visored helm with a radiant sigil crest.",
   "specialEffects": [
     "Improves detection of hidden undead by 20%."
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 34,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "CRUSADER_HELM",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_LIONHEART_SUNSTONE_DUST",
+        "name": "Crusader Lionheart Sunstone Dust",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Crusader Helm tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a rare-grade result."
+    ]
+  }
 }

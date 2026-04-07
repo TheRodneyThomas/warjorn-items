@@ -13,5 +13,51 @@
   "description": "A massive wall-like shield built for siege lines and chokepoint control.",
   "specialEffects": [
     "When stationary, gain an additional 10% damage reduction."
-  ]
+  ],
+  "recipe": {
+    "station": "Bulwark Forge",
+    "durationMinutes": 34,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "TOWER_SHIELD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Reinforced Steel to match Tower Shield tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Bulwark Forge and quench for a epic-grade result."
+    ]
+  }
 }

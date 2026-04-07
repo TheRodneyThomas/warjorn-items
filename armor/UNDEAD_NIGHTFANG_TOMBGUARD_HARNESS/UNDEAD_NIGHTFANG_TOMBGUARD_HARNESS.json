@@ -14,5 +14,51 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 34,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "UNDEAD_NIGHTFANG_TOMBGUARD_HARNESS",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_NOCTURNAL_CURSE_METAL_SCRAP",
+        "name": "Undead Nocturnal Curse Metal Scrap",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "UNDEAD_GRAVEBORN_GRAVEBONE_SHARD",
+        "name": "Undead Graveborn Gravebone Shard",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Nightfang Tombguard Harness tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a epic-grade result."
+    ]
+  }
 }

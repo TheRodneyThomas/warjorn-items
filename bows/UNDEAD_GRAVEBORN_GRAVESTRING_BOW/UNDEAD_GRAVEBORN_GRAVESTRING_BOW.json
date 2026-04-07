@@ -13,5 +13,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature undead trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 20,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "UNDEAD_GRAVEBORN_GRAVESTRING_BOW",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_NIGHTFANG_TOMBDUST_CLUSTER",
+        "name": "Undead Nightfang Tombdust Cluster",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Undead Graveborn Gravestring Bow tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a common-grade result."
+    ]
+  }
 }

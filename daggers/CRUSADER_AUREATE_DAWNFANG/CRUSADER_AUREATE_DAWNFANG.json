@@ -13,5 +13,51 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 27,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "CRUSADER_AUREATE_DAWNFANG",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_SUNFORGED_BLESSWOOD_INGOT",
+        "name": "Crusader Sunforged Blesswood Ingot",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "CRUSADER_VIGILANT_VIGIL_ORE",
+        "name": "Crusader Vigilant Vigil Ore",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Crusader Aureate Dawnfang tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a epic-grade result."
+    ]
+  }
 }

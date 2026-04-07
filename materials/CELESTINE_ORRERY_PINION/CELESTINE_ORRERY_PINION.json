@@ -10,5 +10,33 @@
   "description": "A polished celestial gear keyed to stellar alignments.",
   "specialEffects": [
     "Used in observatory staves, orbital foci, and star-synced housings."
-  ]
+  ],
+  "recipe": {
+    "station": "Celestine Refinery",
+    "durationMinutes": 17,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "CELESTINE_ORRERY_PINION",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Celestine Orrery Pinion under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Celestine Refinery protocol before storage."
+    ]
+  }
 }

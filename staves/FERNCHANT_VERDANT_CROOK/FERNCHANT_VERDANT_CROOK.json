@@ -13,5 +13,45 @@
   "description": "A druidic crook wrapped in fernsteel wire and living moss.",
   "specialEffects": [
     "Healing spells leave a short regenerative trail on the ground."
-  ]
+  ],
+  "recipe": {
+    "station": "Arcane Lathe",
+    "durationMinutes": 26,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "FERNCHANT_VERDANT_CROOK",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "FERNCHANT_VERDANT_SAP",
+        "name": "Fernchant Verdant Sap",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "GOLD",
+        "name": "Gold",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Fernchant Verdant Crook tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Arcane Lathe and quench for a rare-grade result."
+    ]
+  }
 }

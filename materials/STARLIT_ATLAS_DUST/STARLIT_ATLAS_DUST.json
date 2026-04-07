@@ -10,5 +10,33 @@
   "description": "A luminous dust used to mark routes through the night sky.",
   "specialEffects": [
     "Used in pins, maps, celestial trinkets, and starfinding charms."
-  ]
+  ],
+  "recipe": {
+    "station": "Starlit Refinery",
+    "durationMinutes": 18,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "STARLIT_ATLAS_DUST",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Starlit Atlas Dust under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Starlit Refinery protocol before storage."
+    ]
+  }
 }

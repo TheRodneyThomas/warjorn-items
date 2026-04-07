@@ -10,5 +10,33 @@
   "description": "A woven mesh of semi-real metal used in advanced adaptive gear.",
   "specialEffects": [
     "Core ingredient for crafting mobility-focused weapons and armor."
-  ]
+  ],
+  "recipe": {
+    "station": "Phasesteel Refinery",
+    "durationMinutes": 20,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "PHASESTEEL_LATTICE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Phasesteel Lattice under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Phasesteel Refinery protocol before storage."
+    ]
+  }
 }

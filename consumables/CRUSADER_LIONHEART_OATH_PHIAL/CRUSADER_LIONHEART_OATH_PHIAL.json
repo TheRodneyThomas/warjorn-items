@@ -12,5 +12,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctified Alchemy Lab",
+    "durationMinutes": 15,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "CRUSADER_LIONHEART_OATH_PHIAL",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "AETHERMINT_PHASE_BLOOM",
+        "name": "Aethermint Phase Bloom",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_SANCTIFIED_RELIQUARY_PLATE",
+        "name": "Crusader Sanctified Reliquary Plate",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Aethermint Phase Bloom to match Crusader Lionheart Oath Phial tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctified Alchemy Lab and quench for a uncommon-grade result."
+    ]
+  }
 }

@@ -13,5 +13,51 @@
   "description": "A undead bow forged for long campaigns.",
   "specialEffects": [
     "Forged with a signature undead trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 29,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "UNDEAD_NIGHTFANG_TOMBARC_BOW",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_SOULRIVEN_NIGHTMIRE_ORE",
+        "name": "Undead Soulriven Nightmire Ore",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "UNDEAD_NOCTURNAL_CURSE_METAL_SCRAP",
+        "name": "Undead Nocturnal Curse Metal Scrap",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WHISPERLEAF_CANOPY_BARK",
+        "name": "Whisperleaf Canopy Bark",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Undead Nightfang Tombarc Bow tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a epic-grade result."
+    ]
+  }
 }

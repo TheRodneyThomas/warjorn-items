@@ -12,5 +12,39 @@
   "description": "A storied crusader item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctified Alchemy Lab",
+    "durationMinutes": 17,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "CRUSADER_VIGILANT_DAWN_ESSENCE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "AETHERMINT_PHASE_BLOOM",
+        "name": "Aethermint Phase Bloom",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_SUNFORGED_BLESSWOOD_INGOT",
+        "name": "Crusader Sunforged Blesswood Ingot",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "MOONSALT_VEIL_CRYSTAL",
+        "name": "Moonsalt Veil Crystal",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Aethermint Phase Bloom to match Crusader Vigilant Dawn Essence tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctified Alchemy Lab and quench for a uncommon-grade result."
+    ]
+  }
 }

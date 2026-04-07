@@ -13,5 +13,39 @@
   "description": "A storied undead sword known for battlefield reliability and identity.",
   "specialEffects": [
     "Empowers strikes when fighting near allied banners and shrines."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 23,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "UNDEAD_WRAITHBOUND_WRAITHFANG_SABRE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 3,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "GRAVE_ECTOPLASM",
+        "name": "Grave Ectoplasm",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Tempered Steel to match Undead Wraithbound Wraithfang Sabre tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a common-grade result."
+    ]
+  }
 }

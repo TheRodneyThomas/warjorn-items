@@ -14,5 +14,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 28,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "UNDEAD_CURSEMARK_HOLLOWRIB_HARNESS",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_NIGHTFANG_TOMBDUST_CLUSTER",
+        "name": "Undead Nightfang Tombdust Cluster",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Cursemark Hollowrib Harness tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a uncommon-grade result."
+    ]
+  }
 }

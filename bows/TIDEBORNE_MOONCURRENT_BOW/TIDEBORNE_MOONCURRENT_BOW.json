@@ -13,5 +13,45 @@
   "description": "A salt-lacquered recurve that hums with lunar tide pressure.",
   "specialEffects": [
     "Charged shots slow enemies briefly as water pressure wraps their legs."
-  ]
+  ],
+  "recipe": {
+    "station": "Tideworks",
+    "durationMinutes": 28,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "TIDEBORNE_MOONCURRENT_BOW",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "TIDEBORNE_MOONCURRENT_CORAL",
+        "name": "Tideborne Mooncurrent Coral",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WHISPERLEAF_CANOPY_BARK",
+        "name": "Whisperleaf Canopy Bark",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Tideborne Mooncurrent Bow tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Tideworks and quench for a rare-grade result."
+    ]
+  }
 }

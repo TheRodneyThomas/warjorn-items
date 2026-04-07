@@ -11,5 +11,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Undead Refinery",
+    "durationMinutes": 16,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "UNDEAD_BONEREAP_DREAD_RESIN",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      },
+      {
+        "id": "UNDEAD_CURSEMARK_HOLLOW_BONE_FIBER",
+        "name": "Undead Cursemark Hollow Bone Fiber",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Undead Bonereap Dread Resin under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Undead Refinery protocol before storage."
+    ]
+  }
 }

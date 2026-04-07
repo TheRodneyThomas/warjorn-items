@@ -5,7 +5,7 @@
   "faction": "crusader",
   "stats": {
     "baseDamage": 12,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1,
     "durability": 58,
     "weightKg": 6,
     "rarity": "Rare"
@@ -13,5 +13,45 @@
   "description": "A sanctified longsword carried by crusader captains.",
   "specialEffects": [
     "Deals 12% bonus damage to undead enemies."
-  ]
+  ],
+  "recipe": {
+    "station": "Sanctum Forge",
+    "durationMinutes": 29,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "CRUSADER_LONGSWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "CRUSADER_HALLOWED_DAWNTHREAD_COIL",
+        "name": "Crusader Hallowed Dawnthread Coil",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Tempered Steel to match Crusader Longsword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Sanctum Forge and quench for a rare-grade result."
+    ]
+  }
 }

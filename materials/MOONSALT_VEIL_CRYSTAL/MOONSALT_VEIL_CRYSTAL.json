@@ -10,5 +10,33 @@
   "description": "A pale salt crystal drawn from nocturne brine pans.",
   "specialEffects": [
     "Used in tinctures, veils, and moonlit alchemical brews."
-  ]
+  ],
+  "recipe": {
+    "station": "Moonsalt Refinery",
+    "durationMinutes": 18,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "MOONSALT_VEIL_CRYSTAL",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Moonsalt Veil Crystal under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Moonsalt Refinery protocol before storage."
+    ]
+  }
 }

@@ -13,5 +13,45 @@
   "description": "A storm-tempered shield lined with copper channels that crackle before impact.",
   "specialEffects": [
     "Perfect blocks release a short lightning arc that chains to one nearby target."
-  ]
+  ],
+  "recipe": {
+    "station": "Storm Atelier",
+    "durationMinutes": 34,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "SKYFORGED_TEMPEST_AEGIS",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "SKYFORGED_TEMPEST_ALLOY",
+        "name": "Skyforged Tempest Alloy",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Reinforced Steel to match Skyforged Tempest Aegis tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Storm Atelier and quench for a epic-grade result."
+    ]
+  }
 }

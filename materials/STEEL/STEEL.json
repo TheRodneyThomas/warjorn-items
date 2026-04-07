@@ -10,5 +10,33 @@
   "description": "A refined metal favored for reliable battlefield gear and stronger forged components.",
   "specialEffects": [
     "Required for crafting steel weapons, shields, and hardened armor pieces."
-  ]
+  ],
+  "recipe": {
+    "station": "Refinement Station",
+    "durationMinutes": 15,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "STEEL",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Steel under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Refinement Station protocol before storage."
+    ]
+  }
 }

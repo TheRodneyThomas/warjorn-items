@@ -11,5 +11,45 @@
   "description": "A navigation pin that projects faint constellations over unknown terrain.",
   "specialEffects": [
     "Reveals hidden gatherable nodes within a short radius while exploring."
-  ]
+  ],
+  "recipe": {
+    "station": "Artificer Bench",
+    "durationMinutes": 25,
+    "difficulty": "Master",
+    "output": {
+      "itemId": "STARLIT_CARTOGRAPHER_PIN",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "STARLIT_ATLAS_DUST",
+        "name": "Starlit Atlas Dust",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "GOLD",
+        "name": "Gold",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Bronze to match Starlit Cartographer Pin tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Artificer Bench and quench for a epic-grade result."
+    ]
+  }
 }

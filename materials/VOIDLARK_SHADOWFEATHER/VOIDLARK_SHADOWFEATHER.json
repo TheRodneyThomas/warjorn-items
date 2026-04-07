@@ -10,5 +10,33 @@
   "description": "A matte feather that swallows stray light around its edge.",
   "specialEffects": [
     "Used in covert daggers, voidbind fletching, and shadow-pinned gear."
-  ]
+  ],
+  "recipe": {
+    "station": "Voidlark Refinery",
+    "durationMinutes": 18,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "VOIDLARK_SHADOWFEATHER",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Voidlark Shadowfeather under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Voidlark Refinery protocol before storage."
+    ]
+  }
 }

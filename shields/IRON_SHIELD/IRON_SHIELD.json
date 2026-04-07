@@ -13,5 +13,39 @@
   "description": "A heavy iron shield made for prolonged front-line defense.",
   "specialEffects": [
     "Reduces incoming projectile damage by 10%."
-  ]
+  ],
+  "recipe": {
+    "station": "Bulwark Forge",
+    "durationMinutes": 27,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "IRON_SHIELD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Iron to match Iron Shield tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Bulwark Forge and quench for a uncommon-grade result."
+    ]
+  }
 }

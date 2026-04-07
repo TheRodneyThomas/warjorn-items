@@ -10,5 +10,33 @@
   "description": "A crystalline mint residue harvested from phased distillations.",
   "specialEffects": [
     "Used in phase draughts, cooling tinctures, and shimmer-brew recipes."
-  ]
+  ],
+  "recipe": {
+    "station": "Aethermint Refinery",
+    "durationMinutes": 17,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "AETHERMINT_PHASE_BLOOM",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Aethermint Phase Bloom under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Aethermint Refinery protocol before storage."
+    ]
+  }
 }

@@ -12,5 +12,45 @@
   "description": "A pearl-toned tincture distilled from night-tide salt blooms.",
   "specialEffects": [
     "Grants 8 seconds of reduced detection radius from nearby enemies."
-  ]
+  ],
+  "recipe": {
+    "station": "Alchemy Table",
+    "durationMinutes": 17,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "MOONSALT_VEIL_TINCTURE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "AETHERMINT_PHASE_BLOOM",
+        "name": "Aethermint Phase Bloom",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "MOONSALT_VEIL_CRYSTAL",
+        "name": "Moonsalt Veil Crystal",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "BONE_DUST",
+        "name": "Bone Dust",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Aethermint Phase Bloom to match Moonsalt Veil Tincture tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Alchemy Table and quench for a rare-grade result."
+    ]
+  }
 }

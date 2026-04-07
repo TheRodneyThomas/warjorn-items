@@ -13,5 +13,45 @@
   "description": "An ice-rimed execution axe that howls when swung through cold air.",
   "specialEffects": [
     "Critical hits apply chill, slowing enemy attack speed briefly."
-  ]
+  ],
+  "recipe": {
+    "station": "Warbeam Anvil",
+    "durationMinutes": 32,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "FROSTVEIL_HAILREAVER_AXE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "FROSTVEIL_HAILCRYSTAL",
+        "name": "Frostveil Hailcrystal",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Frostveil Hailreaver Axe tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Warbeam Anvil and quench for a epic-grade result."
+    ]
+  }
 }

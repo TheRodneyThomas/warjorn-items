@@ -13,5 +13,45 @@
   "description": "A turbine-backed maul that whistles before impact.",
   "specialEffects": [
     "Charged attacks create a concussive wave that interrupts casts."
-  ]
+  ],
+  "recipe": {
+    "station": "Impact Foundry",
+    "durationMinutes": 33,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "BRASSWIND_SIRENHAMMER_MAUL",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "BRASSWIND_SIREN_BRASS",
+        "name": "Brasswind Siren Brass",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Brasswind Sirenhammer Maul tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Impact Foundry and quench for a epic-grade result."
+    ]
+  }
 }

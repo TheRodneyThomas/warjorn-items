@@ -13,5 +13,51 @@
   "description": "A cursed war mace exuding cold grave mist.",
   "specialEffects": [
     "Hits apply 8% movement slow for 3 seconds."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 32,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "UNDEAD_GRAVE_MACE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_DREADMIRE_BONEASH_DUST",
+        "name": "Undead Dreadmire Boneash Dust",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "UNDEAD_NIGHTFANG_TOMBDUST_CLUSTER",
+        "name": "Undead Nightfang Tombdust Cluster",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "REINFORCED_STEEL",
+        "name": "Reinforced Steel",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Grave Mace tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a epic-grade result."
+    ]
+  }
 }

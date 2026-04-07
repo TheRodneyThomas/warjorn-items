@@ -10,5 +10,33 @@
   "description": "A fractured shard with impossibly thin killing edges.",
   "specialEffects": [
     "Used in daggers, portal-cut implements, and unstable precision work."
-  ]
+  ],
+  "recipe": {
+    "station": "Riftglass Refinery",
+    "durationMinutes": 17,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "RIFTGLASS_RAZOR_SHARD",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Riftglass Razor Shard under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Riftglass Refinery protocol before storage."
+    ]
+  }
 }

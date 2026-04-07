@@ -11,5 +11,51 @@
   "description": "A sealed vessel that anchors malignant souls.",
   "specialEffects": [
     "On death, has a small chance to revive the wearer with low health."
-  ]
+  ],
+  "recipe": {
+    "station": "Crypt Reliquary",
+    "durationMinutes": 32,
+    "difficulty": "Master",
+    "output": {
+      "itemId": "UNDEAD_PHYLACTERY",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 8,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_WRAITHBOUND_WRAITHSILK_THREAD",
+        "name": "Undead Wraithbound Wraithsilk Thread",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "UNDEAD_NIGHTFANG_TOMBDUST_CLUSTER",
+        "name": "Undead Nightfang Tombdust Cluster",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Undead Phylactery tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Crypt Reliquary and quench for a legendary-grade result."
+    ]
+  }
 }

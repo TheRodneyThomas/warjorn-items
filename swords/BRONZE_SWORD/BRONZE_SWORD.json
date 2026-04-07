@@ -11,5 +11,39 @@
     "rarity": "Common"
   },
   "description": "A reliable bronze blade used by militia units and apprentices.",
-  "specialEffects": []
+  "specialEffects": [],
+  "recipe": {
+    "station": "Blade Forge",
+    "durationMinutes": 24,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "BRONZE_SWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Bronze to match Bronze Sword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Blade Forge and quench for a common-grade result."
+    ]
+  }
 }

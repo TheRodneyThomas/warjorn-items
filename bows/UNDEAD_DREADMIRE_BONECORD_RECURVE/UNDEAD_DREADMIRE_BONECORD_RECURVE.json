@@ -13,5 +13,39 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature undead trait that rewards aggressive positioning"
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 19,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "UNDEAD_DREADMIRE_BONECORD_RECURVE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_BONEREAP_DREAD_RESIN",
+        "name": "Undead Bonereap Dread Resin",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WHISPERLEAF_CANOPY_BARK",
+        "name": "Whisperleaf Canopy Bark",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Undead Dreadmire Bonecord Recurve tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a common-grade result."
+    ]
+  }
 }

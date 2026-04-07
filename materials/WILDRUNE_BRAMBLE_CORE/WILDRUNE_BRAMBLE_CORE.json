@@ -10,5 +10,33 @@
   "description": "A rune-marked briar heart hardened by druidic rites.",
   "specialEffects": [
     "Used in living armor, thornbound regalia, and root-fastened warding pieces."
-  ]
+  ],
+  "recipe": {
+    "station": "Wildrune Refinery",
+    "durationMinutes": 18,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "WILDRUNE_BRAMBLE_CORE",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Wildrune Bramble Core under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Wildrune Refinery protocol before storage."
+    ]
+  }
 }

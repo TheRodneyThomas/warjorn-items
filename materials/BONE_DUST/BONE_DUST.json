@@ -10,5 +10,27 @@
   "description": "Fine remnants gathered from shattered skeletal remains.",
   "specialEffects": [
     "Used in necrotic powders, curses, and undead armor recipes."
-  ]
+  ],
+  "recipe": {
+    "station": "Field Harvest",
+    "durationMinutes": 7,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "BONE_DUST",
+      "quantity": 3
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Harvesting kit stock"
+      }
+    ],
+    "steps": [
+      "Scout biome nodes where Bone Dust is naturally abundant.",
+      "Extract and sort usable pieces by purity and structural stability.",
+      "Bundle and seal for transport to crafting stations."
+    ]
+  }
 }

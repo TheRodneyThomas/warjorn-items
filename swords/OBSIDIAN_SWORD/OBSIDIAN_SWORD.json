@@ -13,5 +13,51 @@
   "description": "A jagged volcanic blade that inflicts severe bleeding wounds.",
   "specialEffects": [
     "Each hit applies a bleed that deals damage over 3 seconds."
-  ]
+  ],
+  "recipe": {
+    "station": "Blade Forge",
+    "durationMinutes": 32,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "OBSIDIAN_SWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "OBSIDIAN",
+        "name": "Obsidian",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Obsidian to match Obsidian Sword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Blade Forge and quench for a epic-grade result."
+    ]
+  }
 }

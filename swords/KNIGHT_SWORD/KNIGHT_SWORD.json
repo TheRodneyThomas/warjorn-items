@@ -5,7 +5,7 @@
   "material": "tempered-steel",
   "stats": {
     "baseDamage": 11,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1,
     "durability": 55,
     "weightKg": 6,
     "rarity": "Rare"
@@ -13,5 +13,45 @@
   "description": "A balanced battlefield sword forged for disciplined royal guards.",
   "specialEffects": [
     "While a shield is equipped, gain 5% block efficiency."
-  ]
+  ],
+  "recipe": {
+    "station": "Blade Forge",
+    "durationMinutes": 29,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "KNIGHT_SWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "TEMPERED_STEEL",
+        "name": "Tempered Steel",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Tempered Steel to match Knight Sword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Blade Forge and quench for a rare-grade result."
+    ]
+  }
 }

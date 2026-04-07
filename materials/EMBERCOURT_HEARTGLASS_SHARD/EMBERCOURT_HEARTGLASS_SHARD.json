@@ -10,5 +10,33 @@
   "description": "A blood-warm glass sliver lit from within.",
   "specialEffects": [
     "Used in duelist blades, courtly firecraft, and emberlit ornamentation."
-  ]
+  ],
+  "recipe": {
+    "station": "Embercourt Refinery",
+    "durationMinutes": 18,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "EMBERCOURT_HEARTGLASS_SHARD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Embercourt Heartglass Shard under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Embercourt Refinery protocol before storage."
+    ]
+  }
 }

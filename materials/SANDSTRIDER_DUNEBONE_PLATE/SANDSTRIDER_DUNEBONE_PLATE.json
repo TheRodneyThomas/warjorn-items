@@ -10,5 +10,33 @@
   "description": "A sunbaked plate of dune bone and grit-bronze.",
   "specialEffects": [
     "Used in caravan shields, desert wargear, and heat-hard shells."
-  ]
+  ],
+  "recipe": {
+    "station": "Sandstrider Refinery",
+    "durationMinutes": 15,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "SANDSTRIDER_DUNEBONE_PLATE",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Sandstrider Dunebone Plate under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Sandstrider Refinery protocol before storage."
+    ]
+  }
 }

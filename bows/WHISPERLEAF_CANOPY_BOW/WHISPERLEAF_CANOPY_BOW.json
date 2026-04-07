@@ -13,5 +13,45 @@
   "description": "A vine-limbed longbow woven with living bark fibers.",
   "specialEffects": [
     "Arrows fired from stealth gain bonus critical chance."
-  ]
+  ],
+  "recipe": {
+    "station": "Fletcher Loom",
+    "durationMinutes": 26,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "WHISPERLEAF_CANOPY_BOW",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "WHISPERLEAF_CANOPY_BARK",
+        "name": "Whisperleaf Canopy Bark",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Wood to match Whisperleaf Canopy Bow tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Fletcher Loom and quench for a rare-grade result."
+    ]
+  }
 }

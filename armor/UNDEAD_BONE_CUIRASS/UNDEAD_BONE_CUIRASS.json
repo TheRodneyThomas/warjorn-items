@@ -14,5 +14,51 @@
   "description": "A ribbed cuirass made from lacquered gravebone plates.",
   "specialEffects": [
     "On hit taken, has a small chance to spawn a bone shard retaliation."
-  ]
+  ],
+  "recipe": {
+    "station": "Gravekiln",
+    "durationMinutes": 34,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "UNDEAD_BONE_CUIRASS",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 7,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_CURSEMARK_HOLLOW_BONE_FIBER",
+        "name": "Undead Cursemark Hollow Bone Fiber",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "GRAVE_ECTOPLASM",
+        "name": "Grave Ectoplasm",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Steel to match Undead Bone Cuirass tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Gravekiln and quench for a epic-grade result."
+    ]
+  }
 }

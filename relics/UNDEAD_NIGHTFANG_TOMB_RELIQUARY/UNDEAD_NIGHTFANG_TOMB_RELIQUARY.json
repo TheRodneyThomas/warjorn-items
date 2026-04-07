@@ -11,5 +11,51 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Crypt Reliquary",
+    "durationMinutes": 30,
+    "difficulty": "Master",
+    "output": {
+      "itemId": "UNDEAD_NIGHTFANG_TOMB_RELIQUARY",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 6,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "UNDEAD_WRAITHBOUND_WRAITHSILK_THREAD",
+        "name": "Undead Wraithbound Wraithsilk Thread",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "UNDEAD_SOULRIVEN_NIGHTMIRE_ORE",
+        "name": "Undead Soulriven Nightmire Ore",
+        "amount": 3,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 3,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Silver to match Undead Nightfang Tomb Reliquary tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Crypt Reliquary and quench for a epic-grade result."
+    ]
+  }
 }

@@ -1,0 +1,48 @@
+{
+  "id": "PICKAXE",
+  "name": "Pickaxe",
+  "type": "material",
+  "faction": "basic",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Uncommon"
+  },
+  "description": "A rugged mining tool token representing quarry access and ore extraction capability.",
+  "specialEffects": [
+    "Required by recipes that depend on mined ore workflows and excavation permits."
+  ],
+  "recipe": {
+    "station": "Woodshop",
+    "durationMinutes": 12,
+    "difficulty": "Adept",
+    "output": {
+      "itemId": "PICKAXE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Handle stock"
+      },
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Head and wedge"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 1,
+        "note": "Edge tempering"
+      }
+    ],
+    "steps": [
+      "Shape and dry a balanced hardwood handle.",
+      "Forge and temper the pick head, then fit and wedge it to the shaft.",
+      "Set the edge and inspect the tool for safe quarry use."
+    ]
+  }
+}

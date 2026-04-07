@@ -12,5 +12,45 @@
   "description": "A storied undead item with a distinct battlefield identity.",
   "specialEffects": [
     "Forged with a signature faction trait that rewards aggressive positioning."
-  ]
+  ],
+  "recipe": {
+    "station": "Grave Distillery",
+    "durationMinutes": 20,
+    "difficulty": "Expert",
+    "output": {
+      "itemId": "UNDEAD_HOLLOWVEIL_SOUL_PHILTER",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "AETHERMINT_PHASE_BLOOM",
+        "name": "Aethermint Phase Bloom",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "BONE_DUST",
+        "name": "Bone Dust",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      },
+      {
+        "id": "MOONSALT_VEIL_CRYSTAL",
+        "name": "Moonsalt Veil Crystal",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Aethermint Phase Bloom to match Undead Hollowveil Soul Philter tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Grave Distillery and quench for a rare-grade result."
+    ]
+  }
 }

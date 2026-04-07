@@ -10,5 +10,33 @@
   "description": "A machined tooth cast from oil-cured gearsteel.",
   "specialEffects": [
     "Used in workshop weapons, recoil systems, and geared cutting heads."
-  ]
+  ],
+  "recipe": {
+    "station": "Ironbloom Refinery",
+    "durationMinutes": 16,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "IRONBLOOM_GEARSTEEL_TOOTH",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 2,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Ironbloom Gearsteel Tooth under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Ironbloom Refinery protocol before storage."
+    ]
+  }
 }

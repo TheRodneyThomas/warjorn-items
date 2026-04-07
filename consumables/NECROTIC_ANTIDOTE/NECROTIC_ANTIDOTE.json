@@ -11,5 +11,39 @@
   "description": "A bitter antidote brewed to neutralize grave toxins.",
   "specialEffects": [
     "Cures poison and necrotic damage-over-time effects instantly."
-  ]
+  ],
+  "recipe": {
+    "station": "Alchemy Table",
+    "durationMinutes": 15,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "NECROTIC_ANTIDOTE",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "AETHERMINT_PHASE_BLOOM",
+        "name": "Aethermint Phase Bloom",
+        "amount": 4,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "BONE_DUST",
+        "name": "Bone Dust",
+        "amount": 1,
+        "note": "Stabilizing support material"
+      }
+    ],
+    "steps": [
+      "Prepare Aethermint Phase Bloom to match Necrotic Antidote tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Alchemy Table and quench for a uncommon-grade result."
+    ]
+  }
 }

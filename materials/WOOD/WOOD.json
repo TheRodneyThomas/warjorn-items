@@ -10,5 +10,27 @@
   "description": "A versatile crafting stock used for handles, hafts, shields, bows, and basic structures.",
   "specialEffects": [
     "Used in wooden weapons, shield frames, tool hafts, and support recipes."
-  ]
+  ],
+  "recipe": {
+    "station": "Field Harvest",
+    "durationMinutes": 7,
+    "difficulty": "Novice",
+    "output": {
+      "itemId": "WOOD",
+      "quantity": 3
+    },
+    "ingredients": [
+      {
+        "id": "IRON",
+        "name": "Iron",
+        "amount": 1,
+        "note": "Hatchet and cutting tool stock"
+      }
+    ],
+    "steps": [
+      "Scout mature groves and select straight, knot-light trunks for cutting.",
+      "Split and trim logs to remove sap-heavy sections and weak grain.",
+      "Bundle dry stock for transport to crafting stations."
+    ]
+  }
 }

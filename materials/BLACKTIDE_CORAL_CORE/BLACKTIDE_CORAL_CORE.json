@@ -10,5 +10,33 @@
   "description": "A dense black coral grown in abyssal pressure beds.",
   "specialEffects": [
     "Used in reef-forged blades, sea-worn edges, and abyssal fittings."
-  ]
+  ],
+  "recipe": {
+    "station": "Blacktide Refinery",
+    "durationMinutes": 17,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "BLACKTIDE_CORAL_CORE",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Blacktide Coral Core under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Blacktide Refinery protocol before storage."
+    ]
+  }
 }

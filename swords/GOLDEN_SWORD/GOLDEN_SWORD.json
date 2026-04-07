@@ -13,5 +13,45 @@
   "description": "A noble dueling blade that sacrifices durability for precision and speed.",
   "specialEffects": [
     "Critical strike chance increased by 8%."
-  ]
+  ],
+  "recipe": {
+    "station": "Blade Forge",
+    "durationMinutes": 29,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "GOLDEN_SWORD",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "id": "GOLD",
+        "name": "Gold",
+        "amount": 5,
+        "note": "Primary crafting stock"
+      },
+      {
+        "id": "SILVER",
+        "name": "Silver",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "STEEL",
+        "name": "Steel",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 2,
+        "note": "Faction-tuned component"
+      }
+    ],
+    "steps": [
+      "Prepare Gold to match Golden Sword tolerances.",
+      "Assemble and bind all components in sequence to prevent structural drift.",
+      "Finish at the Blade Forge and quench for a rare-grade result."
+    ]
+  }
 }

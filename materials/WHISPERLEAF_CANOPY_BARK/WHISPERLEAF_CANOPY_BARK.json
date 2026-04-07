@@ -10,5 +10,33 @@
   "description": "A supple bark sheet prized for quiet draw weight.",
   "specialEffects": [
     "Used in canopy bows, hushwood frames, and low-noise fletcher work."
-  ]
+  ],
+  "recipe": {
+    "station": "Whisperleaf Refinery",
+    "durationMinutes": 18,
+    "difficulty": "Skilled",
+    "output": {
+      "itemId": "WHISPERLEAF_CANOPY_BARK",
+      "quantity": 2
+    },
+    "ingredients": [
+      {
+        "id": "BRONZE",
+        "name": "Bronze",
+        "amount": 3,
+        "note": "Base refining stock"
+      },
+      {
+        "id": "WOOD",
+        "name": "Wood",
+        "amount": 1,
+        "note": "Binder or catalyst"
+      }
+    ],
+    "steps": [
+      "Refine raw stock for Whisperleaf Canopy Bark under controlled heat and pressure.",
+      "Fold and stabilize the blend until impurities are below forge tolerance.",
+      "Cast and cool using Whisperleaf Refinery protocol before storage."
+    ]
+  }
 }

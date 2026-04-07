@@ -1,0 +1,14 @@
+{
+  "id": "STARLIT_ATLAS_DUST",
+  "name": "Starlit Atlas Dust",
+  "type": "material",
+  "faction": "starlit",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A luminous dust used to mark routes through the night sky.",
+  "specialEffects": [
+    "Used in pins, maps, celestial trinkets, and starfinding charms."
+  ]
+}

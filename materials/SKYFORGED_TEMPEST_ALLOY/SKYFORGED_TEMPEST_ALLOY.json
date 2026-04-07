@@ -1,0 +1,14 @@
+{
+  "id": "SKYFORGED_TEMPEST_ALLOY",
+  "name": "Skyforged Tempest Alloy",
+  "type": "material",
+  "faction": "skyforged",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A storm-charged alloy quenched in upper-atmosphere winds.",
+  "specialEffects": [
+    "Used in aegises, lightning wards, and tempest-hardened plating."
+  ]
+}

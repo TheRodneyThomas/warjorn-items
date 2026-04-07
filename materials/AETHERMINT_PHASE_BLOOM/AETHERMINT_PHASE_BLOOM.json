@@ -1,0 +1,14 @@
+{
+  "id": "AETHERMINT_PHASE_BLOOM",
+  "name": "Aethermint Phase Bloom",
+  "type": "material",
+  "faction": "aethermint",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A crystalline mint residue harvested from phased distillations.",
+  "specialEffects": [
+    "Used in phase draughts, cooling tinctures, and shimmer-brew recipes."
+  ]
+}

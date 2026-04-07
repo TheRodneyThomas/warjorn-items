@@ -1,0 +1,14 @@
+{
+  "id": "GOLD",
+  "name": "Gold",
+  "type": "material",
+  "faction": "basic",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A precious metal favored for ornate gear, sacred inlay, and ceremonial craftwork.",
+  "specialEffects": [
+    "Used in gilded equipment, valuable trade recipes, and decorative upgrades."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "IRONBLOOM_GEARSTEEL_TOOTH",
+  "name": "Ironbloom Gearsteel Tooth",
+  "type": "material",
+  "faction": "ironbloom",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A machined tooth cast from oil-cured gearsteel.",
+  "specialEffects": [
+    "Used in workshop weapons, recoil systems, and geared cutting heads."
+  ]
+}

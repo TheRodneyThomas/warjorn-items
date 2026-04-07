@@ -1,0 +1,14 @@
+{
+  "id": "VOIDLARK_SHADOWFEATHER",
+  "name": "Voidlark Shadowfeather",
+  "type": "material",
+  "faction": "voidlark",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A matte feather that swallows stray light around its edge.",
+  "specialEffects": [
+    "Used in covert daggers, voidbind fletching, and shadow-pinned gear."
+  ]
+}

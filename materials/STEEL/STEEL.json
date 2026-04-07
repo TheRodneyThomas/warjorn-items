@@ -1,0 +1,14 @@
+{
+  "id": "STEEL",
+  "name": "Steel",
+  "type": "material",
+  "faction": "basic",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Uncommon"
+  },
+  "description": "A refined metal favored for reliable battlefield gear and stronger forged components.",
+  "specialEffects": [
+    "Required for crafting steel weapons, shields, and hardened armor pieces."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "BASICS",
+  "name": "Basics",
+  "type": "material",
+  "faction": "basic",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Common"
+  },
+  "description": "A catch-all bundle of simple crafting essentials used in entry-level recipes.",
+  "specialEffects": [
+    "Commonly consumed when crafting starter gear, tools, and repairs."
+  ]
+}

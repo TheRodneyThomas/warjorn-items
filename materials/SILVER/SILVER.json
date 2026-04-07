@@ -1,0 +1,14 @@
+{
+  "id": "SILVER",
+  "name": "Silver",
+  "type": "material",
+  "faction": "basic",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A bright precious metal favored for consecrated edges and refined ornament.",
+  "specialEffects": [
+    "Used in silver blades, sanctified fittings, and anti-corruption craftwork."
+  ]
+}

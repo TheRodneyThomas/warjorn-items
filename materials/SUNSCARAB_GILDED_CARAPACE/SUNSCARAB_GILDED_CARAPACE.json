@@ -1,0 +1,14 @@
+{
+  "id": "SUNSCARAB_GILDED_CARAPACE",
+  "name": "Sunscarab Gilded Carapace",
+  "type": "material",
+  "faction": "sunscarab",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Epic"
+  },
+  "description": "A polished shell segment veined with ceremonial gold.",
+  "specialEffects": [
+    "Used in desert bows, royal inlay, and heat-bright ceremonial gear."
+  ]
+}

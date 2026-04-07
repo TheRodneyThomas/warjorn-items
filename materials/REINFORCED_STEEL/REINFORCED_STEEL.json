@@ -1,0 +1,14 @@
+{
+  "id": "REINFORCED_STEEL",
+  "name": "Reinforced Steel",
+  "type": "material",
+  "faction": "basic",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Uncommon"
+  },
+  "description": "A layered steel stock built for bracing, ribbing, and impact resistance.",
+  "specialEffects": [
+    "Used in tower shields, reinforced frames, and heavy defensive assemblies."
+  ]
+}

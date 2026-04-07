@@ -1,0 +1,14 @@
+{
+  "id": "IRON",
+  "name": "Iron",
+  "type": "material",
+  "faction": "basic",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Common"
+  },
+  "description": "A sturdy metal stock used in straightforward weapon, armor, and shield crafting.",
+  "specialEffects": [
+    "Required for forging standard iron equipment and reinforcement parts."
+  ]
+}

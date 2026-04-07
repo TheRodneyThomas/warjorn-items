@@ -1,0 +1,14 @@
+{
+  "id": "WHISPERLEAF_CANOPY_BARK",
+  "name": "Whisperleaf Canopy Bark",
+  "type": "material",
+  "faction": "whisperleaf",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A supple bark sheet prized for quiet draw weight.",
+  "specialEffects": [
+    "Used in canopy bows, hushwood frames, and low-noise fletcher work."
+  ]
+}

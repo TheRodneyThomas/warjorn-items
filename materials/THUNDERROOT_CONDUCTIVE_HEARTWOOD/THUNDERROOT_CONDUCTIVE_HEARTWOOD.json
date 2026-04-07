@@ -1,0 +1,14 @@
+{
+  "id": "THUNDERROOT_CONDUCTIVE_HEARTWOOD",
+  "name": "Thunderroot Conductive Heartwood",
+  "type": "material",
+  "faction": "thunderroot",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A knot of rootwood laced with living current.",
+  "specialEffects": [
+    "Used in shock maces, grounded hafts, and conductive striking frames."
+  ]
+}

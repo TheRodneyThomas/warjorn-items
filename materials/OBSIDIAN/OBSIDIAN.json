@@ -1,0 +1,14 @@
+{
+  "id": "OBSIDIAN",
+  "name": "Obsidian",
+  "type": "material",
+  "faction": "basic",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A volcanic glass stock prized for edges that cut brutally sharp.",
+  "specialEffects": [
+    "Used in obsidian blades, ritual cutters, and brittle high-damage tools."
+  ]
+}

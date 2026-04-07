@@ -1,0 +1,14 @@
+{
+  "id": "ECHOHEART_RESONANCE_SHARD",
+  "name": "Echoheart Resonance Shard",
+  "type": "material",
+  "faction": "echoheart",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A harmonic shard that stores lingering pulse echoes.",
+  "specialEffects": [
+    "Used in compass relics, resonance instruments, and signal anchors."
+  ]
+}

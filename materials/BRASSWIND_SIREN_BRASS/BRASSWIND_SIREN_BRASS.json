@@ -1,0 +1,14 @@
+{
+  "id": "BRASSWIND_SIREN_BRASS",
+  "name": "Brasswind Siren Brass",
+  "type": "material",
+  "faction": "brasswind",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Uncommon"
+  },
+  "description": "A resonant brass alloy tuned to gale-hammer frequencies.",
+  "specialEffects": [
+    "Used in weighted mauls, acoustic housings, and windbound metalwork."
+  ]
+}

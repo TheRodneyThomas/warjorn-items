@@ -1,0 +1,14 @@
+{
+  "id": "FERNCHANT_VERDANT_SAP",
+  "name": "Fernchant Verdant Sap",
+  "type": "material",
+  "faction": "fernchant",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Uncommon"
+  },
+  "description": "A slow-curing sap with restorative woodland charge.",
+  "specialEffects": [
+    "Used in crooks, staves, and living wood implements."
+  ]
+}

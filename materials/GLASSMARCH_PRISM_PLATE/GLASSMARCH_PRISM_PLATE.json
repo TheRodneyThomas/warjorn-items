@@ -1,0 +1,14 @@
+{
+  "id": "GLASSMARCH_PRISM_PLATE",
+  "name": "Glassmarch Prism Plate",
+  "type": "material",
+  "faction": "glassmarch",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A layered prism plate engineered to split incoming force.",
+  "specialEffects": [
+    "Used in bastions, refractive shields, and light-splitting defenses."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "FROSTVEIL_HAILCRYSTAL",
+  "name": "Frostveil Hailcrystal",
+  "type": "material",
+  "faction": "frostveil",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Uncommon"
+  },
+  "description": "A storm-frozen crystal that keeps a razor chill.",
+  "specialEffects": [
+    "Used in winter axes, freeze-tempered fittings, and cold-forged edgework."
+  ]
+}

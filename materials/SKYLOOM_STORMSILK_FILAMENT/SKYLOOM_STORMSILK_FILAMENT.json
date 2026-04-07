@@ -1,0 +1,14 @@
+{
+  "id": "SKYLOOM_STORMSILK_FILAMENT",
+  "name": "Skyloom Stormsilk Filament",
+  "type": "material",
+  "faction": "skyloom",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A conductive filament braided from stormdrawn silk.",
+  "specialEffects": [
+    "Used in skyweave staves, charged bindings, and high-spire craft."
+  ]
+}

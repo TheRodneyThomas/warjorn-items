@@ -1,0 +1,14 @@
+{
+  "id": "SANDSTRIDER_DUNEBONE_PLATE",
+  "name": "Sandstrider Dunebone Plate",
+  "type": "material",
+  "faction": "sandstrider",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Uncommon"
+  },
+  "description": "A sunbaked plate of dune bone and grit-bronze.",
+  "specialEffects": [
+    "Used in caravan shields, desert wargear, and heat-hard shells."
+  ]
+}

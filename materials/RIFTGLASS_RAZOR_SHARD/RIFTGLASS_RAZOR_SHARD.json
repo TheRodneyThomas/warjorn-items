@@ -1,0 +1,14 @@
+{
+  "id": "RIFTGLASS_RAZOR_SHARD",
+  "name": "Riftglass Razor Shard",
+  "type": "material",
+  "faction": "riftglass",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A fractured shard with impossibly thin killing edges.",
+  "specialEffects": [
+    "Used in daggers, portal-cut implements, and unstable precision work."
+  ]
+}

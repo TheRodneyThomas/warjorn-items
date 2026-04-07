@@ -1,0 +1,1477 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Warjorn Crafting Compendium</title>
+  <style>
+    :root {
+      --bg: #ede3d2;
+      --bg-deep: #d7c3a4;
+      --panel: rgba(255, 250, 240, 0.92);
+      --panel-strong: rgba(255, 246, 232, 0.98);
+      --text: #241910;
+      --muted: #675443;
+      --line: rgba(83, 54, 28, 0.18);
+      --accent: #a23d17;
+      --accent-2: #2e6b66;
+      --accent-3: #7d611f;
+      --shadow: 0 18px 45px rgba(49, 26, 9, 0.14);
+      --chip: #f5e0ca;
+      --chip-active: #d56e42;
+      --good: #245f49;
+      --warn: #7c5410;
+      --bad: #7a251f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+      background:
+        radial-gradient(circle at top left, rgba(255, 241, 219, 0.95), transparent 34%),
+        radial-gradient(circle at top right, rgba(217, 170, 112, 0.28), transparent 28%),
+        linear-gradient(180deg, #f5ecdf 0%, var(--bg) 50%, #e7d6bf 100%);
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background:
+        linear-gradient(120deg, rgba(255, 255, 255, 0.14), transparent 20%, transparent 80%, rgba(255, 255, 255, 0.09)),
+        repeating-linear-gradient(90deg, rgba(96, 62, 28, 0.025) 0 1px, transparent 1px 64px),
+        repeating-linear-gradient(0deg, rgba(96, 62, 28, 0.02) 0 1px, transparent 1px 64px);
+      mix-blend-mode: multiply;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    .page {
+      max-width: 1540px;
+      margin: 0 auto;
+      padding: 1.1rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero {
+      display: grid;
+      gap: 0.85rem;
+      padding: 1.4rem;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background:
+        linear-gradient(135deg, rgba(255, 248, 238, 0.95), rgba(244, 225, 199, 0.9)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.4), transparent);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
+      isolation: isolate;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      right: -140px;
+      top: -160px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(162, 61, 23, 0.18), transparent 65%);
+      z-index: -1;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.78rem;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+      letter-spacing: 0.01em;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 3.7rem);
+      line-height: 0.95;
+      max-width: 12ch;
+    }
+
+    .hero-copy {
+      max-width: 78ch;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .hero-copy strong {
+      color: var(--text);
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.85rem;
+    }
+
+    .summary-card {
+      padding: 1rem;
+      border-radius: 18px;
+      background: rgba(255, 250, 243, 0.8);
+      border: 1px solid rgba(92, 58, 31, 0.12);
+      min-height: 110px;
+      display: grid;
+      gap: 0.3rem;
+    }
+
+    .summary-label {
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .summary-value {
+      font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+      font-size: clamp(1.5rem, 3vw, 2.3rem);
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .summary-note {
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.45;
+    }
+
+    .layout {
+      margin-top: 1rem;
+      display: grid;
+      grid-template-columns: minmax(380px, 0.95fr) minmax(380px, 1.05fr);
+      gap: 1rem;
+      align-items: start;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      backdrop-filter: blur(14px);
+    }
+
+    .panel-head {
+      padding: 1rem 1rem 0.9rem;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255, 249, 240, 0.96), rgba(255, 247, 237, 0.75));
+      display: grid;
+      gap: 0.8rem;
+    }
+
+    .panel-head p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .control-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) repeat(3, minmax(0, 0.9fr)) auto;
+      gap: 0.7rem;
+    }
+
+    .field {
+      display: grid;
+      gap: 0.35rem;
+    }
+
+    .field label {
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .field input,
+    .field select,
+    .reset-btn,
+    .action-btn {
+      width: 100%;
+      border: 1px solid rgba(98, 59, 31, 0.16);
+      background: rgba(255, 255, 255, 0.85);
+      color: var(--text);
+      border-radius: 14px;
+      min-height: 48px;
+      padding: 0.75rem 0.9rem;
+    }
+
+    .reset-btn,
+    .action-btn {
+      cursor: pointer;
+      font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+      font-weight: 700;
+      transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+    }
+
+    .reset-btn:hover,
+    .action-btn:hover,
+    .item-card:hover,
+    .chip:hover {
+      transform: translateY(-1px);
+    }
+
+    .reset-btn {
+      background: linear-gradient(180deg, #fff5ea, #f7e1c4);
+    }
+
+    .stats-bar {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      gap: 0.8rem;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      color: var(--muted);
+      background: rgba(255, 253, 249, 0.8);
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+    }
+
+    .chip {
+      border: 1px solid rgba(138, 95, 56, 0.18);
+      border-radius: 999px;
+      background: var(--chip);
+      color: #573a22;
+      padding: 0.45rem 0.8rem;
+      cursor: pointer;
+      font-size: 0.88rem;
+    }
+
+    .chip.active {
+      background: var(--chip-active);
+      border-color: rgba(110, 40, 15, 0.35);
+      color: #fff6f1;
+      font-weight: 700;
+    }
+
+    .item-groups {
+      padding: 0.9rem;
+      max-height: calc(100vh - 290px);
+      overflow: auto;
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    .group {
+      border: 1px solid rgba(122, 80, 46, 0.14);
+      border-radius: 18px;
+      overflow: hidden;
+      background: rgba(255, 253, 249, 0.78);
+    }
+
+    .group summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 0.85rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: center;
+      font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+      font-weight: 700;
+      background: linear-gradient(90deg, rgba(248, 232, 214, 0.95), rgba(255, 250, 244, 0.65));
+    }
+
+    .group summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .group-items {
+      padding: 0.85rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .item-card {
+      border: 1px solid rgba(115, 74, 38, 0.12);
+      border-radius: 18px;
+      background: rgba(255, 249, 242, 0.96);
+      padding: 0.9rem;
+      display: grid;
+      gap: 0.55rem;
+      cursor: pointer;
+      transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .item-card.active {
+      border-color: rgba(162, 61, 23, 0.48);
+      box-shadow: 0 12px 28px rgba(116, 55, 19, 0.14);
+      background: rgba(255, 244, 231, 0.98);
+    }
+
+    .item-name {
+      font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+      font-size: 1rem;
+      line-height: 1.25;
+    }
+
+    .item-meta,
+    .item-id {
+      color: var(--muted);
+      font-size: 0.86rem;
+      overflow-wrap: anywhere;
+    }
+
+    .badge-row,
+    .ingredient-list,
+    .basis-list,
+    .step-list,
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .badge,
+    .tag,
+    .ingredient-pill,
+    .basis-pill {
+      border-radius: 999px;
+      padding: 0.35rem 0.68rem;
+      font-size: 0.8rem;
+      border: 1px solid rgba(108, 72, 44, 0.12);
+      background: rgba(245, 232, 216, 0.95);
+    }
+
+    .badge.rare,
+    .tag.real {
+      background: rgba(209, 236, 225, 0.92);
+      color: var(--good);
+    }
+
+    .badge.mode-source,
+    .tag.inferred {
+      background: rgba(249, 234, 205, 0.92);
+      color: var(--warn);
+    }
+
+    .detail {
+      position: sticky;
+      top: 1rem;
+      min-height: calc(100vh - 2rem);
+      display: grid;
+      grid-template-rows: auto auto 1fr;
+      background: var(--panel-strong);
+    }
+
+    .detail-head {
+      padding: 1.1rem 1.1rem 1rem;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 0.75rem;
+      background:
+        linear-gradient(135deg, rgba(255, 246, 235, 0.98), rgba(242, 222, 196, 0.82)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.4), transparent);
+    }
+
+    .detail-subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .detail-actions {
+      padding: 0.85rem 1.1rem;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      gap: 0.7rem;
+      flex-wrap: wrap;
+      background: rgba(255, 252, 246, 0.75);
+    }
+
+    .detail-body {
+      padding: 1.1rem;
+      overflow: auto;
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    .empty-state,
+    .loading-state {
+      min-height: 320px;
+      border: 1px dashed rgba(125, 94, 63, 0.24);
+      border-radius: 20px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 2rem;
+      color: var(--muted);
+      background:
+        radial-gradient(circle at top, rgba(255, 243, 228, 0.95), transparent 62%),
+        rgba(255, 252, 247, 0.82);
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.9rem;
+    }
+
+    .card {
+      border: 1px solid rgba(120, 80, 45, 0.12);
+      border-radius: 20px;
+      background: rgba(255, 252, 247, 0.96);
+      overflow: hidden;
+    }
+
+    .card h3 {
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid rgba(120, 80, 45, 0.1);
+      background: rgba(249, 239, 226, 0.85);
+      font-size: 0.96rem;
+    }
+
+    .card-body {
+      padding: 1rem;
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .ingredient-row {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 0.75rem;
+      align-items: center;
+      padding: 0.75rem 0.85rem;
+      border-radius: 14px;
+      background: rgba(247, 238, 226, 0.86);
+      border: 1px solid rgba(119, 77, 41, 0.08);
+    }
+
+    .ingredient-qty {
+      font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+      font-weight: 700;
+      color: var(--accent);
+      min-width: 2.2rem;
+    }
+
+    .ingredient-name {
+      font-weight: 700;
+    }
+
+    .ingredient-note,
+    .muted {
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.85rem;
+      align-items: start;
+    }
+
+    .step-index {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #d86f44, #9e3915);
+      color: #fff6f2;
+      font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+      font-weight: 700;
+      display: grid;
+      place-items: center;
+      box-shadow: 0 8px 18px rgba(115, 44, 13, 0.22);
+    }
+
+    .kv-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.75rem;
+    }
+
+    .kv {
+      padding: 0.8rem 0.9rem;
+      border-radius: 16px;
+      border: 1px solid rgba(114, 75, 40, 0.1);
+      background: rgba(248, 241, 231, 0.92);
+      display: grid;
+      gap: 0.22rem;
+    }
+
+    .kv-label {
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .kv-value {
+      font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+      font-size: 0.98rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    .footer-note {
+      margin-top: 1rem;
+      padding: 0.95rem 1rem;
+      border: 1px solid rgba(111, 72, 39, 0.12);
+      border-radius: 18px;
+      background: rgba(255, 250, 243, 0.76);
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @media (max-width: 1220px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .detail {
+        position: static;
+        min-height: auto;
+      }
+
+      .item-groups {
+        max-height: none;
+      }
+    }
+
+    @media (max-width: 920px) {
+      .summary-grid,
+      .control-grid,
+      .detail-grid,
+      .kv-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        padding: 0.75rem;
+      }
+
+      .summary-grid,
+      .control-grid,
+      .detail-grid,
+      .kv-grid,
+      .group-items {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <div class="eyebrow">Single File Crafting Documentation</div>
+      <h1>Warjorn Crafting Compendium</h1>
+      <p class="hero-copy">
+        This page documents <strong>how to craft every item in the repository</strong> using a curated crafting guide
+        backed by the catalog's material library. The item JSON files still do not contain recipe fields, so this page
+        acts as the <strong>crafting canon</strong> by combining item metadata with authored recipe rules and real material entries.
+        Material items are documented as <strong>gathering, refining, or salvage sources</strong> for downstream crafting.
+      </p>
+
+      <div class="summary-grid">
+        <article class="summary-card">
+          <div class="summary-label">Items Loaded</div>
+          <div class="summary-value" id="summaryItems">--</div>
+          <div class="summary-note">Every JSON item record parsed from the repository catalog.</div>
+        </article>
+        <article class="summary-card">
+          <div class="summary-label">Crafted Outputs</div>
+          <div class="summary-value" id="summaryCrafted">--</div>
+          <div class="summary-note">Weapons, armor, relics, trinkets, and consumables with guide-backed recipes.</div>
+        </article>
+        <article class="summary-card">
+          <div class="summary-label">Source Materials</div>
+          <div class="summary-value" id="summaryMaterials">--</div>
+          <div class="summary-note">Material items shown as gather, refine, or salvage documentation for downstream recipes.</div>
+        </article>
+        <article class="summary-card">
+          <div class="summary-label">Stations</div>
+          <div class="summary-value" id="summaryStations">--</div>
+          <div class="summary-note">Distinct benches, kilns, forges, and sanctums referenced by the recipe system.</div>
+        </article>
+      </div>
+    </section>
+
+    <div class="layout">
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Recipe Browser</h2>
+            <p>Search by item, category, faction, material, type, or rarity. The page groups results by category and generates recipe details for every entry.</p>
+          </div>
+
+          <div class="control-grid">
+            <div class="field">
+              <label for="search">Search</label>
+              <input id="search" type="search" placeholder="Try crusader, steel, bow, epic, undead..." />
+            </div>
+            <div class="field">
+              <label for="categoryFilter">Category</label>
+              <select id="categoryFilter">
+                <option value="all">All categories</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="rarityFilter">Rarity</label>
+              <select id="rarityFilter">
+                <option value="all">All rarities</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="modeFilter">Mode</label>
+              <select id="modeFilter">
+                <option value="all">Crafted and sourced</option>
+                <option value="crafted">Crafted outputs</option>
+                <option value="source">Material sources</option>
+              </select>
+            </div>
+            <button id="resetBtn" class="reset-btn" type="button">Reset</button>
+          </div>
+
+          <div class="chip-row" id="quickRarityChips" aria-label="Quick rarity filters"></div>
+        </div>
+
+        <div class="stats-bar">
+          <span id="resultSummary">Loading item data...</span>
+          <span id="activeFilters">No filters</span>
+        </div>
+
+        <div id="itemGroups" class="item-groups">
+          <div class="loading-state">
+            <div>
+              <h3>Loading recipes</h3>
+              <p>The page is parsing the repo catalog and building documented recipes from the material library.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="panel detail">
+        <div class="detail-head">
+          <div class="eyebrow" id="detailEyebrow">Crafting Preview</div>
+          <h2 id="detailTitle">Select an item</h2>
+          <p class="detail-subtitle" id="detailSubtitle">Choose any entry from the browser to inspect its documented recipe, required station, ingredient mix, and step-by-step notes.</p>
+          <div class="badge-row" id="detailBadges"></div>
+        </div>
+
+        <div class="detail-actions">
+          <button id="openJsonBtn" class="action-btn" type="button" disabled>Open raw JSON</button>
+          <button id="openMdBtn" class="action-btn" type="button" disabled>Open item notes</button>
+        </div>
+
+        <div class="detail-body" id="detailBody">
+          <div class="empty-state">
+            <div>
+              <h3>Recipe details will appear here</h3>
+              <p>This compendium explains the recipe basis for every item and points each crafted output at real catalog materials.</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="footer-note">
+      Item JSON files do not store recipe fields. This page serves as the repository's crafting guide by combining item metadata with a curated, material-backed documentation rule set.
+    </div>
+  </div>
+
+  <script>
+    const state = {
+      items: [],
+      query: "",
+      category: "all",
+      rarity: "all",
+      mode: "all",
+      selectedId: ""
+    };
+
+    const rarityOrder = ["Common", "Uncommon", "Rare", "Epic", "Legendary"];
+    const rarityTier = Object.fromEntries(rarityOrder.map((rarity, index) => [rarity, index]));
+
+    const typeRules = {
+      sword: { station: "Forge", base: 4, baseSupports: ["BASICS", "WOOD"], focus: "edge forging", keywords: ["steel", "alloy", "shard", "obsidian", "silver", "tempered", "ore"], verbs: ["forge", "grind", "temper"] },
+      axe: { station: "Forge", base: 5, baseSupports: ["BASICS", "WOOD"], focus: "head-and-haft forging", keywords: ["ore", "scale", "tooth", "heartwood", "steel", "carapace", "resin"], verbs: ["cast", "brace", "temper"] },
+      bow: { station: "Fletcher Bench", base: 3, baseSupports: ["BASICS", "WOOD"], focus: "limb shaping", keywords: ["thread", "fiber", "bark", "coral", "sap", "filament", "carapace"], verbs: ["shape", "string", "seal"] },
+      dagger: { station: "Cutler Bench", base: 3, baseSupports: ["BASICS", "WOOD"], focus: "precision cutting", keywords: ["splinter", "shard", "glass", "dust", "feather", "fiber", "silver"], verbs: ["hone", "pin", "balance"] },
+      mace: { station: "Forge", base: 5, baseSupports: ["BASICS", "WOOD"], focus: "impact casting", keywords: ["ore", "scale", "heartwood", "brass", "core", "tooth", "alloy"], verbs: ["cast", "bind", "harden"] },
+      stave: { station: "Arcane Lathe", base: 4, baseSupports: ["BASICS", "WOOD"], focus: "focus binding", keywords: ["filament", "sap", "quartz", "thread", "pinion", "crystal", "dust"], verbs: ["core", "braid", "seal"] },
+      shield: { station: "Forge", base: 4, baseSupports: ["BASICS", "WOOD"], focus: "defensive plating", keywords: ["plate", "steel", "alloy", "ore", "carapace", "bone", "reinforced"], verbs: ["plate", "brace", "temper"] },
+      armor: { station: "Forge", base: 7, baseSupports: ["BASICS"], focus: "plate or weave assembly", keywords: ["plate", "thread", "fiber", "alloy", "ore", "ingot", "bark", "scale"], verbs: ["fit", "rivet", "seal"] },
+      consumable: { station: "Apothecary Table", base: 2, baseSupports: ["BASICS"], focus: "distillation", keywords: ["bloom", "dust", "crystal", "sap", "ectoplasm", "resin", "cluster"], verbs: ["distill", "infuse", "stabilize"] },
+      relic: { station: "Reliquary Bench", base: 3, baseSupports: ["BASICS", "GOLD"], focus: "sacred housing", keywords: ["core", "quartz", "plate", "dust", "shard", "pinion", "thread"], verbs: ["enshrine", "bind", "sanctify"] },
+      trinket: { station: "Jeweler Bench", base: 2, baseSupports: ["BASICS", "GOLD"], focus: "fine setting", keywords: ["dust", "spring", "shard", "crystal", "filament", "silver", "gold"], verbs: ["set", "polish", "tune"] },
+      material: { station: "Refinery", base: 0, baseSupports: [], focus: "refinement", keywords: [], verbs: ["refine", "stabilize", "bundle"] }
+    };
+
+    const els = {
+      summaryItems: document.getElementById("summaryItems"),
+      summaryCrafted: document.getElementById("summaryCrafted"),
+      summaryMaterials: document.getElementById("summaryMaterials"),
+      summaryStations: document.getElementById("summaryStations"),
+      search: document.getElementById("search"),
+      categoryFilter: document.getElementById("categoryFilter"),
+      rarityFilter: document.getElementById("rarityFilter"),
+      modeFilter: document.getElementById("modeFilter"),
+      resetBtn: document.getElementById("resetBtn"),
+      quickRarityChips: document.getElementById("quickRarityChips"),
+      resultSummary: document.getElementById("resultSummary"),
+      activeFilters: document.getElementById("activeFilters"),
+      itemGroups: document.getElementById("itemGroups"),
+      detailEyebrow: document.getElementById("detailEyebrow"),
+      detailTitle: document.getElementById("detailTitle"),
+      detailSubtitle: document.getElementById("detailSubtitle"),
+      detailBadges: document.getElementById("detailBadges"),
+      detailBody: document.getElementById("detailBody"),
+      openJsonBtn: document.getElementById("openJsonBtn"),
+      openMdBtn: document.getElementById("openMdBtn")
+    };
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function titleCase(value) {
+      return String(value || "")
+        .replace(/[_-]+/g, " ")
+        .replace(/\b\w/g, (char) => char.toUpperCase());
+    }
+
+    function normalizeKey(value) {
+      return String(value || "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+    }
+
+    function hashString(value) {
+      let hash = 0;
+      for (const char of String(value || "")) {
+        hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
+      }
+      return hash;
+    }
+
+    function pickDeterministic(list, seed, count) {
+      const pool = list.slice().sort((left, right) => (left.id || left).localeCompare(right.id || right));
+      const picks = [];
+      let cursor = hashString(seed);
+
+      while (pool.length && picks.length < count) {
+        const index = cursor % pool.length;
+        picks.push(pool.splice(index, 1)[0]);
+        cursor = (cursor * 33 + 17) >>> 0;
+      }
+
+      return picks;
+    }
+
+    function parseCatalog(markdown) {
+      const lines = markdown.split(/\r?\n/);
+      const items = [];
+      let current = null;
+
+      for (const line of lines) {
+        const itemMatch = line.match(/^\-\s+([a-z0-9_-]+)\/([A-Z0-9_]+)\/$/i);
+        if (itemMatch) {
+          if (current) items.push(current);
+          current = {
+            category: itemMatch[1],
+            folderName: itemMatch[2],
+            path: `../${itemMatch[1]}/${itemMatch[2]}`,
+            mdPath: `../${itemMatch[1]}/${itemMatch[2]}/${itemMatch[2]}.md`,
+            jsonPath: `../${itemMatch[1]}/${itemMatch[2]}/${itemMatch[2]}.json`,
+            hasMd: false,
+            hasJson: false
+          };
+          continue;
+        }
+
+        if (!current) continue;
+        if (/^\s+\-\s+[A-Z0-9_]+\.md$/i.test(line)) current.hasMd = true;
+        if (/^\s+\-\s+[A-Z0-9_]+\.json$/i.test(line)) current.hasJson = true;
+      }
+
+      if (current) items.push(current);
+      return items;
+    }
+
+    function stationForMaterial(item) {
+      if (item.id === "WOOD") return "Woodshop";
+      if (["IRON", "STEEL", "BRONZE", "SILVER", "GOLD", "TEMPERED_STEEL", "REINFORCED_STEEL"].includes(item.id)) return "Smelter";
+      if (item.id === "OBSIDIAN") return "Stone Kiln";
+      if (item.faction === "crusader") return "Sanctified Forge";
+      if (item.faction === "undead") return "Ossuary Kiln";
+      if (["astral", "phasesteel", "starweaver", "starlit", "celestine"].includes(item.faction)) return "Starforge";
+      if (["tideborne", "deepclock", "blacktide", "stonetide"].includes(item.faction)) return "Tideworks";
+      return "Refinery";
+    }
+
+    function stationForItem(item) {
+      const base = typeRules[item.type] || typeRules.material;
+      if (item.type === "material") return stationForMaterial(item);
+      if (item.type === "relic" && item.faction === "undead") return "Crypt Reliquary";
+      if (item.type === "relic" && ["deepclock", "echoheart"].includes(item.faction)) return "Aether Reliquary";
+      if (item.type === "consumable" && item.faction === "undead") return "Plague Distillery";
+      if (item.type === "consumable" && item.faction === "crusader") return "Chapel Apothecary";
+      if (item.type === "armor" && item.faction === "undead") return "Bone Forge";
+      if (item.type === "armor" && item.faction === "crusader") return "Sanctified Forge";
+      if (["skyforged", "skyloom"].includes(item.faction)) return "Storm Atelier";
+      return base.station;
+    }
+
+    function unlockTier(rarity) {
+      const map = {
+        Common: "Field Kit",
+        Uncommon: "Journeyman Tools",
+        Rare: "Guild Charter",
+        Epic: "Master Seal",
+        Legendary: "Ascendant Sigil"
+      };
+      return map[rarity] || "Field Kit";
+    }
+
+    function modeLabel(mode) {
+      return mode === "source" ? "Material Source" : "Crafted Output";
+    }
+
+    function statWeight(item) {
+      const stats = item.stats || {};
+      const signal = stats.durability || stats.armor || stats.baseDamage || stats.baseProtection || stats.power || stats.healing || 0;
+      return Math.min(3, Math.floor(signal / 30));
+    }
+
+    function rarityValue(entry) {
+      return rarityTier[entry?.stats?.rarity] ?? 99;
+    }
+
+    function dedupeIngredients(ingredients) {
+      const map = new Map();
+      for (const ingredient of ingredients) {
+        if (!ingredient || !ingredient.name) continue;
+        const key = normalizeKey(ingredient.id || ingredient.name);
+        if (!map.has(key)) {
+          map.set(key, { ...ingredient });
+          continue;
+        }
+        const existing = map.get(key);
+        existing.amount += ingredient.amount || 0;
+        if (ingredient.note && !existing.note) existing.note = ingredient.note;
+        if (ingredient.source === "catalog") existing.source = "catalog";
+      }
+      return [...map.values()].sort((left, right) => left.name.localeCompare(right.name));
+    }
+
+    function resolveMaterialEntry(materialKey, materialLookup) {
+      return materialLookup.get(normalizeKey(materialKey)) || null;
+    }
+
+    function createIngredient(entry, amount, note, source = "catalog") {
+      return {
+        id: entry.id,
+        name: entry.name,
+        amount,
+        source,
+        note
+      };
+    }
+
+    function materialMatchesKeyword(material, keyword) {
+      const needle = normalizeKey(keyword);
+      if (!needle) return false;
+      return [material.id, material.name, material.faction || ""].some((value) => normalizeKey(value).includes(needle));
+    }
+
+    function pickFactionMaterials(item, indexes, tier) {
+      const pool = (indexes.factionMaterials.get(item.faction) || []).slice().sort((left, right) => {
+        return rarityValue(left) - rarityValue(right) || left.id.localeCompare(right.id);
+      });
+
+      if (!pool.length) return [];
+
+      const cap = Math.min(tier + 1, rarityOrder.length - 1);
+      const available = pool.filter((entry) => rarityValue(entry) <= cap + 1);
+      const target = available.length ? available : pool;
+      const count = Math.min(target.length, tier >= 3 ? 3 : tier >= 1 ? 2 : 1);
+
+      return pickDeterministic(target, `${item.id}:faction`, count).map((entry, index) => {
+        return createIngredient(entry, Math.max(1, tier + 1 + index), `Faction signature material for ${titleCase(item.faction)} gear.`);
+      });
+    }
+
+    function pickSupportMaterials(item, indexes, usedIds, tier) {
+      const rule = typeRules[item.type] || typeRules.material;
+      const keywords = new Set([...rule.keywords, item.material || "", item.faction || "", item.slot || "", item.type || ""]);
+
+      const scored = indexes.materialItems
+        .filter((entry) => !usedIds.has(entry.id))
+        .map((entry) => {
+          let score = 0;
+          for (const keyword of keywords) {
+            if (materialMatchesKeyword(entry, keyword)) score += 2;
+          }
+          if (entry.faction === item.faction) score += 3;
+          score -= Math.abs(rarityValue(entry) - tier);
+          return { entry, score };
+        })
+        .filter((row) => row.score > 0)
+        .sort((left, right) => right.score - left.score || left.entry.id.localeCompare(right.entry.id))
+        .map((row) => row.entry);
+
+      const fallbackPool = indexes.materialItems.filter((entry) => !usedIds.has(entry.id));
+      const source = scored.length ? scored : fallbackPool;
+      const count = item.type === "consumable" ? 1 + (tier >= 2 ? 1 : 0) : 2 + (tier >= 3 ? 1 : 0);
+
+      return pickDeterministic(source, `${item.id}:support`, count).map((entry) => {
+        const amount = Math.max(1, (hashString(`${item.id}:${entry.id}`) % 3) + 1 + Math.floor(tier / 2));
+        return createIngredient(entry, amount, `Accent material selected for the ${rule.focus} profile.`);
+      });
+    }
+
+    function documentMaterialSource(item, indexes) {
+      const station = stationForMaterial(item);
+      const rarity = item.stats?.rarity || "Common";
+      const tier = rarityTier[rarity] || 0;
+      const basicRecipes = {
+        STEEL: [createIngredient(resolveMaterialEntry("IRON", indexes.materialLookup), 3, "Refined into stronger battlefield stock."), createIngredient(resolveMaterialEntry("BASICS", indexes.materialLookup), 1, "Binding and quench support.")],
+        REINFORCED_STEEL: [createIngredient(resolveMaterialEntry("STEEL", indexes.materialLookup), 3, "Primary reinforced shell stock."), createIngredient(resolveMaterialEntry("BASICS", indexes.materialLookup), 2, "Bracing and rivet stock.")],
+        TEMPERED_STEEL: [createIngredient(resolveMaterialEntry("STEEL", indexes.materialLookup), 2, "Core steel ready for heat treatment."), createIngredient(resolveMaterialEntry("SILVER", indexes.materialLookup), 1, "Added for balanced edge stability."), createIngredient(resolveMaterialEntry("BASICS", indexes.materialLookup), 1, "Temper and finishing support.")]
+      };
+      const ingredients = (basicRecipes[item.id] || []).filter(Boolean);
+      const verbs = ["salvage", "refine", "stabilize", "bundle"];
+      const action = verbs[hashString(item.id) % verbs.length];
+      const steps = [];
+
+      if (ingredients.length) {
+        steps.push(`Bring the listed precursor materials to the ${station}.`);
+        steps.push(`${titleCase(action)} the stock through repeated heat and pressure cycles until it settles into ${item.name.toLowerCase()}.`);
+      } else if (item.faction === "basic") {
+        if (item.id === "WOOD") {
+          steps.push("Harvest raw timber, split it into usable lengths, and cure it at the Woodshop.");
+          steps.push("Trim the stock into handles, staves, and shield frames before bundling it as a crafting material.");
+        } else if (item.id === "BASICS") {
+          steps.push("Salvage cloth, bindings, spare rivets, and low-grade field hardware.");
+          steps.push("Sort and bundle the recovered pieces at a Workbench into a general-use basics stack.");
+        } else {
+          steps.push(`Excavate or recover raw ${item.name.toLowerCase()} stock and bring it to the ${station}.`);
+          steps.push(`${titleCase(action)} the stock until it reaches crafting grade and can be bundled for later use.`);
+        }
+      } else {
+        steps.push(`Recover themed fragments from ${titleCase(item.faction).toLowerCase()} enemies, salvage, or matching item lines.`);
+        steps.push(`${titleCase(action)} the fragments at the ${station} until they become a stable recipe-ready material stack.`);
+      }
+
+      steps.push(`Higher-tier ${rarity.toLowerCase()} lots demand stricter quality control before they are fit for downstream recipes.`);
+
+      return {
+        mode: "source",
+        station,
+        unlock: unlockTier(rarity),
+        effort: Math.max(1, tier + ingredients.length),
+        ingredients,
+        basis: [
+          `type: ${item.type}`,
+          `rarity: ${rarity}`,
+          `faction: ${item.faction || "none"}`,
+          "guide mode: gather, refine, or salvage"
+        ],
+        steps,
+        notes: [
+          "Material entries are documented as acquisition or refinement paths for the rest of the crafting guide.",
+          ingredients.length ? "This material has a documented refinement chain inside the guide." : "This material is treated as a source ingredient gathered before downstream crafting."
+        ]
+      };
+    }
+
+    function inferRecipe(item, indexes) {
+      if (item.type === "material") {
+        return documentMaterialSource(item, indexes);
+      }
+
+      const rarity = item.stats?.rarity || "Common";
+      const tier = rarityTier[rarity] || 0;
+      const rule = typeRules[item.type] || typeRules.material;
+      const station = stationForItem(item);
+      const weightFactor = statWeight(item);
+      const slotFactor = item.slot === "chest" || item.slot === "legs" ? 2 : item.slot ? 1 : 0;
+      const baseAmount = rule.base + tier + weightFactor + slotFactor;
+      const usedIds = new Set();
+      const ingredients = [];
+
+      const primaryEntry = item.material ? resolveMaterialEntry(item.material, indexes.materialLookup) : null;
+      if (primaryEntry) {
+        ingredients.push(createIngredient(primaryEntry, Math.max(2, baseAmount), `Primary stock for ${titleCase(item.type)} crafting.`));
+        usedIds.add(primaryEntry.id);
+      }
+
+      for (const supportId of rule.baseSupports) {
+        const supportEntry = resolveMaterialEntry(supportId, indexes.materialLookup);
+        if (!supportEntry) continue;
+        ingredients.push(createIngredient(supportEntry, supportId === "BASICS" ? 1 + Math.floor(tier / 2) : 1 + (item.type === "bow" ? 1 : 0), `Core support stock for the ${rule.focus} recipe.`));
+        usedIds.add(supportEntry.id);
+      }
+
+      if (item.faction) {
+        for (const ingredient of pickFactionMaterials(item, indexes, tier)) {
+          ingredients.push(ingredient);
+          usedIds.add(ingredient.id);
+        }
+      }
+
+      for (const ingredient of pickSupportMaterials(item, indexes, usedIds, tier)) {
+        ingredients.push(ingredient);
+        usedIds.add(ingredient.id);
+      }
+
+      const recipe = dedupeIngredients(ingredients);
+      const accentSummary = recipe.slice(1, 4).map((ingredient) => ingredient.name).join(", ");
+      const primaryVerb = rule.verbs[hashString(item.id) % rule.verbs.length];
+      const finishVerb = rule.verbs[hashString(`${item.id}:finish`) % rule.verbs.length];
+      const descriptionLead = item.description || "No description provided.";
+
+      const steps = [
+        `Bring the listed ingredients to the ${station} and lay out the ${rule.focus} stock in crafting order.`,
+        `${titleCase(primaryVerb)} the ${primaryEntry ? primaryEntry.name.toLowerCase() : "core stock"} into the base frame for ${item.name.toLowerCase()}.`,
+        item.faction
+          ? `Fold in the faction materials to lock the piece to its ${titleCase(item.faction).toLowerCase()} identity.`
+          : `Work the support materials into the frame so the finished item lands at ${rarity.toLowerCase()} quality.`,
+        accentSummary
+          ? `Use ${accentSummary.toLowerCase()} during the ${finishVerb} pass to finish the item's signature profile.`
+          : `Complete the ${finishVerb} pass and bring the item to battle-ready condition.`,
+        `Test the result against the item's battlefield role: ${descriptionLead}`
+      ];
+
+      return {
+        mode: "crafted",
+        station,
+        unlock: unlockTier(rarity),
+        effort: baseAmount + recipe.length,
+        ingredients: recipe,
+        basis: [
+          `type: ${item.type}`,
+          `rarity: ${rarity}`,
+          item.material ? `material: ${item.material}` : null,
+          item.faction ? `faction: ${item.faction}` : null,
+          item.slot ? `slot: ${item.slot}` : null,
+          `guide profile: ${rule.focus}`
+        ].filter(Boolean),
+        steps,
+        notes: [
+          "This recipe is defined by the crafting guide's authored rule set rather than a recipe field inside the item JSON.",
+          "Every listed ingredient points to a real material entry in the repository catalog.",
+          item.specialEffects?.length ? `Craft accent: ${item.specialEffects[0]}` : "No special effect was used as a mandatory ingredient gate."
+        ]
+      };
+    }
+
+    function buildIndexes(items) {
+      const materialLookup = new Map();
+      const factionMaterials = new Map();
+      const materialItems = items.filter((item) => item.type === "material").sort((left, right) => left.id.localeCompare(right.id));
+
+      for (const item of materialItems) {
+        materialLookup.set(normalizeKey(item.id), item);
+        materialLookup.set(normalizeKey(item.name), item);
+
+        if (item.faction) {
+          if (!factionMaterials.has(item.faction)) factionMaterials.set(item.faction, []);
+          factionMaterials.get(item.faction).push(item);
+        }
+      }
+
+      return { materialLookup, factionMaterials, materialItems };
+    }
+
+    function activeFiltersText() {
+      const parts = [];
+      if (state.category !== "all") parts.push(`category: ${titleCase(state.category)}`);
+      if (state.rarity !== "all") parts.push(`rarity: ${state.rarity}`);
+      if (state.mode !== "all") parts.push(`mode: ${titleCase(state.mode)}`);
+      if (state.query.trim()) parts.push(`query: ${state.query.trim()}`);
+      return parts.length ? parts.join(" | ") : "No filters";
+    }
+
+    function filteredItems() {
+      const query = state.query.trim().toLowerCase();
+      return state.items.filter((item) => {
+        if (state.category !== "all" && item.category !== state.category) return false;
+        if (state.rarity !== "all" && (item.stats?.rarity || "Unknown") !== state.rarity) return false;
+        if (state.mode !== "all" && item.recipe.mode !== state.mode) return false;
+
+        if (!query) return true;
+        const haystack = [
+          item.name,
+          item.id,
+          item.category,
+          item.type,
+          item.material || "",
+          item.faction || "",
+          item.description || "",
+          item.stats?.rarity || "",
+          item.recipe.station,
+          ...item.recipe.basis
+        ].join(" ").toLowerCase();
+        return haystack.includes(query);
+      });
+    }
+
+    function groupItems(items) {
+      const groups = new Map();
+      for (const item of items) {
+        if (!groups.has(item.category)) groups.set(item.category, []);
+        groups.get(item.category).push(item);
+      }
+      return [...groups.entries()].sort((left, right) => left[0].localeCompare(right[0]));
+    }
+
+    function renderSummary() {
+      const total = state.items.length;
+      const crafted = state.items.filter((item) => item.recipe.mode === "crafted").length;
+      const materials = state.items.filter((item) => item.recipe.mode === "source").length;
+      const stations = new Set(state.items.map((item) => item.recipe.station)).size;
+      els.summaryItems.textContent = String(total);
+      els.summaryCrafted.textContent = String(crafted);
+      els.summaryMaterials.textContent = String(materials);
+      els.summaryStations.textContent = String(stations);
+    }
+
+    function renderFilters() {
+      const categories = [...new Set(state.items.map((item) => item.category))].sort((left, right) => left.localeCompare(right));
+      const rarities = [...new Set(state.items.map((item) => item.stats?.rarity || "Unknown"))].sort((left, right) => (rarityTier[left] || 99) - (rarityTier[right] || 99));
+
+      els.categoryFilter.innerHTML = '<option value="all">All categories</option>' + categories.map((category) => `<option value="${escapeHtml(category)}">${escapeHtml(titleCase(category))}</option>`).join("");
+      els.rarityFilter.innerHTML = '<option value="all">All rarities</option>' + rarities.map((rarity) => `<option value="${escapeHtml(rarity)}">${escapeHtml(rarity)}</option>`).join("");
+
+      els.quickRarityChips.innerHTML = ["all", ...rarityOrder].map((rarity) => {
+        const isActive = rarity === "all" ? state.rarity === "all" : state.rarity === rarity;
+        const label = rarity === "all" ? "All rarities" : rarity;
+        return `<button class="chip${isActive ? " active" : ""}" type="button" data-rarity-chip="${escapeHtml(rarity)}">${escapeHtml(label)}</button>`;
+      }).join("");
+
+      els.categoryFilter.value = state.category;
+      els.rarityFilter.value = state.rarity;
+      els.modeFilter.value = state.mode;
+    }
+
+    function renderList() {
+      const list = filteredItems();
+      const groups = groupItems(list);
+
+      els.resultSummary.textContent = `${list.length} item${list.length === 1 ? "" : "s"} across ${groups.length} categor${groups.length === 1 ? "y" : "ies"}`;
+      els.activeFilters.textContent = activeFiltersText();
+
+      if (!list.length) {
+        els.itemGroups.innerHTML = '<div class="empty-state"><div><h3>No recipes match the current filters</h3><p>Clear the filters or broaden the search to browse the full compendium.</p></div></div>';
+        return;
+      }
+
+      els.itemGroups.innerHTML = groups.map(([category, items]) => {
+        const cards = items.sort((left, right) => left.name.localeCompare(right.name)).map((item) => {
+          const active = item.id === state.selectedId ? " active" : "";
+          const rarity = item.stats?.rarity || "Unknown";
+          const sourceTag = item.recipe.mode === "source" ? '<span class="badge mode-source">Source</span>' : '<span class="badge rare">Crafted</span>';
+          return `
+            <article class="item-card${active}" data-item-id="${escapeHtml(item.id)}" tabindex="0" role="button">
+              <div class="item-name">${escapeHtml(item.name)}</div>
+              <div class="item-meta">${escapeHtml(titleCase(item.type))} · ${escapeHtml(rarity)} · ${escapeHtml(item.recipe.station)}</div>
+              <div class="badge-row">
+                <span class="badge">${escapeHtml(titleCase(item.category))}</span>
+                ${sourceTag}
+              </div>
+              <div class="item-id">${escapeHtml(item.id)}</div>
+            </article>
+          `;
+        }).join("");
+
+        return `
+          <details class="group" ${state.query.trim() || state.category !== "all" ? "open" : ""}>
+            <summary>
+              <span>${escapeHtml(titleCase(category))}</span>
+              <span>${items.length} item${items.length === 1 ? "" : "s"}</span>
+            </summary>
+            <div class="group-items">${cards}</div>
+          </details>
+        `;
+      }).join("");
+    }
+
+    function setSelected(itemId) {
+      state.selectedId = itemId;
+      renderList();
+      renderDetail();
+    }
+
+    function renderDetail() {
+      const item = state.items.find((entry) => entry.id === state.selectedId);
+      if (!item) {
+        els.detailEyebrow.textContent = "Crafting Preview";
+        els.detailTitle.textContent = "Select an item";
+        els.detailSubtitle.textContent = "Choose any entry from the browser to inspect its documented recipe, required station, ingredient mix, and step-by-step notes.";
+        els.detailBadges.innerHTML = "";
+        els.detailBody.innerHTML = '<div class="empty-state"><div><h3>Recipe details will appear here</h3><p>This compendium explains the recipe basis for every item and points each crafted output at real catalog materials.</p></div></div>';
+        els.openJsonBtn.disabled = true;
+        els.openMdBtn.disabled = true;
+        return;
+      }
+
+      const recipe = item.recipe;
+      const rarity = item.stats?.rarity || "Unknown";
+
+      els.detailEyebrow.textContent = modeLabel(recipe.mode);
+      els.detailTitle.textContent = item.name;
+      els.detailSubtitle.textContent = `${titleCase(item.category)} / ${titleCase(item.type)} · ${rarity} · ${recipe.station}`;
+      els.detailBadges.innerHTML = [
+        `<span class="badge">${escapeHtml(rarity)}</span>`,
+        `<span class="badge">${escapeHtml(titleCase(item.type))}</span>`,
+        `<span class="badge">${escapeHtml(recipe.station)}</span>`,
+        item.material ? `<span class="badge">${escapeHtml(titleCase(item.material))}</span>` : "",
+        item.faction ? `<span class="badge">${escapeHtml(titleCase(item.faction))}</span>` : "",
+        recipe.mode === "source" ? '<span class="badge mode-source">Acquisition</span>' : '<span class="badge rare">Crafted</span>'
+      ].filter(Boolean).join("");
+
+      const ingredientsHtml = recipe.ingredients.length
+        ? recipe.ingredients.map((ingredient) => `
+            <div class="ingredient-row">
+              <div class="ingredient-qty">x${escapeHtml(ingredient.amount)}</div>
+              <div>
+                <div class="ingredient-name">${escapeHtml(ingredient.name)}</div>
+                <div class="ingredient-note">${escapeHtml(ingredient.note || "")}</div>
+              </div>
+              <span class="tag ${ingredient.source === "catalog" ? "real" : "inferred"}">${ingredient.source === "catalog" ? "Catalog Material" : "Guide Rule"}</span>
+            </div>
+          `).join("")
+        : '<div class="muted">This entry is documented as a source material. See the acquisition or refinement steps below.</div>';
+
+      const basisHtml = recipe.basis.map((entry) => `<span class="basis-pill">${escapeHtml(entry)}</span>`).join("");
+      const stepsHtml = recipe.steps.map((step, index) => `
+        <div class="step">
+          <div class="step-index">${index + 1}</div>
+          <div class="muted">${escapeHtml(step)}</div>
+        </div>
+      `).join("");
+      const notesHtml = recipe.notes.map((note) => `<span class="ingredient-pill">${escapeHtml(note)}</span>`).join("");
+
+      els.detailBody.innerHTML = `
+        <section class="card">
+          <h3>Recipe Summary</h3>
+          <div class="card-body">
+            <div class="kv-grid">
+              <div class="kv">
+                <div class="kv-label">Station</div>
+                <div class="kv-value">${escapeHtml(recipe.station)}</div>
+              </div>
+              <div class="kv">
+                <div class="kv-label">Unlock</div>
+                <div class="kv-value">${escapeHtml(recipe.unlock)}</div>
+              </div>
+              <div class="kv">
+                <div class="kv-label">Mode</div>
+                <div class="kv-value">${escapeHtml(modeLabel(recipe.mode))}</div>
+              </div>
+              <div class="kv">
+                <div class="kv-label">Effort</div>
+                <div class="kv-value">${escapeHtml(String(recipe.effort))}</div>
+              </div>
+            </div>
+            <div class="muted">${escapeHtml(item.description || "No description provided.")}</div>
+          </div>
+        </section>
+
+        <div class="detail-grid">
+          <section class="card">
+            <h3>Ingredients</h3>
+            <div class="card-body">${ingredientsHtml}</div>
+          </section>
+
+          <section class="card">
+            <h3>Recipe Basis</h3>
+            <div class="card-body">
+              <div class="basis-list">${basisHtml}</div>
+              <div class="muted">These fields are the direct evidence used to infer the crafting documentation for this item.</div>
+            </div>
+          </section>
+        </div>
+
+        <section class="card">
+          <h3>How To ${recipe.mode === "source" ? "Acquire" : "Craft"}</h3>
+          <div class="card-body">${stepsHtml}</div>
+        </section>
+
+        <section class="card">
+          <h3>Notes</h3>
+          <div class="card-body">
+            <div class="tag-list">${notesHtml}</div>
+          </div>
+        </section>
+      `;
+
+      els.openJsonBtn.disabled = !item.jsonPath;
+      els.openMdBtn.disabled = !item.mdPath;
+      els.openJsonBtn.onclick = () => window.open(item.jsonPath, "_blank", "noopener");
+      els.openMdBtn.onclick = () => window.open(item.mdPath, "_blank", "noopener");
+    }
+
+    function attachEvents() {
+      els.search.addEventListener("input", () => {
+        state.query = els.search.value;
+        renderList();
+      });
+
+      els.categoryFilter.addEventListener("change", () => {
+        state.category = els.categoryFilter.value;
+        renderList();
+      });
+
+      els.rarityFilter.addEventListener("change", () => {
+        state.rarity = els.rarityFilter.value;
+        renderFilters();
+        renderList();
+      });
+
+      els.modeFilter.addEventListener("change", () => {
+        state.mode = els.modeFilter.value;
+        renderList();
+      });
+
+      els.resetBtn.addEventListener("click", () => {
+        state.query = "";
+        state.category = "all";
+        state.rarity = "all";
+        state.mode = "all";
+        els.search.value = "";
+        renderFilters();
+        renderList();
+      });
+
+      els.quickRarityChips.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-rarity-chip]");
+        if (!button) return;
+        state.rarity = button.dataset.rarityChip;
+        renderFilters();
+        renderList();
+      });
+
+      els.itemGroups.addEventListener("click", (event) => {
+        const card = event.target.closest("[data-item-id]");
+        if (!card) return;
+        setSelected(card.dataset.itemId);
+      });
+
+      els.itemGroups.addEventListener("keydown", (event) => {
+        const card = event.target.closest("[data-item-id]");
+        if (!card) return;
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          setSelected(card.dataset.itemId);
+        }
+      });
+    }
+
+    async function loadItems() {
+      const catalogResponse = await fetch("../CATALOG.md", { cache: "no-store" });
+      if (!catalogResponse.ok) throw new Error(`Unable to load catalog: HTTP ${catalogResponse.status}`);
+
+      const catalogText = await catalogResponse.text();
+      const catalogItems = parseCatalog(catalogText).filter((item) => item.hasJson);
+
+      const records = await Promise.all(catalogItems.map(async (entry) => {
+        const response = await fetch(entry.jsonPath, { cache: "no-store" });
+        if (!response.ok) throw new Error(`Unable to load ${entry.jsonPath}: HTTP ${response.status}`);
+        const data = await response.json();
+        return {
+          ...entry,
+          ...data
+        };
+      }));
+
+      const indexes = buildIndexes(records);
+      return records.map((item) => ({
+        ...item,
+        recipe: inferRecipe(item, indexes)
+      })).sort((left, right) => left.name.localeCompare(right.name));
+    }
+
+    async function init() {
+      try {
+        state.items = await loadItems();
+        renderSummary();
+        renderFilters();
+        renderList();
+        attachEvents();
+
+        if (state.items.length) {
+          setSelected(state.items[0].id);
+        }
+      } catch (error) {
+        els.itemGroups.innerHTML = `
+          <div class="empty-state">
+            <div>
+              <h3>Crafting data could not be loaded</h3>
+              <p>${escapeHtml(error.message || "Unknown error")}</p>
+              <p>This page expects to be opened in a browser context that allows fetching files from the repository, similar to the existing root index page.</p>
+            </div>
+          </div>
+        `;
+        els.detailBody.innerHTML = `
+          <div class="empty-state">
+            <div>
+              <h3>Unable to render recipe details</h3>
+              <p>The catalog or item JSON files were not accessible from this page.</p>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

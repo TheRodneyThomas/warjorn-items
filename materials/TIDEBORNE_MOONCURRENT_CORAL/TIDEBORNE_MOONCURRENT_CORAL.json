@@ -1,0 +1,14 @@
+{
+  "id": "TIDEBORNE_MOONCURRENT_CORAL",
+  "name": "Tideborne Mooncurrent Coral",
+  "type": "material",
+  "faction": "tideborne",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A silver-blue coral that drinks moonlit surf.",
+  "specialEffects": [
+    "Used in sea bows, moonwashed gear, and tidal stringwork."
+  ]
+}

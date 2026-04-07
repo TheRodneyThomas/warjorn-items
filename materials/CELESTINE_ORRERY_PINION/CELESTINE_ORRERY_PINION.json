@@ -1,0 +1,14 @@
+{
+  "id": "CELESTINE_ORRERY_PINION",
+  "name": "Celestine Orrery Pinion",
+  "type": "material",
+  "faction": "celestine",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A polished celestial gear keyed to stellar alignments.",
+  "specialEffects": [
+    "Used in observatory staves, orbital foci, and star-synced housings."
+  ]
+}

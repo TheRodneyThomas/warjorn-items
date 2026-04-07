@@ -1,0 +1,14 @@
+{
+  "id": "EMBERCOURT_HEARTGLASS_SHARD",
+  "name": "Embercourt Heartglass Shard",
+  "type": "material",
+  "faction": "embercourt",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Epic"
+  },
+  "description": "A blood-warm glass sliver lit from within.",
+  "specialEffects": [
+    "Used in duelist blades, courtly firecraft, and emberlit ornamentation."
+  ]
+}

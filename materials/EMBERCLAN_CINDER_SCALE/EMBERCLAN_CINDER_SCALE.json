@@ -1,0 +1,14 @@
+{
+  "id": "EMBERCLAN_CINDER_SCALE",
+  "name": "Emberclan Cinder Scale",
+  "type": "material",
+  "faction": "emberclan",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Uncommon"
+  },
+  "description": "A scorched scale plate prized by ashland smiths.",
+  "specialEffects": [
+    "Used in ember-forged axes, heatproof grips, and ashsteel fittings."
+  ]
+}

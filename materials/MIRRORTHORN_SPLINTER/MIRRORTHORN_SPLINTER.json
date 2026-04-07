@@ -1,0 +1,14 @@
+{
+  "id": "MIRRORTHORN_SPLINTER",
+  "name": "Mirrorthorn Splinter",
+  "type": "material",
+  "faction": "mirrorthorn",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Uncommon"
+  },
+  "description": "A mirrored thorn shard honed for deceptive cuts.",
+  "specialEffects": [
+    "Used in knives, reflective edgework, and feint-driven fittings."
+  ]
+}

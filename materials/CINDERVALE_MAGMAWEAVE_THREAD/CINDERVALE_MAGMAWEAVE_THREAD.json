@@ -1,0 +1,14 @@
+{
+  "id": "CINDERVALE_MAGMAWEAVE_THREAD",
+  "name": "Cindervale Magmaweave Thread",
+  "type": "material",
+  "faction": "cindervale",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A heatproof thread spun from lava-cured fiber.",
+  "specialEffects": [
+    "Used in magma harnesses, emberbound armor, and fireproof stitchwork."
+  ]
+}

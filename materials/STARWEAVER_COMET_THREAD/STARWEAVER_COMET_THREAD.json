@@ -1,0 +1,14 @@
+{
+  "id": "STARWEAVER_COMET_THREAD",
+  "name": "Starweaver Comet Thread",
+  "type": "material",
+  "faction": "starweaver",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Epic"
+  },
+  "description": "A radiant thread pulled from a cooling comet wake.",
+  "specialEffects": [
+    "Used in astral blades, stellar bindings, and comet-tempered craftwork."
+  ]
+}

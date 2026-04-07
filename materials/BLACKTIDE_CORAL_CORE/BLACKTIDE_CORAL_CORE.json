@@ -1,0 +1,14 @@
+{
+  "id": "BLACKTIDE_CORAL_CORE",
+  "name": "Blacktide Coral Core",
+  "type": "material",
+  "faction": "blacktide",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A dense black coral grown in abyssal pressure beds.",
+  "specialEffects": [
+    "Used in reef-forged blades, sea-worn edges, and abyssal fittings."
+  ]
+}

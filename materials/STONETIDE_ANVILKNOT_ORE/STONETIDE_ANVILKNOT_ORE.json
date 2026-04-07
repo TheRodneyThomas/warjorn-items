@@ -1,0 +1,14 @@
+{
+  "id": "STONETIDE_ANVILKNOT_ORE",
+  "name": "Stonetide Anvilknot Ore",
+  "type": "material",
+  "faction": "stonetide",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Uncommon"
+  },
+  "description": "A dense ore shot through with tidal compression seams.",
+  "specialEffects": [
+    "Used in breaker-head castings, heavy maces, and impact-focused smithing."
+  ]
+}

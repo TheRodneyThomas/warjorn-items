@@ -1,0 +1,14 @@
+{
+  "id": "WOOD",
+  "name": "Wood",
+  "type": "material",
+  "faction": "basic",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Common"
+  },
+  "description": "A versatile crafting stock used for handles, hafts, shields, bows, and basic structures.",
+  "specialEffects": [
+    "Used in wooden weapons, shield frames, tool hafts, and support recipes."
+  ]
+}

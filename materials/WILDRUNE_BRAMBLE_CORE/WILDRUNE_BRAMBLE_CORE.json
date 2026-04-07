@@ -1,0 +1,14 @@
+{
+  "id": "WILDRUNE_BRAMBLE_CORE",
+  "name": "Wildrune Bramble Core",
+  "type": "material",
+  "faction": "wildrune",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A rune-marked briar heart hardened by druidic rites.",
+  "specialEffects": [
+    "Used in living armor, thornbound regalia, and root-fastened warding pieces."
+  ]
+}

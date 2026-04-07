@@ -1,0 +1,14 @@
+{
+  "id": "BRONZE",
+  "name": "Bronze",
+  "type": "material",
+  "faction": "basic",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Common"
+  },
+  "description": "A dependable alloy used for militia-grade weapons, shields, and fittings.",
+  "specialEffects": [
+    "Required for crafting early bronze arms, armor trims, and shield parts."
+  ]
+}

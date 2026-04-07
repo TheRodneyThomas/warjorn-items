@@ -1,0 +1,14 @@
+{
+  "id": "AURORAKIN_POLARIS_SHARD",
+  "name": "Aurorakin Polaris Shard",
+  "type": "material",
+  "faction": "aurorakin",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A star-frost shard recovered from polar cuirass plating.",
+  "specialEffects": [
+    "Used in aurora armor reinforcement and cold-lit battle gear."
+  ]
+}

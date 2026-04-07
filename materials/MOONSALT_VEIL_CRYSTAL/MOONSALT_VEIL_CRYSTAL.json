@@ -1,0 +1,14 @@
+{
+  "id": "MOONSALT_VEIL_CRYSTAL",
+  "name": "Moonsalt Veil Crystal",
+  "type": "material",
+  "faction": "moonsalt",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "A pale salt crystal drawn from nocturne brine pans.",
+  "specialEffects": [
+    "Used in tinctures, veils, and moonlit alchemical brews."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "DEEPCLOCK_TIDAL_CORE",
+  "name": "Deepclock Tidal Core",
+  "type": "material",
+  "faction": "deepclock",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Epic"
+  },
+  "description": "A sealed pressure core humming with tidal timekeeping.",
+  "specialEffects": [
+    "Used in abyssal relic chambers and pressure-bound chronal devices."
+  ]
+}

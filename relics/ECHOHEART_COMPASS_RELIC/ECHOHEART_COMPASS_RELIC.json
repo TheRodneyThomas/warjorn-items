@@ -1,0 +1,15 @@
+{
+  "id": "ECHOHEART_COMPASS_RELIC",
+  "name": "Echoheart Compass Relic",
+  "type": "relic",
+  "faction": "echoheart",
+  "stats": {
+    "resonancePower": 19,
+    "manaRegen": 2,
+    "rarity": "Legendary"
+  },
+  "description": "An antique compass that points toward unfinished vows and hidden shrines.",
+  "specialEffects": [
+    "Using an ultimate ability emits a pulse that reveals stealthed enemies nearby."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "PHASESTEEL_LATTICE",
+  "name": "Phasesteel Lattice",
+  "type": "material",
+  "faction": "phasesteel",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Epic"
+  },
+  "description": "A woven mesh of semi-real metal used in advanced adaptive gear.",
+  "specialEffects": [
+    "Core ingredient for crafting mobility-focused weapons and armor."
+  ]
+}

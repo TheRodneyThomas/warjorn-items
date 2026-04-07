@@ -1,0 +1,17 @@
+{
+  "id": "WHISPERLEAF_CANOPY_BOW",
+  "name": "Whisperleaf Canopy Bow",
+  "type": "bow",
+  "faction": "whisperleaf",
+  "stats": {
+    "baseDamage": 15,
+    "attackSpeed": 1.1,
+    "durability": 72,
+    "weightKg": 4,
+    "rarity": "Rare"
+  },
+  "description": "A vine-limbed longbow woven with living bark fibers.",
+  "specialEffects": [
+    "Arrows fired from stealth gain bonus critical chance."
+  ]
+}

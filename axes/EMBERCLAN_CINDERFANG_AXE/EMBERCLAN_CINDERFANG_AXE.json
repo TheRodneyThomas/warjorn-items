@@ -1,0 +1,17 @@
+{
+  "id": "EMBERCLAN_CINDERFANG_AXE",
+  "name": "Emberclan Cinderfang Axe",
+  "type": "axe",
+  "faction": "emberclan",
+  "stats": {
+    "baseDamage": 19,
+    "attackSpeed": 0.88,
+    "durability": 74,
+    "weightKg": 8,
+    "rarity": "Epic"
+  },
+  "description": "A hooked basalt axe that glows brighter as battle heat rises.",
+  "specialEffects": [
+    "Consecutive hits ignite targets, adding burn damage over 4 seconds."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "SANDSTRIDER_DUNEWARD_SHIELD",
+  "name": "Sandstrider Duneward Shield",
+  "type": "shield",
+  "faction": "sandstrider",
+  "stats": {
+    "baseProtection": 18,
+    "interactSpeed": 0.86,
+    "durability": 92,
+    "weightKg": 9,
+    "rarity": "Epic"
+  },
+  "description": "A crescent tower shield plated in sunbaked bronze and dune bone.",
+  "specialEffects": [
+    "Successful blocks reduce ranged damage taken for 5 seconds."
+  ]
+}

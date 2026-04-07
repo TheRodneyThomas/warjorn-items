@@ -1,0 +1,17 @@
+{
+  "id": "FERNCHANT_VERDANT_CROOK",
+  "name": "Fernchant Verdant Crook",
+  "type": "stave",
+  "faction": "fernchant",
+  "stats": {
+    "baseDamage": 14,
+    "attackSpeed": 1.04,
+    "durability": 71,
+    "weightKg": 5,
+    "rarity": "Rare"
+  },
+  "description": "A druidic crook wrapped in fernsteel wire and living moss.",
+  "specialEffects": [
+    "Healing spells leave a short regenerative trail on the ground."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "RIFTGLASS_NEEDLE_DAGGER",
+  "name": "Riftglass Needle Dagger",
+  "type": "dagger",
+  "faction": "riftglass",
+  "stats": {
+    "baseDamage": 12,
+    "attackSpeed": 1.2,
+    "durability": 44,
+    "weightKg": 2,
+    "rarity": "Rare"
+  },
+  "description": "A translucent dagger that fractures light and misleads depth perception.",
+  "specialEffects": [
+    "Backstabs briefly blur the wielder, reducing enemy lock-on precision."
+  ]
+}

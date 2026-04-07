@@ -1,0 +1,15 @@
+{
+  "id": "DEEPCLOCK_TIDAL_HEART_RELIC",
+  "name": "Deepclock Tidal Heart Relic",
+  "type": "relic",
+  "faction": "deepclock",
+  "stats": {
+    "resonancePower": 17,
+    "manaRegen": 3,
+    "rarity": "Legendary"
+  },
+  "description": "A pressure-core relic that beats in rhythm with the moon tide.",
+  "specialEffects": [
+    "Using a mobility skill grants temporary damage reduction."
+  ]
+}

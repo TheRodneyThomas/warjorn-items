@@ -1,0 +1,17 @@
+{
+  "id": "CELESTINE_ORRERY_STAFF",
+  "name": "Celestine Orrery Staff",
+  "type": "stave",
+  "faction": "celestine",
+  "stats": {
+    "baseDamage": 16,
+    "attackSpeed": 0.98,
+    "durability": 73,
+    "weightKg": 6,
+    "rarity": "Epic"
+  },
+  "description": "An astronomer-mage staff crowned with rotating brass star rings.",
+  "specialEffects": [
+    "Every third spell cast gains bonus range and slightly reduced mana cost."
+  ]
+}

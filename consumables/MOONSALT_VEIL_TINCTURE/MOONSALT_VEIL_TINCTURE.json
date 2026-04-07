@@ -1,0 +1,16 @@
+{
+  "id": "MOONSALT_VEIL_TINCTURE",
+  "name": "Moonsalt Veil Tincture",
+  "type": "consumable",
+  "subtype": "potion",
+  "faction": "moonsalt",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 24,
+    "rarity": "Rare"
+  },
+  "description": "A pearl-toned tincture distilled from night-tide salt blooms.",
+  "specialEffects": [
+    "Grants 8 seconds of reduced detection radius from nearby enemies."
+  ]
+}

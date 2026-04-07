@@ -1,0 +1,15 @@
+{
+  "id": "STARLIT_CARTOGRAPHER_PIN",
+  "name": "Starlit Cartographer Pin",
+  "type": "trinket",
+  "faction": "starlit",
+  "stats": {
+    "utilityPower": 11,
+    "luck": 5,
+    "rarity": "Epic"
+  },
+  "description": "A navigation pin that projects faint constellations over unknown terrain.",
+  "specialEffects": [
+    "Reveals hidden gatherable nodes within a short radius while exploring."
+  ]
+}

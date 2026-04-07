@@ -1,0 +1,17 @@
+{
+  "id": "GLASSMARCH_PRISM_BASTION",
+  "name": "Glassmarch Prism Bastion",
+  "type": "shield",
+  "faction": "glassmarch",
+  "stats": {
+    "baseProtection": 16,
+    "interactSpeed": 0.95,
+    "durability": 76,
+    "weightKg": 7,
+    "rarity": "Rare"
+  },
+  "description": "A faceted shield that refracts incoming spellfire into harmless sparks.",
+  "specialEffects": [
+    "Blocking magic attacks grants a short burst of movement speed."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "AETHERMINT_PHASE_DRAUGHT",
+  "name": "Aethermint Phase Draught",
+  "type": "consumable",
+  "subtype": "potion",
+  "faction": "aethermint",
+  "stats": {
+    "uses": 1,
+    "cooldownSeconds": 28,
+    "rarity": "Rare"
+  },
+  "description": "A shimmering mint tonic brewed for skirmishers who fight between moments.",
+  "specialEffects": [
+    "Grants brief phase-step movement, allowing one pass through enemy collision."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "TIDEBORNE_MOONCURRENT_BOW",
+  "name": "Tideborne Mooncurrent Bow",
+  "type": "bow",
+  "faction": "tideborne",
+  "stats": {
+    "baseDamage": 16,
+    "attackSpeed": 1.05,
+    "durability": 70,
+    "weightKg": 5,
+    "rarity": "Rare"
+  },
+  "description": "A salt-lacquered recurve that hums with lunar tide pressure.",
+  "specialEffects": [
+    "Charged shots slow enemies briefly as water pressure wraps their legs."
+  ]
+}

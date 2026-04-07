@@ -1,0 +1,17 @@
+{
+  "id": "STARWEAVER_COMETBITE_SWORD",
+  "name": "Starweaver Cometbite Sword",
+  "type": "sword",
+  "faction": "starweaver",
+  "stats": {
+    "baseDamage": 17,
+    "attackSpeed": 0.98,
+    "durability": 66,
+    "weightKg": 6,
+    "rarity": "Epic"
+  },
+  "description": "A silver-black blade etched with impact trails from fallen stars.",
+  "specialEffects": [
+    "Dash attacks create a brief comet trail that deals bonus arcane damage."
+  ]
+}

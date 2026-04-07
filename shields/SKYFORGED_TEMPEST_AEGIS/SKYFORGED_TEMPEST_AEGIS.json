@@ -1,0 +1,17 @@
+{
+  "id": "SKYFORGED_TEMPEST_AEGIS",
+  "name": "Skyforged Tempest Aegis",
+  "type": "shield",
+  "faction": "skyforged",
+  "stats": {
+    "baseProtection": 17,
+    "interactSpeed": 0.92,
+    "durability": 88,
+    "weightKg": 8,
+    "rarity": "Epic"
+  },
+  "description": "A storm-tempered shield lined with copper channels that crackle before impact.",
+  "specialEffects": [
+    "Perfect blocks release a short lightning arc that chains to one nearby target."
+  ]
+}

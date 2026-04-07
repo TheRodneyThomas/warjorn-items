@@ -1,0 +1,17 @@
+{
+  "id": "BRASSWIND_SIRENHAMMER_MAUL",
+  "name": "Brasswind Sirenhammer Maul",
+  "type": "mace",
+  "faction": "brasswind",
+  "stats": {
+    "baseDamage": 19,
+    "attackSpeed": 0.78,
+    "durability": 84,
+    "weightKg": 11,
+    "rarity": "Epic"
+  },
+  "description": "A turbine-backed maul that whistles before impact.",
+  "specialEffects": [
+    "Charged attacks create a concussive wave that interrupts casts."
+  ]
+}

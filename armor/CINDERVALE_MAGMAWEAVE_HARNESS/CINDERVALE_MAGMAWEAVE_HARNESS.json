@@ -1,0 +1,18 @@
+{
+  "id": "CINDERVALE_MAGMAWEAVE_HARNESS",
+  "name": "Cindervale Magmaweave Harness",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "cindervale",
+  "stats": {
+    "armor": 16,
+    "fireResist": 24,
+    "durability": 85,
+    "weightKg": 10,
+    "rarity": "Epic"
+  },
+  "description": "Layered scalecloth and volcanic mail woven to vent heat.",
+  "specialEffects": [
+    "Entering low health emits a heat pulse that pushes nearby enemies back."
+  ]
+}

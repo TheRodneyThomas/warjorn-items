@@ -1,0 +1,17 @@
+{
+  "id": "VOIDLARK_SHADOWPIN_DAGGER",
+  "name": "Voidlark Shadowpin Dagger",
+  "type": "dagger",
+  "faction": "voidlark",
+  "stats": {
+    "baseDamage": 12,
+    "attackSpeed": 1.18,
+    "durability": 42,
+    "weightKg": 2,
+    "rarity": "Epic"
+  },
+  "description": "A matte-black stiletto that drinks torchlight at the edges.",
+  "specialEffects": [
+    "Back attacks briefly mute enemy skill-cast audio cues."
+  ]
+}

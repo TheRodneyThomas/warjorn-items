@@ -1,0 +1,17 @@
+{
+  "id": "FROSTVEIL_HAILREAVER_AXE",
+  "name": "Frostveil Hailreaver Axe",
+  "type": "axe",
+  "faction": "frostveil",
+  "stats": {
+    "baseDamage": 18,
+    "attackSpeed": 0.9,
+    "durability": 78,
+    "weightKg": 8,
+    "rarity": "Epic"
+  },
+  "description": "An ice-rimed execution axe that howls when swung through cold air.",
+  "specialEffects": [
+    "Critical hits apply chill, slowing enemy attack speed briefly."
+  ]
+}

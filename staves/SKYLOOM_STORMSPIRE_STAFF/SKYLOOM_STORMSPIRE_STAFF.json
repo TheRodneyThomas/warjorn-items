@@ -1,0 +1,17 @@
+{
+  "id": "SKYLOOM_STORMSPIRE_STAFF",
+  "name": "Skyloom Stormspire Staff",
+  "type": "stave",
+  "faction": "skyloom",
+  "stats": {
+    "baseDamage": 15,
+    "attackSpeed": 1.0,
+    "durability": 68,
+    "weightKg": 6,
+    "rarity": "Rare"
+  },
+  "description": "A palewood staff capped with a floating ring that tracks storm fronts.",
+  "specialEffects": [
+    "Spell casts have a chance to call a delayed lightning strike on the target area."
+  ]
+}

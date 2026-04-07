@@ -1,0 +1,18 @@
+{
+  "id": "AURORAKIN_POLARIS_CUIRASS",
+  "name": "Aurorakin Polaris Cuirass",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "aurorakin",
+  "stats": {
+    "armor": 18,
+    "frostResist": 20,
+    "durability": 90,
+    "weightKg": 11,
+    "rarity": "Epic"
+  },
+  "description": "An arctic cuirass stitched with star-ice thread.",
+  "specialEffects": [
+    "Taking damage has a chance to grant a brief frost barrier."
+  ]
+}

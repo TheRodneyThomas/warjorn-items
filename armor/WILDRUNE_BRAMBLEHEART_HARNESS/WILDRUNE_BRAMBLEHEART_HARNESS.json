@@ -1,0 +1,18 @@
+{
+  "id": "WILDRUNE_BRAMBLEHEART_HARNESS",
+  "name": "Wildrune Brambleheart Harness",
+  "type": "armor",
+  "slot": "chest",
+  "faction": "wildrune",
+  "stats": {
+    "armor": 17,
+    "natureResist": 22,
+    "durability": 86,
+    "weightKg": 10,
+    "rarity": "Epic"
+  },
+  "description": "Living bark plates knit together with runic vine thread.",
+  "specialEffects": [
+    "Standing still for 2 seconds grants gradual health regeneration for 6 seconds."
+  ]
+}

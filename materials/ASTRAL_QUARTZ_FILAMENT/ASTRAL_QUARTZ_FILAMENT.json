@@ -1,0 +1,14 @@
+{
+  "id": "ASTRAL_QUARTZ_FILAMENT",
+  "name": "Astral Quartz Filament",
+  "type": "material",
+  "faction": "astral",
+  "stats": {
+    "stackLimit": 99,
+    "rarity": "Rare"
+  },
+  "description": "Thread-fine crystal pulled from meteor glass seams.",
+  "specialEffects": [
+    "Used to craft precision arcane foci and star-metal weapon bindings."
+  ]
+}

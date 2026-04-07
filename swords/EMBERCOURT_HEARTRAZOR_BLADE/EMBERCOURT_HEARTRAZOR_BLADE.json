@@ -1,0 +1,17 @@
+{
+  "id": "EMBERCOURT_HEARTRAZOR_BLADE",
+  "name": "Embercourt Heartrazor Blade",
+  "type": "sword",
+  "faction": "embercourt",
+  "stats": {
+    "baseDamage": 18,
+    "attackSpeed": 0.93,
+    "durability": 73,
+    "weightKg": 7,
+    "rarity": "Epic"
+  },
+  "description": "A dueling blade forged in royal furnaces and quenched in emberwine.",
+  "specialEffects": [
+    "Parries ignite the attacker, causing minor burn damage."
+  ]
+}

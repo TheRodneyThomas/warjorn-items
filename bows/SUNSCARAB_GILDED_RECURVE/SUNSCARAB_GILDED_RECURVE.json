@@ -1,0 +1,17 @@
+{
+  "id": "SUNSCARAB_GILDED_RECURVE",
+  "name": "Sunscarab Gilded Recurve",
+  "type": "bow",
+  "faction": "sunscarab",
+  "stats": {
+    "baseDamage": 17,
+    "attackSpeed": 1.0,
+    "durability": 74,
+    "weightKg": 5,
+    "rarity": "Epic"
+  },
+  "description": "A desert recurve etched with scarab sigils and gold inlay.",
+  "specialEffects": [
+    "Headshots mark targets, increasing damage from the next arrow."
+  ]
+}

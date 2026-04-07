@@ -1,0 +1,17 @@
+{
+  "id": "BLACKTIDE_CORALFANG_SWORD",
+  "name": "Blacktide Coralfang Sword",
+  "type": "sword",
+  "faction": "blacktide",
+  "stats": {
+    "baseDamage": 16,
+    "attackSpeed": 1.02,
+    "durability": 69,
+    "weightKg": 6,
+    "rarity": "Rare"
+  },
+  "description": "A sea-forged cutlass with coral serrations along the spine.",
+  "specialEffects": [
+    "Hits against bleeding targets deal bonus physical damage."
+  ]
+}

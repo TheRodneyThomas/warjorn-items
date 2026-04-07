@@ -1,0 +1,15 @@
+{
+  "id": "CLOCKWORK_ORACLE_TOKEN",
+  "name": "Clockwork Oracle Token",
+  "type": "trinket",
+  "faction": "clockwork",
+  "stats": {
+    "utilityPower": 10,
+    "luck": 4,
+    "rarity": "Epic"
+  },
+  "description": "A brass token with nested rings that align seconds before danger.",
+  "specialEffects": [
+    "Once per encounter, automatically flags an incoming critical strike with a warning chime."
+  ]
+}

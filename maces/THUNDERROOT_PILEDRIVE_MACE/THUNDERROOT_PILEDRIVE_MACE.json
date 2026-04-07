@@ -1,0 +1,17 @@
+{
+  "id": "THUNDERROOT_PILEDRIVE_MACE",
+  "name": "Thunderroot Piledrive Mace",
+  "type": "mace",
+  "faction": "thunderroot",
+  "stats": {
+    "baseDamage": 18,
+    "attackSpeed": 0.82,
+    "durability": 78,
+    "weightKg": 10,
+    "rarity": "Epic"
+  },
+  "description": "A knotwood-headed mace reinforced with conductive iron roots.",
+  "specialEffects": [
+    "Heavy attacks can ground airborne targets and interrupt leap abilities."
+  ]
+}

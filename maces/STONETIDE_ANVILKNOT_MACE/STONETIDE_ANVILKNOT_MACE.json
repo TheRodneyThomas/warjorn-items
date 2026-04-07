@@ -1,0 +1,17 @@
+{
+  "id": "STONETIDE_ANVILKNOT_MACE",
+  "name": "Stonetide Anvilknot Mace",
+  "type": "mace",
+  "faction": "stonetide",
+  "stats": {
+    "baseDamage": 17,
+    "attackSpeed": 0.84,
+    "durability": 80,
+    "weightKg": 10,
+    "rarity": "Rare"
+  },
+  "description": "A tide-tempered mace with a knot of compressed reefstone at its head.",
+  "specialEffects": [
+    "Heavy swings can stagger shielded targets."
+  ]
+}

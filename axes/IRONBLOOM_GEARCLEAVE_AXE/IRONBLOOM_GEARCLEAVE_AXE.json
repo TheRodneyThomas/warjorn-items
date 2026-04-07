@@ -1,0 +1,17 @@
+{
+  "id": "IRONBLOOM_GEARCLEAVE_AXE",
+  "name": "Ironbloom Gearcleave Axe",
+  "type": "axe",
+  "faction": "ironbloom",
+  "stats": {
+    "baseDamage": 17,
+    "attackSpeed": 0.94,
+    "durability": 82,
+    "weightKg": 7,
+    "rarity": "Rare"
+  },
+  "description": "A workshop-forged bearded axe with clockwork recoil dampeners.",
+  "specialEffects": [
+    "Killing blows refund a small portion of stamina."
+  ]
+}

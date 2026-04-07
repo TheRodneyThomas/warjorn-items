@@ -796,7 +796,7 @@ Auto-generated index of item folders in this repository.
 - shields/SKYFORGED_TEMPEST_AEGIS/
   - SKYFORGED_TEMPEST_AEGIS.json
   - SKYFORGED_TEMPEST_AEGIS.md
-- shields/STEEL_SHELD/
+- shields/STEEL_SHIELD/
   - STEEL_SHIELD.json
   - STEEL_SHIELD.md
 - shields/TOWER_SHIELD/

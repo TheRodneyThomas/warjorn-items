@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Warjorn Item Index</title>
+  <style>
+    :root {
+      --bg: #f5f2eb;
+      --card: #fffdf8;
+      --text: #231f1b;
+      --muted: #645b52;
+      --line: #ded4c7;
+      --accent: #b34719;
+      --accent-2: #7a2d0a;
+      --chip: #f4e7dd;
+      --chip-on: #f0cbb4;
+      --ok: #16653a;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+      background:
+        radial-gradient(900px 350px at -10% -20%, #f2dfcb, transparent),
+        radial-gradient(700px 280px at 110% 0%, #f0d9cc, transparent),
+        var(--bg);
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem 2rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.4rem, 3vw, 2.2rem);
+      letter-spacing: 0.02em;
+    }
+
+    .meta {
+      margin: 0.5rem 0 1rem;
+      color: var(--muted);
+    }
+
+    .shell {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--card);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+    }
+
+    .toolbar {
+      border-bottom: 1px solid var(--line);
+      padding: 0.9rem;
+      display: grid;
+      gap: 0.8rem;
+      background: linear-gradient(180deg, #fff8f1, #fffdf8);
+    }
+
+    .search-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.6rem;
+    }
+
+    input[type="search"] {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 0.7rem 0.8rem;
+      font-size: 0.95rem;
+      background: #fff;
+      color: var(--text);
+    }
+
+    button {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 0.7rem 0.9rem;
+      background: #fff;
+      color: var(--text);
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+
+    .chip {
+      border: 1px solid #e8d7ca;
+      border-radius: 999px;
+      padding: 0.35rem 0.62rem;
+      background: var(--chip);
+      color: #5a3b2c;
+      cursor: pointer;
+      font-size: 0.83rem;
+      user-select: none;
+    }
+
+    .chip.active {
+      background: var(--chip-on);
+      border-color: #dfad8e;
+      color: #3a200f;
+      font-weight: 600;
+    }
+
+    .summary {
+      padding: 0.7rem 0.9rem;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .results {
+      padding: 0.9rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0.65rem;
+    }
+
+    .item {
+      border: 1px solid #f0e5d7;
+      border-radius: 10px;
+      padding: 0.58rem 0.62rem;
+      background: #fffdfa;
+    }
+
+    .name {
+      font-size: 0.92rem;
+      font-weight: 600;
+      margin-bottom: 0.36rem;
+      overflow-wrap: anywhere;
+    }
+
+    .item-meta {
+      color: var(--muted);
+      font-size: 0.78rem;
+      margin-bottom: 0.34rem;
+    }
+
+    .links {
+      display: flex;
+      gap: 0.56rem;
+      font-size: 0.86rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px dashed transparent;
+    }
+
+    a:hover {
+      color: var(--accent-2);
+      border-color: var(--accent-2);
+    }
+
+    .json-link { color: var(--ok); }
+
+    .status {
+      padding: 1rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 680px) {
+      .search-row { grid-template-columns: 1fr; }
+      .results { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Warjorn Item Index</h1>
+    <p class="meta">Automatic index from CATALOG.md with search and filters.</p>
+
+    <div class="shell">
+      <div class="toolbar">
+        <div class="search-row">
+          <input id="search" type="search" placeholder="Search item name, path, or category..." />
+          <button id="clearBtn" type="button">Clear</button>
+        </div>
+
+        <div id="categoryChips" class="chips" aria-label="Category filters"></div>
+
+        <div class="chips">
+          <span class="chip active" data-type="all" id="typeAll">All files</span>
+          <span class="chip" data-type="md" id="typeMd">Has md</span>
+          <span class="chip" data-type="json" id="typeJson">Has json</span>
+        </div>
+      </div>
+
+      <div id="summary" class="summary">Loading catalog...</div>
+      <div id="results" class="results"></div>
+      <div id="status" class="status" hidden></div>
+    </div>
+  </div>
+
+  <script>
+    const state = {
+      items: [],
+      query: "",
+      category: "all",
+      fileType: "all"
+    };
+
+    const els = {
+      search: document.getElementById("search"),
+      clearBtn: document.getElementById("clearBtn"),
+      chips: document.getElementById("categoryChips"),
+      summary: document.getElementById("summary"),
+      results: document.getElementById("results"),
+      status: document.getElementById("status"),
+      typeAll: document.getElementById("typeAll"),
+      typeMd: document.getElementById("typeMd"),
+      typeJson: document.getElementById("typeJson")
+    };
+
+    function parseCatalog(markdown) {
+      const lines = markdown.split(/\r?\n/);
+      const out = [];
+      let current = null;
+
+      for (const line of lines) {
+        const itemMatch = line.match(/^-\s+([a-z0-9_-]+)\/([A-Z0-9_]+)\/$/i);
+        if (itemMatch) {
+          if (current) out.push(current);
+          current = {
+            category: itemMatch[1],
+            name: itemMatch[2],
+            path: `${itemMatch[1]}/${itemMatch[2]}`,
+            hasMd: false,
+            hasJson: false
+          };
+          continue;
+        }
+
+        if (!current) continue;
+
+        const mdMatch = line.match(/^\s+-\s+([A-Z0-9_]+\.md)$/i);
+        const jsonMatch = line.match(/^\s+-\s+([A-Z0-9_]+\.json)$/i);
+
+        if (mdMatch) current.hasMd = true;
+        if (jsonMatch) current.hasJson = true;
+      }
+
+      if (current) out.push(current);
+      return out;
+    }
+
+    function uniqueCategories(items) {
+      const cats = [...new Set(items.map((x) => x.category))];
+      return cats.sort((a, b) => a.localeCompare(b));
+    }
+
+    function buildCategoryChips(categories) {
+      els.chips.innerHTML = "";
+
+      const all = document.createElement("span");
+      all.className = "chip active";
+      all.textContent = "All categories";
+      all.dataset.category = "all";
+      els.chips.appendChild(all);
+
+      for (const cat of categories) {
+        const chip = document.createElement("span");
+        chip.className = "chip";
+        chip.textContent = cat;
+        chip.dataset.category = cat;
+        els.chips.appendChild(chip);
+      }
+
+      els.chips.addEventListener("click", (event) => {
+        const chip = event.target.closest(".chip[data-category]");
+        if (!chip) return;
+
+        state.category = chip.dataset.category;
+        for (const c of els.chips.querySelectorAll(".chip")) c.classList.remove("active");
+        chip.classList.add("active");
+        render();
+      });
+    }
+
+    function setTypeFilter(type) {
+      state.fileType = type;
+      for (const el of [els.typeAll, els.typeMd, els.typeJson]) {
+        el.classList.toggle("active", el.dataset.type === type);
+      }
+      render();
+    }
+
+    function filteredItems() {
+      const q = state.query.trim().toLowerCase();
+      return state.items.filter((item) => {
+        if (state.category !== "all" && item.category !== state.category) return false;
+        if (state.fileType === "md" && !item.hasMd) return false;
+        if (state.fileType === "json" && !item.hasJson) return false;
+
+        if (!q) return true;
+        const haystack = `${item.name} ${item.path} ${item.category}`.toLowerCase();
+        return haystack.includes(q);
+      });
+    }
+
+    function render() {
+      const list = filteredItems();
+
+      els.summary.textContent = `${list.length} result${list.length === 1 ? "" : "s"} of ${state.items.length}`;
+      els.results.innerHTML = "";
+
+      if (!list.length) {
+        const empty = document.createElement("div");
+        empty.className = "status";
+        empty.textContent = "No items match the current search/filter.";
+        els.results.appendChild(empty);
+        return;
+      }
+
+      for (const item of list) {
+        const card = document.createElement("article");
+        card.className = "item";
+
+        const md = `${item.path}/${item.name}.md`;
+        const json = `${item.path}/${item.name}.json`;
+
+        card.innerHTML = `
+          <div class="name">${item.name}</div>
+          <div class="item-meta">${item.category}</div>
+          <div class="links">
+            ${item.hasMd ? `<a href="${md}">md</a>` : ""}
+            ${item.hasJson ? `<a class="json-link" href="${json}">json</a>` : ""}
+            ${!item.hasMd && !item.hasJson ? `<a href="${item.path}/">open</a>` : ""}
+          </div>
+        `;
+
+        els.results.appendChild(card);
+      }
+    }
+
+    async function init() {
+      try {
+        const res = await fetch("CATALOG.md", { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+        const markdown = await res.text();
+        state.items = parseCatalog(markdown);
+
+        if (!state.items.length) {
+          throw new Error("No catalog items were parsed");
+        }
+
+        buildCategoryChips(uniqueCategories(state.items));
+        render();
+
+        els.search.addEventListener("input", () => {
+          state.query = els.search.value;
+          render();
+        });
+
+        els.clearBtn.addEventListener("click", () => {
+          els.search.value = "";
+          state.query = "";
+          state.category = "all";
+          state.fileType = "all";
+
+          for (const chip of els.chips.querySelectorAll(".chip")) chip.classList.remove("active");
+          const allChip = els.chips.querySelector(".chip[data-category='all']");
+          if (allChip) allChip.classList.add("active");
+
+          setTypeFilter("all");
+        });
+
+        els.typeAll.addEventListener("click", () => setTypeFilter("all"));
+        els.typeMd.addEventListener("click", () => setTypeFilter("md"));
+        els.typeJson.addEventListener("click", () => setTypeFilter("json"));
+      } catch (err) {
+        els.summary.textContent = "Unable to build index automatically";
+        els.status.hidden = false;
+        els.status.textContent = "Could not load CATALOG.md from this location. Open this page through a local server or VS Code preview so fetch() can access repository files.";
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
